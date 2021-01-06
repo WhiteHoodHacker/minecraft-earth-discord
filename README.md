@@ -7,6 +7,18 @@ Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-
 
 ## Index
 
+### Welcome
+
+[#rules](https://whitehoodhacker.github.io/minecraft-earth-discord/src/rules.html)
+
+[#faq](https://whitehoodhacker.github.io/minecraft-earth-discord/src/faq.html)
+
+[#server-announcements](https://whitehoodhacker.github.io/minecraft-earth-discord/src/server-announcements.html)
+
+[#game-announcements](https://whitehoodhacker.github.io/minecraft-earth-discord/src/game-announcements.html)
+
+[changelogs](https://whitehoodhacker.github.io/minecraft-earth-discord/src/changelogs.html)
+
 ### Q&A
 
 [#dev-q-and-a-5-27](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-q-and-a-5-27.html)
@@ -23,52 +35,52 @@ Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-
 
 ### Build Challenge Archive
 
-[#witch-hut-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/witch-hut-challenge)
+[#witch-hut-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/witch-hut-challenge.html)
 
-[#15-minute-speed-build-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/15-minute-speed-build-challenge)
+[#15-minute-speed-build-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/15-minute-speed-build-challenge.html)
 
-[#rainbow-color-explosion-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/rainbow-color-explosion-challenge)
+[#rainbow-color-explosion-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/rainbow-color-explosion-challenge.html)
 
-[#the-8x8-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/the-8x8-challenge)
+[#the-8x8-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/the-8x8-challenge.html)
 
-[#plentiful-farm-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/plentiful-farm-challenge)
+[#plentiful-farm-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/plentiful-farm-challenge.html)
 
-[#custom-adventure-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/custom-adventure-challenge)
+[#custom-adventure-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/custom-adventure-challenge.html)
 
-[#spaceship-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/spaceship-challenge)
+[#spaceship-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/spaceship-challenge.html)
 
 [#glass-wonders-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/glass-wonders-challenge)
 
-[#three-little-pigs-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/three-little-pigs-challenge)
+[#three-little-pigs-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/three-little-pigs-challenge.html)
 
-[#limbo-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/limbo-challenge)
+[#limbo-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/limbo-challenge.html)
 
-[#wild-west-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/wild-west-challenge)
+[#wild-west-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/wild-west-challenge.html)
 
-[#blocktastic-mob-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/blocktastic-mob-challenge)
+[#blocktastic-mob-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/blocktastic-mob-challenge.html)
 
-[#wildlife-sanctuary-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/wildlife-sanctuary-challenge)
+[#wildlife-sanctuary-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/wildlife-sanctuary-challenge.html)
 
-[#funhouse-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/funhouse-challenge)
+[#funhouse-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/funhouse-challenge.html)
 
-[#underground-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/underground-challenge)
+[#underground-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/underground-challenge.html)
 
-[#sheer-bliss-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/sheer-bliss-challenge)
+[#sheer-bliss-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/sheer-bliss-challenge.html)
 
-[#monument-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/monument-challenge)
+[#monument-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/monument-challenge.html)
 
-[#fancy-garden-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/fancy-garden-challenge)
+[#fancy-garden-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/fancy-garden-challenge.html)
 
-[#music-box-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/music-box-challenge)
+[#music-box-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/music-box-challenge.html)
 
-[#winter-theme-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/winter-theme-challenge)
+[#winter-theme-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/winter-theme-challenge.html)
 
-[#harvest-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/harvest-challenge)
+[#harvest-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/harvest-challenge.html)
 
-[#8-bit-statue-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/8-bit-statue-challenge)
+[#8-bit-statue-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/8-bit-statue-challenge.html)
 
-[#spooky-house-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/spooky-house-challenge)
+[#spooky-house-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/spooky-house-challenge.html)
 
-[#chicken-coop-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/chicken-coop-challenge)
+[#chicken-coop-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/chicken-coop-challenge.html)
 
-[#treehouse-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/treehouse-challenge)
+[#treehouse-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/treehouse-challenge.html)

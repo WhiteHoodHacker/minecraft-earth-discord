@@ -1,0 +1,2675 @@
+{
+  "guild": {
+    "id": "579700549780242492",
+    "name": "MINECRAFT EARTH",
+    "iconUrl": "https://cdn.discordapp.com/icons/579700549780242492/149abc0fccbfb2be0cc113cc0c7059c1.png"
+  },
+  "channel": {
+    "id": "629366715486175251",
+    "type": "GuildNews",
+    "category": "Welcome",
+    "name": "changelogs",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "629367184019423253",
+      "type": "Default",
+      "timestamp": "2019-10-03T17:20:29.747+00:00",
+      "timestampEdited": "2019-10-03T17:25:10.531+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth - 0.4.0**\n\nNew Features:\nBe on the lookout for new things in tappables! Added some new, rare tappables to the world. Get out there and be the first to discover them!\nImproved Inventory Management! Inventory items have been split into different categories and can be searched by name for easy organization\n\nChanges:\nUpdated the ground texture on the map\nUpdated the texture for the backpack in Play mode\nUpdated icons for stone slabs and brown beds, and backpack\n\nFixes:\nFixed crashing on some low-end devices when entering Buildplates\nFixed a crash when using an empty bucket on a trapdoor through liquid source block\nFixed a crash that could occur when purchasing Buildplates\nFixed getting disconnected from the server when milking a cow with a full hotbar\nFixed getting disconnected from the server when picking up items dropped by salmon and rabbits\nFixed getting disconnected from the server when picking up a flower pot\nBlocks now catch fire when Lava flows next to them\nMuddy Pigs are now muddier on the Buildplate selection screen\nChanges to the vibration setting are now saved when restarting the game (MCE-85)\nItems that start with special characters are now shown in the correct alphabetical order when sorted",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD92",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f192.png"
+          },
+          "count": 369
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF4",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f4.png"
+          },
+          "count": 263
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e8.png"
+          },
+          "count": 253
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF9",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f9.png"
+          },
+          "count": 253
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD7E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f17e.png"
+          },
+          "count": 252
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e7.png"
+          },
+          "count": 246
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEA",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ea.png"
+          },
+          "count": 250
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f7.png"
+          },
+          "count": 249
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFE",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fe.png"
+          },
+          "count": 204
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDCE7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f4e7.png"
+          },
+          "count": 192
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f8.png"
+          },
+          "count": 192
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "‼",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/203c.png"
+          },
+          "count": 192
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "❗",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2757.png"
+          },
+          "count": 195
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "❕",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2755.png"
+          },
+          "count": 187
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "6⃣",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/36-20e3.png"
+          },
+          "count": 174
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "❔",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2754.png"
+          },
+          "count": 171
+        },
+        {
+          "emoji": {
+            "id": "590549078967058432",
+            "name": "earth2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/590549078967058432.png"
+          },
+          "count": 270
+        },
+        {
+          "emoji": {
+            "id": "603368311882907680",
+            "name": "haruhiyay",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/603368311882907680.png"
+          },
+          "count": 234
+        },
+        {
+          "emoji": {
+            "id": "393639197564731392",
+            "name": "nyan_ghast",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/393639197564731392.gif"
+          },
+          "count": 253
+        },
+        {
+          "emoji": {
+            "id": "425370892181176331",
+            "name": "steve_dabbing",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/425370892181176331.png"
+          },
+          "count": 280
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "654392653009387540",
+      "type": "Default",
+      "timestamp": "2019-12-11T18:42:46.505+00:00",
+      "timestampEdited": "2019-12-17T22:43:19.745+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth - 0.8.0**\n\n**General**\nAdded new hostile mob tracker for Adventures\nAdded notifications for complete but not collected challenges\nMooblooms now look correct when sheared for their buttercups\nAdded smelting intensity animations\n\n**Audio:**\nUpdated audio in various parts of the game\n\n**Blocks:**\nAdded support for many new blocks and items which will be coming soon: \nsnowball, bone, rotten flesh, gunpowder, raw salmon, food and nature items, acacia blocks\nAdded recipes for:\npolished granite, andesite, diorite, and lapis blocks\n\n**Weapons/Tools**\nImproved Diamond Tool and Weapon damage.\nImproved Iron Tool and Weapon damage\nImproved effectiveness for using right tool on corresponding blocks\n(ex: Shovel on dirt) \nDecreased effectiveness of wrong tool on corresponding blocks\n(ex: Sword on dirt)\n\n**Bugs:**\n77 bug fixes! Including:\nCluckshrooms no longer drown when entering water\nfix for salmon – they no longer disappear when put on buildplates\nLocked crafting/smelting slot bug - Players that had all of their crafting/smelting slots locked should see this resolved in R8",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "603994498757951716",
+            "name": "RabbitBeam",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/603994498757951716.gif"
+          },
+          "count": 98
+        },
+        {
+          "emoji": {
+            "id": "403295311189245952",
+            "name": "GWcmeisterPeepoLove",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/403295311189245952.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF89",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f389.png"
+          },
+          "count": 50
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 55
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE7\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e7-1f1f7.png"
+          },
+          "count": 37
+        },
+        {
+          "emoji": {
+            "id": "632009327452094467",
+            "name": "flame",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/632009327452094467.png"
+          },
+          "count": 35
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEB\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1eb-1f1f7.png"
+          },
+          "count": 35
+        },
+        {
+          "emoji": {
+            "id": "648636171982995467",
+            "name": "SnowsgivingTree",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/648636171982995467.png"
+          },
+          "count": 34
+        },
+        {
+          "emoji": {
+            "id": "586527272693923851",
+            "name": "Milkandmochahuglove",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/586527272693923851.png"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": "627001644302729216",
+            "name": "jeb_shrug",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/627001644302729216.png"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": "621139371474681864",
+            "name": "mce_discord",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/621139371474681864.png"
+          },
+          "count": 40
+        },
+        {
+          "emoji": {
+            "id": "604029923904061645",
+            "name": "cluckshroom",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/604029923904061645.png"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": "582665954052276238",
+            "name": "ASASDance",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/582665954052276238.gif"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": "515286895371091969",
+            "name": "dab",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/515286895371091969.png"
+          },
+          "count": 32
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC1F",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f41f.png"
+          },
+          "count": 30
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC21",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f421.png"
+          },
+          "count": 31
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC20",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f420.png"
+          },
+          "count": 30
+        },
+        {
+          "emoji": {
+            "id": "642393998706737162",
+            "name": "mcefr_logo",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642393998706737162.png"
+          },
+          "count": 49
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD2F",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f92f.png"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4C",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44c.png"
+          },
+          "count": 37
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "656627315673137168",
+      "type": "Default",
+      "timestamp": "2019-12-17T22:42:31.602+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth - 0.9.0**\n\n**General: **\nGet to know your way around with the new Build Mode tutorial – much easier than putting together furniture IRL! \nImproved speed of sign-in and app resume speeds by up to 50% on all platforms because loading screens are only cute the first 5 times you see them. \nFree stuff! Players are now gifted starting items the first time they enter Build Mode. \nLocation reporting now has comment box for specifying detailed reasons like “busy road,” “water feature,” and “super haunted, abandon hope ye who Adventure here.” \nLayout of profile and Buildplates has been updated – spiffy! \nNot such a tough row to hoe – farming in Buildplates now requires tools for harvesting. \nWe added more Adventures for you to explore. ALGEBRAIC! \n \n**Audio: **\nLofi Beats to Mine and Craft To: Buildplates build and play mode added Vanilla ambient music. \n \n**Mobs: **\nJolly Llama can eat ferns covered in snow because we don’t have iceberg lettuce in the game. \n \n**Multiple major bug fixes, including: **\nGame crashes \nSign-in issues \nSome smelting bugs \nLots of other stuff that you didn’t even know needed fixin’",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "535226328006524938",
+            "name": "clapclap",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/535226328006524938.gif"
+          },
+          "count": 156
+        },
+        {
+          "emoji": {
+            "id": "621139371474681864",
+            "name": "mce_discord",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/621139371474681864.png"
+          },
+          "count": 95
+        },
+        {
+          "emoji": {
+            "id": "652237853501161493",
+            "name": "Jolly_Llama_Head",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/652237853501161493.png"
+          },
+          "count": 85
+        },
+        {
+          "emoji": {
+            "id": "652237170542772289",
+            "name": "Jolly_Llama_Prancing",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/652237170542772289.gif"
+          },
+          "count": 84
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEB\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1eb-1f1f7.png"
+          },
+          "count": 55
+        },
+        {
+          "emoji": {
+            "id": "642393998706737162",
+            "name": "mcefr_logo",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642393998706737162.png"
+          },
+          "count": 82
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEE\uD83C\uDDF3",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ee-1f1f3.png"
+          },
+          "count": 44
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE7\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e7-1f1f7.png"
+          },
+          "count": 41
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDED\uD83C\uDDFA",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ed-1f1fa.png"
+          },
+          "count": 47
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE93",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f693.png"
+          },
+          "count": 47
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 52
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF7\uD83C\uDDF8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f7-1f1f8.png"
+          },
+          "count": 41
+        },
+        {
+          "emoji": {
+            "id": "403295311189245952",
+            "name": "GWcmeisterPeepoLove",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/403295311189245952.png"
+          },
+          "count": 50
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF9\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f9-1f1f7.png"
+          },
+          "count": 48
+        },
+        {
+          "emoji": {
+            "id": "600849967984148490",
+            "name": "build_plate",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600849967984148490.png"
+          },
+          "count": 54
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFA\uD83C\uDDF8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fa-1f1f8.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE33",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f633.png"
+          },
+          "count": 42
+        },
+        {
+          "emoji": {
+            "id": "632009327452094467",
+            "name": "flame",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/632009327452094467.png"
+          },
+          "count": 44
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "❤",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2764.png"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDCA6",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f4a6.png"
+          },
+          "count": 29
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "667195717617582093",
+      "type": "Default",
+      "timestamp": "2020-01-16T02:37:34.977+00:00",
+      "timestampEdited": "2020-01-16T02:37:56.999+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth - 0.10.0 **\n\n**New Features:**\n\nDo you ever wish there were two of you? There can be! Mob of Me is now available for purchase in the Store. \nMake it FASHION! You can now select a style from your Character Creator closet when placing their Mob of Me on a Buildplate. \nStay charged all day by enabling Battery Saver Mode in game Settings. It turns your screen off when you turn your phone upside-down – cool!  \n\n**Adventures:**\n\nWe added 10 new Adventures to keep things fresh in the new year. \nKnow where you stand - Adventures now have a clearly defined proximity circle so you know when you’re close enough to enter. \nInstant gratification! Reward screens for Adventures load faster. \nSkeleton arrows now travel slower to limit the number of Adventurers with arrows in their knees. \nAdventure location reporting now allows for up to 250 character comments so that you can help us make Minecraft Earth a better place to play. \n\n**Bug Fixes: **\n\nFixed an issue where Adventures didn't show the player receiving any rewards because it’s 2020 and YOU DESERVE THIS. \nAdventures now accurately indicate if they have been played by others. \nGood news, barbarian roleplayers! You can break blocks with swords again.",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 101
+        },
+        {
+          "emoji": {
+            "id": "595461607031570443",
+            "name": "spinning_pig",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/595461607031570443.gif"
+          },
+          "count": 75
+        },
+        {
+          "emoji": {
+            "id": "393622342581878785",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/393622342581878785.gif"
+          },
+          "count": 90
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFA\uD83C\uDDF2",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fa-1f1f2.png"
+          },
+          "count": 53
+        },
+        {
+          "emoji": {
+            "id": "667191516137127946",
+            "name": "psword",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/667191516137127946.gif"
+          },
+          "count": 55
+        },
+        {
+          "emoji": {
+            "id": "647983110259998770",
+            "name": "skeleton",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/647983110259998770.png"
+          },
+          "count": 55
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDD76️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f576.png"
+          },
+          "count": 53
+        },
+        {
+          "emoji": {
+            "id": "599422791229636608",
+            "name": "spinning_rainbow_sheep",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599422791229636608.gif"
+          },
+          "count": 83
+        },
+        {
+          "emoji": {
+            "id": "663004828313845789",
+            "name": "confetti",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/663004828313845789.gif"
+          },
+          "count": 60
+        },
+        {
+          "emoji": {
+            "id": "635256397621231636",
+            "name": "ablobcolorshift",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/635256397621231636.gif"
+          },
+          "count": 73
+        },
+        {
+          "emoji": {
+            "id": "346698935500406785",
+            "name": "glazed_terracotta_magenta",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/346698935500406785.png"
+          },
+          "count": 60
+        },
+        {
+          "emoji": {
+            "id": "398885992137752606",
+            "name": "GWeniThinkUp",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/398885992137752606.png"
+          },
+          "count": 46
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEE\uD83C\uDDF3",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ee-1f1f3.png"
+          },
+          "count": 41
+        },
+        {
+          "emoji": {
+            "id": "632009327452094467",
+            "name": "flame",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/632009327452094467.png"
+          },
+          "count": 48
+        },
+        {
+          "emoji": {
+            "id": "642393998706737162",
+            "name": "mcefr_logo",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642393998706737162.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": "621139371474681864",
+            "name": "mce_discord",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/621139371474681864.png"
+          },
+          "count": 38
+        },
+        {
+          "emoji": {
+            "id": "616032990232969224",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/616032990232969224.png"
+          },
+          "count": 38
+        },
+        {
+          "emoji": {
+            "id": "639049199236939786",
+            "name": "qr_scan",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/639049199236939786.png"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": "600899402521116703",
+            "name": "moobloom",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600899402521116703.png"
+          },
+          "count": 31
+        },
+        {
+          "emoji": {
+            "id": "600899402592288776",
+            "name": "muddy_pig",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600899402592288776.png"
+          },
+          "count": 35
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "672169130509729797",
+      "type": "Default",
+      "timestamp": "2020-01-29T20:00:09.012+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth - 0.11.0**\n\n**:chest_open: Improvements!  :chest_open:**\n\nWe reduced the file size of Minecraft Earth and made it more stable. Small, but mighty! \nAdded a selection indicator when choosing your Mob of Me, so you can decide what Me you want to be today. \nThe Mob of Me selection screen now has an exit button so you can get back to mining, crafting, and building in glorious fashion. \nIlluminating! Bright mode is now color balanced for a more pleasant viewing experience in outdoor conditions. \nThe Crafting and Smelting menus have been overhauled so they’re easier to use, and they look dang spiffy. \n\n**:skeleton:Adventures! :skeleton: **\n\nAdventure previews got a makeover – they’re full screen and have a new UI that really complements your eyes. \nTime is of the essence! There’s a new indicator that lets you know how much time you have left in an Adventure before it despawns. \n\n**:sign: Bugs Fixes! :sign: **\n\nIncred-apple! Trees now spawn apples as intended. \nFit check! Players can now rotate their avatar in the profile screen, and the dressing room now loads properly for new accounts with fresh installs. \nVibe check! Haptic feedback no longer triggers when vibration is turned off on Android devices. \nFixed an issue with item clipping while people occlusion is enabled. Cool!",
+      "author": {
+        "id": "233008749747372032",
+        "name": "taime",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/233008749747372032/5d1bedc6467698f9cfc4d224bed3992a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 75
+        },
+        {
+          "emoji": {
+            "id": "672170014979260426",
+            "name": "muddy_walk",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/672170014979260426.png"
+          },
+          "count": 53
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4C",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44c.png"
+          },
+          "count": 55
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF4E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f34e.png"
+          },
+          "count": 48
+        },
+        {
+          "emoji": {
+            "id": "667191121041948695",
+            "name": "pcat",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/667191121041948695.png"
+          },
+          "count": 42
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e8.png"
+          },
+          "count": 42
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF4",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f4.png"
+          },
+          "count": 41
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "⏺️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/23fa.png"
+          },
+          "count": 43
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF1",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f1.png"
+          },
+          "count": 42
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD92",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f192.png"
+          },
+          "count": 46
+        },
+        {
+          "emoji": {
+            "id": "599613969434542103",
+            "name": "muddy_pig2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599613969434542103.png"
+          },
+          "count": 43
+        },
+        {
+          "emoji": {
+            "id": "600849904507551754",
+            "name": "earth",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600849904507551754.png"
+          },
+          "count": 44
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDEB3",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f6b3.png"
+          },
+          "count": 32
+        },
+        {
+          "emoji": {
+            "id": "393462246430474241",
+            "name": "GWeniPopcorn",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/393462246430474241.png"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": "616358833123491892",
+            "name": "levers",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/616358833123491892.png"
+          },
+          "count": 34
+        },
+        {
+          "emoji": {
+            "id": "600873503130124330",
+            "name": "mob_of_me",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600873503130124330.png"
+          },
+          "count": 35
+        },
+        {
+          "emoji": {
+            "id": "639049199236939786",
+            "name": "qr_scan",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/639049199236939786.png"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": "632010518709665809",
+            "name": "crafting_table",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/632010518709665809.png"
+          },
+          "count": 34
+        },
+        {
+          "emoji": {
+            "id": "590549078967058432",
+            "name": "earth2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/590549078967058432.png"
+          },
+          "count": 34
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF4B",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f34b.png"
+          },
+          "count": 29
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "676905364524105730",
+      "type": "Default",
+      "timestamp": "2020-02-11T21:40:15.196+00:00",
+      "timestampEdited": "2020-02-11T21:42:41.229+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth - 0.12.0**\n:fast_parrot: **New Stuff!**:fast_parrot: \n\nMeat is back on the menu! You can eat food to regain health in Adventures. Fruit and vegetables are also on the menu - all part of a balanced diet.\nTo raise the steaks, health is now persistent between Adventures. If you take damage in one Adventure, you’ll be hurt when you start your next Adventure.\nYour health is displayed while you’re on the Map. If you die in an adventure, you respawn on the map but with reduced health.\nEating is also accessible from the Inventory screen using the new \"info\" button, which leads us to…\nThere’s a new Item Info button on the Inventory Screen – click through to see item stats and discover how chicken compares to mutton, or what the damage and durability values for your tools are. Plus, funny blurbs on your favorite blocks!\nTired of people walking all over you? We added a people occlusion toggle for iPhones/iOS 13+.\nComing soon! Night themed Buildplates will be available in the Store. Look up to see the stars! Don’t sleep on this new offer!\nComing soon! We’ve implemented the underlying code for a new feature called Boosts. Stay tuned for the full release!\n\n:chest_open:**New Mob!** :chest_open:\n\nThe WOOLY COW has arrived! This new fuzzy friend could use a haircut. I wonder what happens when you use your shears…? \uD83E\uDD14",
+      "author": {
+        "id": "233008749747372032",
+        "name": "taime",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/233008749747372032/5d1bedc6467698f9cfc4d224bed3992a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "676905543897579531",
+      "type": "Default",
+      "timestamp": "2020-02-11T21:40:57.962+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":sign:**Bug Fixes!**:sign:\n\nSweet, sweet freedom! Players will no longer get stuck in the Adventure preview screen.\nThere was a complicated bug where you couldn’t pick up a liquid block if there was nothing behind it in AR. That bug doesn’t exist anymore. Success!\nThis bug is kicking the bucket - you now get your bucket back when smelting with lava. Cook those porkchops lighting fast.\nWe fixed a UI overlapping issue with the Adventure stats preview screen on iPhone 7 Plus. Helpful!\nThanks to recent improvements, the following devices have been removed from the Blacklist: Motoroloa moto x4, Motorola One, Samsung Galaxy A30, and the Samsung Galaxy A70. You can now play Minecraft Earth on these devices!\n\n:angry_furnace:**New Recipes!**:angry_furnace:\n\nBucket of Mud\nStone Slab\nSandstone\nSpruce Button",
+      "author": {
+        "id": "233008749747372032",
+        "name": "taime",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/233008749747372032/5d1bedc6467698f9cfc4d224bed3992a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "675157929724346389",
+            "name": "dancing_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/675157929724346389.gif"
+          },
+          "count": 64
+        },
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 76
+        },
+        {
+          "emoji": {
+            "id": "672173479285489725",
+            "name": "angry_furnace",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/672173479285489725.png"
+          },
+          "count": 51
+        },
+        {
+          "emoji": {
+            "id": "599613969434542103",
+            "name": "muddy_pig2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599613969434542103.png"
+          },
+          "count": 46
+        },
+        {
+          "emoji": {
+            "id": "642393998706737162",
+            "name": "mcefr_logo",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642393998706737162.png"
+          },
+          "count": 40
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDD76️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f576.png"
+          },
+          "count": 37
+        },
+        {
+          "emoji": {
+            "id": "632009327452094467",
+            "name": "flame",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/632009327452094467.png"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF49",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f349.png"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF6B",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f36b.png"
+          },
+          "count": 35
+        },
+        {
+          "emoji": {
+            "id": "600850619770863649",
+            "name": "compass",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600850619770863649.png"
+          },
+          "count": 34
+        },
+        {
+          "emoji": {
+            "id": "652237853501161493",
+            "name": "Jolly_Llama_Head",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/652237853501161493.png"
+          },
+          "count": 32
+        },
+        {
+          "emoji": {
+            "id": "616358833123491892",
+            "name": "levers",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/616358833123491892.png"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": "641426632862859316",
+            "name": "experience",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/641426632862859316.png"
+          },
+          "count": 27
+        },
+        {
+          "emoji": {
+            "id": "647892271014084622",
+            "name": "salmon",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/647892271014084622.gif"
+          },
+          "count": 20
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "683066527724863544",
+      "type": "Default",
+      "timestamp": "2020-02-28T21:42:30.972+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth 0.13.0 Patch Notes** – February 27, 2020\n\n**New Stuff!**\n:boosts: Coming soon - POWER!! **UNLIMITED POWER!!** We’ve introduced 12 different Boosts that can be purchased from the Store or activated by scanning a Minecraft Earth Minifig. Each Boost has 3 levels that will increase its power, duration, or both:\n- Increase Attack Damage\n- Increase Crafting Speed\n- Increase Max Health\n- Increase Mining Speed\n- Increase Player Defense\n- Increase Tappable Radius\n- Increase XP From Adventures\n- Increase XP From Collecting Mobs\n- Increased Health Gained from Eating\n- Keep Items in Backpack On Death\n- Keep items in Hotbar On Death\n- Smelting Speed Boost\n\n:mc_sheep:  The dye’s the limit! Your **sheep can be dyed** your favorite color in the name of FASHION! (Or in the name of your favorite sports team, that’s fine too.)\n\n:redstone: Coming Soon - You’ve seen them in AR, now pet them IRL! Some select Minecraft Earth mobs are making their way to a store near you as **Mini Figurines**! They’ll also be scannable and unlock powerful Boosts for you in-game.\n\n**New Mobs!**\n:glow_squid: Your own watery night light, the **Glow Squid**, is diving into the world of Minecraft Earth! \n:skeleton_wolf: It’s Halloween 365 days a year for the **Skeleton Wolf**. Beware this bag o’ bones! \n\n**Bug Fixes!**\n- This is a no clone zone! We fixed an exploit that allowed users to sign-in to Minecraft Earth from the same account on multiple devices.\n- We improved performance for Chinese, Japanese and Korean text. 太牛了! 凄い! 대박!\n- Hooray! Multiple crash bugs were fixed for iOS and Android devices so that you can mine, craft, and build in peace.\n- Mobs looked a bit rough around the edges in Bright Mode, so we gussied them up a bit! Now they’re looking pretty fly.",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "683023118339670026",
+            "name": "skeleton_wolf",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/683023118339670026.png"
+          },
+          "count": 63
+        },
+        {
+          "emoji": {
+            "id": "683023101583294548",
+            "name": "glow_squid",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/683023101583294548.png"
+          },
+          "count": 62
+        },
+        {
+          "emoji": {
+            "id": "599422791229636608",
+            "name": "spinning_rainbow_sheep",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599422791229636608.gif"
+          },
+          "count": 69
+        },
+        {
+          "emoji": {
+            "id": "683027011807346733",
+            "name": "boosts",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/683027011807346733.png"
+          },
+          "count": 42
+        },
+        {
+          "emoji": {
+            "id": "672593304541593613",
+            "name": "sponge",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/672593304541593613.gif"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": "613523198377590935",
+            "name": "dancing_steve",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/613523198377590935.gif"
+          },
+          "count": 41
+        },
+        {
+          "emoji": {
+            "id": "532984294633766922",
+            "name": "dabbing_totem",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/532984294633766922.gif"
+          },
+          "count": 50
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE8\uD83C\uDDF3",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e8-1f1f3.png"
+          },
+          "count": 31
+        },
+        {
+          "emoji": {
+            "id": "656308463777087509",
+            "name": "heartbeat",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/656308463777087509.gif"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": "667191268970987521",
+            "name": "pgrin",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/667191268970987521.png"
+          },
+          "count": 29
+        },
+        {
+          "emoji": {
+            "id": "590549078967058432",
+            "name": "earth2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/590549078967058432.png"
+          },
+          "count": 32
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "687357302965403657",
+      "type": "Default",
+      "timestamp": "2020-03-11T17:52:31.508+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Mincraft Earth R14 Patch Notes – March 11, 2020** \n\n**New Stuff! **\n:chest: There’s gold in them blocks! What exciting loot will you find in your next Adventure? Common, Uncommon and Rare Adventures now contain special Adventure Chests with unique rewards for daring players. \n:build_plate:  This new Buildplate is a grand slam – or should we say, a grand ram? There’s a new, ewe-nique Highland House Buildplate in the Store.\n:boosts: Adventure is within reach! We’ve simplified and reduced the distance requirement for Adventures.  From now on, Adventures will share the same, larger interaction radius as Tappables so you don’t have to be as close to get in. That way, if you use a Tappable Radius Boost, it will work for Adventures too!\n:compass: Ding faster! Killing mobs inside Adventures will now give you experience points. If you survive, that is!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "417756785080795137",
+            "name": "animPotato",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/417756785080795137.gif"
+          },
+          "count": 70
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 26
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE33",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f633.png"
+          },
+          "count": 11
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "687357561175015508",
+      "type": "Default",
+      "timestamp": "2020-03-11T17:53:33.07+00:00",
+      "timestampEdited": "2020-03-23T06:34:22.382+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":mob_of_me:  **New Mobs! **:mob_of_me: \n•    No need to butt heads about it, the Horned Sheep is finally here! It may look friendly, but this overprotective beast is baaaaad to the bone and will ram any players or Mobs of Me that get to close to the herd. Watch out when two Horned Sheep charge each other! \n•    Not all Golems are hot headed, the new Melon Golem is as cool as ice. This fruity guardian chooses rapid fire melon seeds as it’s attack of choice. Although not as tough alone, in small groups they can be ex-seed-ingly effective!\n\n:sign: **Bug Fixes! **:sign: \n•    No need to look so Grim! The Skeleton Wolf’s damage has been rebalanced.\n•    We’ve improved performance while on the Map and UI screens so players should experience fewer issues. NAVIGATIONAL!\n•    The Early Access text on the loading screen now displays appropriately because you were all going wild with the theories. (Yes, we’re still in Early Access. No, Minecraft Earth is not fully released. No, it wasn’t an ARG, but that does give us some ideas…)",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "675157929724346389",
+            "name": "dancing_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/675157929724346389.gif"
+          },
+          "count": 77
+        },
+        {
+          "emoji": {
+            "id": "683027011807346733",
+            "name": "boosts",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/683027011807346733.png"
+          },
+          "count": 57
+        },
+        {
+          "emoji": {
+            "id": "616032990232969224",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/616032990232969224.png"
+          },
+          "count": 62
+        },
+        {
+          "emoji": {
+            "id": "600868546645458944",
+            "name": "chest_open",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600868546645458944.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "✅",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2705.png"
+          },
+          "count": 37
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF9\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f9-1f1f7.png"
+          },
+          "count": 31
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE8\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e8-1f1f7.png"
+          },
+          "count": 16
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDFE6",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f7e6.png"
+          },
+          "count": 10
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "692495685051875428",
+      "type": "Default",
+      "timestamp": "2020-03-25T22:10:37.264+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R15 Patch Notes – March 25, 2020**\n We want to help you #FlattenTheCurve! The health and safety of our players is incredibly important to the Minecraft Earth team. Current COVID-19 pre-cautionary guidelines from the World Health Organization and the Centers for Disease Control encourages individuals to stay home and avoid public places and gatherings of 10 or more people. In accordance with these guidelines, we’ve made the following changes to empower Minecraft Earth players to continue to build, craft, Adventure, and mine from the safety of home! \nIncreased Tappable spawn rate \nIncreased Tappable density \nAdded the ability to spawn Adventures anywhere \n \n**New Stuff!** \nIntroducing a real gem of a feature – Adventure Crystals! These powerful jewels that you collect from Tappables and Adventure Chests allow you to summon an Adventure anywhere. Check out that shiny new button at the bottom of the screen, if you’re up for a challenge. \nForget raising the roof, we’re raising the level cap to 25! Ok, now you can raise the roof. \nWe've got a new skeleton crew! Bone Spiders are here to add an element of danger to your next Adventure. \nWhat a tree-t! Dark Forest Buildplates are now available in the Store.",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "647892271014084622",
+            "name": "salmon",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/647892271014084622.gif"
+          },
+          "count": 71
+        },
+        {
+          "emoji": {
+            "id": "689550168038572192",
+            "name": "adventure_chest",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689550168038572192.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF9\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f9-1f1f7.png"
+          },
+          "count": 24
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDFE7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f7e7.png"
+          },
+          "count": 13
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC27",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f427.png"
+          },
+          "count": 9
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF65",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f365.png"
+          },
+          "count": 10
+        },
+        {
+          "emoji": {
+            "id": "689549981086122115",
+            "name": "diamond",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689549981086122115.png"
+          },
+          "count": 12
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "692495778500837466",
+      "type": "Default",
+      "timestamp": "2020-03-25T22:10:59.544+00:00",
+      "timestampEdited": "2020-03-25T22:11:23.149+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**New Mobs! **\nThe Tropical Slime is making a big splash in Minecraft Earth! This aquatic ooze travels with a school of fishy friends and brings a beachy feel to any Buildplate. \nThat’s one fiery temper! The Iron Furnace Golem is a fearsome protector that’s ready to burn bridges with any invader. Be careful on your buildpalte through as its firey attacks can set things alight. \n\n**Bug Fixes!** \nVarious Fixes were made so that Adventure Chests spawn as expected in adventures! \n\n**Et Cetera!** \nPeep that new loading screen art. Pretty cool, right? \uD83D\uDC40 \nThe Boost Icon got an electrifying makeover. \nSettings has a new home on the profile screen, so it may not be exactly where you remembered, but it hasn’t gone away! \nJoin friend and Code Scan can now be found in the Buildplates screen! \nChallenges can now be accessed directly from the World Map. Navigational! \nLet off some steam -- the mighty Melon Golem will melt if their surroundings get too hot.",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "649034392978587668",
+            "name": "baby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/649034392978587668.png"
+          },
+          "count": 94
+        },
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 139
+        },
+        {
+          "emoji": {
+            "id": "688934162941476936",
+            "name": "mob_of_me",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934162941476936.png"
+          },
+          "count": 88
+        },
+        {
+          "emoji": {
+            "id": "642393998706737162",
+            "name": "mcefr_logo",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642393998706737162.png"
+          },
+          "count": 110
+        },
+        {
+          "emoji": {
+            "id": "692500948102152363",
+            "name": "tropical_slime",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500948102152363.png"
+          },
+          "count": 98
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4C",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44c.png"
+          },
+          "count": 77
+        },
+        {
+          "emoji": {
+            "id": "667191363527245825",
+            "name": "phat",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/667191363527245825.gif"
+          },
+          "count": 76
+        },
+        {
+          "emoji": {
+            "id": "692526738554486835",
+            "name": "bone_spider",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692526738554486835.png"
+          },
+          "count": 85
+        },
+        {
+          "emoji": {
+            "id": "692500948672839900",
+            "name": "furnace_golem",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500948672839900.png"
+          },
+          "count": 83
+        },
+        {
+          "emoji": {
+            "id": "688934477380190212",
+            "name": "horned_sheep",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934477380190212.png"
+          },
+          "count": 78
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC27",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f427.png"
+          },
+          "count": 72
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDFEB",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f7eb.png"
+          },
+          "count": 68
+        },
+        {
+          "emoji": {
+            "id": "692500946273435669",
+            "name": "adventure_crystal",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500946273435669.png"
+          },
+          "count": 74
+        },
+        {
+          "emoji": {
+            "id": "688934206998315049",
+            "name": "flame",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934206998315049.png"
+          },
+          "count": 69
+        },
+        {
+          "emoji": {
+            "id": "688934123406098438",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123406098438.png"
+          },
+          "count": 73
+        },
+        {
+          "emoji": {
+            "id": "621139371474681864",
+            "name": "mce_discord",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/621139371474681864.png"
+          },
+          "count": 71
+        },
+        {
+          "emoji": {
+            "id": "688934163050659850",
+            "name": "muddy_pig",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934163050659850.png"
+          },
+          "count": 69
+        },
+        {
+          "emoji": {
+            "id": "688934073447612425",
+            "name": "make_stuff",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934073447612425.png"
+          },
+          "count": 66
+        },
+        {
+          "emoji": {
+            "id": "688934073351405619",
+            "name": "levers",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934073351405619.png"
+          },
+          "count": 68
+        },
+        {
+          "emoji": {
+            "id": "688934407117078530",
+            "name": "glow_squid",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934407117078530.png"
+          },
+          "count": 71
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "704724044955648111",
+      "type": "Default",
+      "timestamp": "2020-04-28T16:01:45.457+00:00",
+      "timestampEdited": "2020-04-28T16:02:39.912+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R16 Patch Notes – April 14, 2020 **\n\n**New Stuff! **\nShow off your incredible creations to your friends with Buildplate sharing! They’ll be able to view your Buildplate in Play Mode, either tabletop or life size, which means they can interact, break blocks, and build but the changes they make won’t be permanently saved.\nNew Adventures have been added to the mix!  \nAfter activating an Adventure Crystal, you’ll now automatically be taken to a preview panel. The calm before the storm! \n\n**New Mobs! **\nWe’re introducing a new Mob variant that’s absolutely PIG-ture perfect! The Spotted Pig can now be spotted in Tappables, so be on the lookout. \n\n**Bug Fixes! **\n\nMobs are making a splash! We’ve added back the splash sounds Mobs make when in the water. \nIt’s a DRY heat! Desert Rabbits now show was yellow instead of brown in Buildplate preview. \nHey there all you cool cats and kittens, Ocelots no longer wait to attack Chickens. \nThat Iron Golem... what a knockout! We’ve reduced the Melon Golem's knockback so they won’t push mobs as far as before. \nThe Melon Golem's face will now go back to a neutral state after a targeted mob has been killed or returned to inventory. \uD83D\uDE10 \nAn Uncommon and a Rare Adventure were giving the wrong Adventure chest rewards, these have now been fixed! EPIC! \nWe’ve added an error message in case an Adventure Crystal activation fails so you’ll stay on the Adventure Crystal screen.\n \n**Et Cetera! **\n\nWe’ve made performance improvements that should improve the game experience for most devices!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "699697855581126786",
+            "name": "spotted_pig",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/699697855581126786.png"
+          },
+          "count": 46
+        },
+        {
+          "emoji": {
+            "id": "692500945833033746",
+            "name": "adventure_crystals",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500945833033746.gif"
+          },
+          "count": 34
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE04",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f604.png"
+          },
+          "count": 27
+        },
+        {
+          "emoji": {
+            "id": "689550147780083720",
+            "name": "timer",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689550147780083720.png"
+          },
+          "count": 26
+        },
+        {
+          "emoji": {
+            "id": "688934123406098438",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123406098438.png"
+          },
+          "count": 26
+        },
+        {
+          "emoji": {
+            "id": "700747329925414972",
+            "name": "jebparrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/700747329925414972.gif"
+          },
+          "count": 28
+        },
+        {
+          "emoji": {
+            "id": "704772811893243987",
+            "name": "adventures",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772811893243987.png"
+          },
+          "count": 23
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "704790250781802579",
+      "type": "Default",
+      "timestamp": "2020-04-28T20:24:50.156+00:00",
+      "timestampEdited": "2020-04-28T20:25:33.149+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R17 Patch Notes – April 28, 2020**\n\n**New Stuff!**\nAre you up for a Challenge? Build, craft, and collect your way through the all-new Season Challenge system to earn exclusive rewards:\n- Sign-in for daily Challenges while the Season is active.\n- Some Tappables contain additional Challenges for you to conquer.\n- If you're feeling fancy, complete the entire Season for exclusive Character Creator rewards.\n- Season Challenges are only around for a limited time, so don’t dally!\n\nCalling all completionists! Keep track of the blocks, items, and Mobs you've collected in the new Player Journal.\n\nBigger is sometimes better. You’re now able to load Buildplates in full-size from shared links.\n\nA fancy new night themed Buildplate can now be found in store. Own the night!\n\nA number of new Adventures have arrived to challenge your might.\n\n**New Mobs!**\nWith the addition of the Player Journal, we wanted to add some diversity to the Mobs you know and love! Please welcome the whole herd of new Mob variations to collect:\nAmber Chicken\nStormy Chicken\nSunset Cow\nAshen Cow\nPiebald Pig\nPale Pig\nFlecked Sheep\nRocky Sheep\nVested Rabbit\nMuddy Foot Rabbit\n\n**Et Cetera!**\nYour people occlusion, bright mode, and precision mode preferences will stick around from session to session instead of resetting each time you play. Nifty!\n\nCheck out the new Activity Log and Player Stats in Profile screen for even more info about how you play Minecraft Earth.\nPeep that shiny new Adventure Crystal icon! It’s a real gem.",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "704758102947266580",
+            "name": "journal",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704758102947266580.png"
+          },
+          "count": 85
+        },
+        {
+          "emoji": {
+            "id": "704758102213525576",
+            "name": "challenges",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704758102213525576.png"
+          },
+          "count": 69
+        },
+        {
+          "emoji": {
+            "id": "688934072655151141",
+            "name": "earth",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934072655151141.png"
+          },
+          "count": 70
+        },
+        {
+          "emoji": {
+            "id": "704772811893243987",
+            "name": "adventures",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772811893243987.png"
+          },
+          "count": 67
+        },
+        {
+          "emoji": {
+            "id": "704772811645911080",
+            "name": "cookie",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772811645911080.png"
+          },
+          "count": 64
+        },
+        {
+          "emoji": {
+            "id": "697291529634709544",
+            "name": "stormy_chicken",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/697291529634709544.png"
+          },
+          "count": 63
+        },
+        {
+          "emoji": {
+            "id": "697291530892738630",
+            "name": "sunset_cow",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/697291530892738630.png"
+          },
+          "count": 63
+        },
+        {
+          "emoji": {
+            "id": "704772096118751354",
+            "name": "muddy_foot_rabbit",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772096118751354.png"
+          },
+          "count": 63
+        },
+        {
+          "emoji": {
+            "id": "704772097154482536",
+            "name": "rocky_sheep",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772097154482536.png"
+          },
+          "count": 63
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD71️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f171.png"
+          },
+          "count": 54
+        },
+        {
+          "emoji": {
+            "id": "700747329925414972",
+            "name": "jebparrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/700747329925414972.gif"
+          },
+          "count": 98
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE14",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f614.png"
+          },
+          "count": 43
+        },
+        {
+          "emoji": {
+            "id": "688934123406098438",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123406098438.png"
+          },
+          "count": 46
+        },
+        {
+          "emoji": {
+            "id": "688934534686965769",
+            "name": "melon_head",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934534686965769.png"
+          },
+          "count": 38
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD70️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f170.png"
+          },
+          "count": 37
+        },
+        {
+          "emoji": {
+            "id": "688934162941476936",
+            "name": "mob_of_me",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934162941476936.png"
+          },
+          "count": 37
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "712769662827364484",
+      "type": "Default",
+      "timestamp": "2020-05-20T20:52:10.238+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R18 Patch Notes – May 20, 2020 **\n\n**New Stuff! **\n:adventure_crystals: Danger and all its rewards await you in new **Epic Adventures!** Are you up to the task?  \n:adventures: GET TO THA CHOPPA! Er, Adventure! Get straight into the action with faster Adventure load times.  \n:adventure_chest: See the riches that await you at the end of your next Adventure – players can view what items are included in Adventure chests as they play.  \n:build_plate:  Buildplate previews are animated and have shiny new description pages in the store. \n:journal_open:  Player Journal: Collect **stickers** in the Player Journal to earn rewards! \n:seasons:  Challenges: **Season 2** is now playable – Complete all the Challenges to unlock some pretty awesome new items for your character. \n\n**New Mobs & Variants: **\n:midnight_chicken:  Embrace the night, or at least this amazing new Mob variant, the **Midnight Chicken**! \n\n**Bug Fixes: **\n\uD83D\uDC1B Fixed a content update bug on Android devices that forced too-frequent content updates. Sometimes there can be too much of a good thing!  \n✨ Various additional bug fixes for an even better game experience!  \n\uD83D\uDC30 A Mob has no name. Actually, the Desert Rabbit Player Journal entry has been updated to reflect the correct name.",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "688934072655151141",
+            "name": "earth",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934072655151141.png"
+          },
+          "count": 79
+        },
+        {
+          "emoji": {
+            "id": "688934123406098438",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123406098438.png"
+          },
+          "count": 72
+        },
+        {
+          "emoji": {
+            "id": "704758102213525576",
+            "name": "challenges",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704758102213525576.png"
+          },
+          "count": 66
+        },
+        {
+          "emoji": {
+            "id": "689550168038572192",
+            "name": "adventure_chest",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689550168038572192.png"
+          },
+          "count": 70
+        },
+        {
+          "emoji": {
+            "id": "712767399161495566",
+            "name": "midnight_chicken",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/712767399161495566.png"
+          },
+          "count": 81
+        },
+        {
+          "emoji": {
+            "id": "700747329925414972",
+            "name": "jebparrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/700747329925414972.gif"
+          },
+          "count": 91
+        },
+        {
+          "emoji": {
+            "id": "692500945833033746",
+            "name": "adventure_crystals",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500945833033746.gif"
+          },
+          "count": 75
+        },
+        {
+          "emoji": {
+            "id": "642393998706737162",
+            "name": "mcefr_logo",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642393998706737162.png"
+          },
+          "count": 62
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDCC8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f4c8.png"
+          },
+          "count": 55
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "720334396351184999",
+      "type": "Default",
+      "timestamp": "2020-06-10T17:51:43.256+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R19 Patch Notes – June 2, 2020**\n\n**New Stuff!**\n- A new Challenge awaits! Challenge Season 3: \"Adventure\" is now available – complete all the Challenges and unlock great new items for your character! :seasons: \n*Adventure Crystals*: Find new, amazing Epic Adventure Crystals! If you’re up for an adventure of epic proportions, get ready to take on the Epic Adventure crystals! These are now available as well as new crystals of all rarities! :adventure_crystals: \n- Have an empty Adventure Crystal slot? Fear not! You can now tap the slot to find out how to obtain more crystals!\n\n**New Mobs & Variants:**\n- Find the latest EWE-nique sheep to join the herd, Inky Sheep! :inky_sheep: \n- Have a hopping good time finding the new Harelequin Rabbit! Yep, you read that right, HARE! Because, you know, it’s a rabbit! :harelequin_rabbit: \n\n**Bug Fixes:**\n- Various bug fixes!\n\n**Et Cetera!**\n- Things just got more a-peel-ing! You should now be able to find apples more often!\n- Concrete and concrete powder are now available (starting Thursday 6/4)!\n- Exciting new customizations can be found in journal rewards for collecting 5 rabbits and 5 sheep!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 116
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 50
+        },
+        {
+          "emoji": {
+            "id": "590549078967058432",
+            "name": "earth2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/590549078967058432.png"
+          },
+          "count": 48
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "725062691944661226",
+      "type": "Default",
+      "timestamp": "2020-06-23T19:00:16.773+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R20 Patch Notes – June 18, 2020**\n\n**New Stuff!**\n:bone_spider:  Get ready, get set, a new season is GO! Challenge Season 4: \"Dark Forest\" is now available! Complete the challenges to earn some great new Character Creator rewards!\n:buildplate:  New Epic Buildplates & Large Biome buildplates are now available in the store!\n:porkchop:  Lighten the load: Stack split your Hotbar before heading off to an Adventure!\n\n**New Mobs & Variants:**\n:inky_sheep:  What might you find in the inky shadows of a tappable in this new update? The new Vanilla Squid!\n:albino_cow:  MOOve over y’all! The Albino Cow can now be found in tappables and is ready to be added to your COWlection!\n\n**Bug Fixes:**\n:search:  Search once again! You should no longer crash upon tapping the search icon on the crafting or smelting screen!\n\n**Et Cetera!**\n◼️  Shadows will now have a more shadowy appearance!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 99
+        },
+        {
+          "emoji": {
+            "id": "690212975834955842",
+            "name": "BouncingBlobOnAcid",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/690212975834955842.gif"
+          },
+          "count": 105
+        },
+        {
+          "emoji": {
+            "id": "679164397016449050",
+            "name": "minecraftsquid",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/679164397016449050.png"
+          },
+          "count": 72
+        },
+        {
+          "emoji": {
+            "id": "723361392543137873",
+            "name": "albino_cow",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/723361392543137873.png"
+          },
+          "count": 75
+        },
+        {
+          "emoji": {
+            "id": "688934206998315049",
+            "name": "flame",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934206998315049.png"
+          },
+          "count": 57
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "㊗️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/3297.png"
+          },
+          "count": 47
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE29",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f629.png"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD71️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f171.png"
+          },
+          "count": 32
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEA",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ea.png"
+          },
+          "count": 34
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDCE7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f4e7.png"
+          },
+          "count": 33
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "733454959118385213",
+      "type": "Default",
+      "timestamp": "2020-07-16T22:48:09.188+00:00",
+      "timestampEdited": "2020-07-16T22:49:38.556+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R21 Patch Notes – July 16, 2020 **\n\n**New Stuff! **\n:adventure_crystals: Get more info from ‘The more you know: **Reward screen**’! You’ll now be able to see chest rewards, mobs killed, and active XP related Boosts! \n✂️ Do more with shears! Use **shears** to directly collect cobwebs, leaves, and flowers! \n:party_wool: **Season 5: Color!** Look out for more challenges and great new rewards in the new upcoming season! \n:buildplate:  New Rainbow Sheep Buildplate, the **Colorful Cottage**! It’s a magical place to be creative with color and wool! Be proud of your creations! \n\n**New Mobs & Variants: **\n:rainbow_sheep: This sheep is colorful and EWE-nique!  You won’t have to look for clouds to find the new **Rainbow Sheep**, look for them now in a Tappable near you! \n\nBug Fixes: \n\uD83D\uDC1B Various bug fixes",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "733363413396357181",
+            "name": "rainbow_sheep",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/733363413396357181.png"
+          },
+          "count": 92
+        },
+        {
+          "emoji": {
+            "id": "733372025703366700",
+            "name": "rainbow_wool",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/733372025703366700.png"
+          },
+          "count": 89
+        },
+        {
+          "emoji": {
+            "id": "689566157967065144",
+            "name": "party_wool",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689566157967065144.png"
+          },
+          "count": 79
+        },
+        {
+          "emoji": {
+            "id": "599422791229636608",
+            "name": "spinning_rainbow_sheep",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599422791229636608.gif"
+          },
+          "count": 100
+        },
+        {
+          "emoji": {
+            "id": "425383178782507030",
+            "name": "party_sheep",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/425383178782507030.gif"
+          },
+          "count": 81
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDD25",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f525.png"
+          },
+          "count": 59
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 61
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC27",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f427.png"
+          },
+          "count": 37
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF89",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f389.png"
+          },
+          "count": 36
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEE\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ee-1f1f7.png"
+          },
+          "count": 20
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "743183173227118712",
+      "type": "Default",
+      "timestamp": "2020-08-12T19:04:36.173+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Minecraft Earth R23 Patch Notes – August 12, 2020\n\nNew Stuff!\n:crafting: You can now unlock additional Crafting Tables and Furnaces with Rubies so you can craft and smelt even more things!\n:golden_carrot:  New season alert! Season 7: Farm to Table is coming soon!\n:adventure_crystals:  We’ve added more Adventures for you to explore. Use an Adventure Crystal and see if you find one!\n\nNew Mobs & Variants:\n:bronzed_chicken:  You might expect a bronze for 3rd place, but the Bronzed Chicken is #1 in our book! Look around for the new Bronzed Chicken in tappables near you! \n\nBug Fixes:\n\uD83D\uDC1B  Various bug fixes\n\nEt Cetera!\n:stCaution:  There is a known issue with the price not showing if you do not have enough Rubies to purchase Crafting Table and Furnace slots. We’re working on it! \n\n:crafting:Crafting Table Prices:\n•    2nd Slot - 380 Rubies\n•    3rd Slot - 630 Rubies\n:angry_furnace: Furnace Prices:\n•    2nd Slot - 260 Rubies\n•    3rd Slot - 480 Rubies",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 110
+        },
+        {
+          "emoji": {
+            "id": "452946284874301450",
+            "name": "POGSLIDE",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/452946284874301450.gif"
+          },
+          "count": 106
+        },
+        {
+          "emoji": {
+            "id": "425383253076082701",
+            "name": "party_potato",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/425383253076082701.gif"
+          },
+          "count": 86
+        },
+        {
+          "emoji": {
+            "id": "700401909789491210",
+            "name": "merl_wave",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/700401909789491210.gif"
+          },
+          "count": 70
+        },
+        {
+          "emoji": {
+            "id": "743169041232822363",
+            "name": "bronzed_chicken",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/743169041232822363.png"
+          },
+          "count": 64
+        },
+        {
+          "emoji": {
+            "id": "743173870240137297",
+            "name": "merl_yay",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/743173870240137297.png"
+          },
+          "count": 55
+        },
+        {
+          "emoji": {
+            "id": "688934123406098438",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123406098438.png"
+          },
+          "count": 68
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDFF4‍☠️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f3f4-200d-2620.png"
+          },
+          "count": 52
+        },
+        {
+          "emoji": {
+            "id": "688934123968004176",
+            "name": "tnt",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123968004176.png"
+          },
+          "count": 60
+        },
+        {
+          "emoji": {
+            "id": "739316659637977098",
+            "name": "magenta_upvote",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/739316659637977098.png"
+          },
+          "count": 50
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF5",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f5.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF4",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f4.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEC",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ec.png"
+          },
+          "count": 43
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF3",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f3.png"
+          },
+          "count": 26
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭕",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b55.png"
+          },
+          "count": 30
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF0",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f0.png"
+          },
+          "count": 29
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEE",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ee.png"
+          },
+          "count": 26
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE6",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e6.png"
+          },
+          "count": 27
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "763499344652664852",
+      "type": "Default",
+      "timestamp": "2020-10-07T20:33:48.897+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R27 Patch Notes – October 6, 2020**\n\nNew Stuff!\n:redstone_dust: We’re seeing red, but only because Season 11: Redstone is coming soon! Get your engineering hat on and prepare to build mechanical creations with new challenges and rewards!\n:sticky_piston: We don't mean to pushy...wait, actually we do! Stock up on redstone and get ready to push with new pistons and sticky pistons!\n\nNew Mobs & Variants:\n:patched_sheep: We’ve patched sheep!? No, that’s not right. Oh, I see now! Introducing the new Patched Sheep variant, with its cute little patches on its cute little knees. Cuteness overload is available in a tappable near you.\n\nBug Fixes:\n\uD83D\uDC1C  Various bug fixes",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "688934123015766027",
+            "name": "redstone_dust",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123015766027.png"
+          },
+          "count": 71
+        },
+        {
+          "emoji": {
+            "id": "688934123968004176",
+            "name": "tnt",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123968004176.png"
+          },
+          "count": 73
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDCA5",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f4a5.png"
+          },
+          "count": 65
+        },
+        {
+          "emoji": {
+            "id": "763120048134029354",
+            "name": "patched_sheep",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/763120048134029354.png"
+          },
+          "count": 68
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "778686416560324608",
+      "type": "Default",
+      "timestamp": "2020-11-18T18:21:49.002+00:00",
+      "timestampEdited": "2020-11-21T00:17:03.836+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Minecraft Earth R30 Patch Notes – November 17, 2020**\n\nNew Stuff!\n~~Brrr…it’s cold in here! There must be some tundra in the atmosphere! Be sure to bundle up to prepare for Season 14: Tundra, featuring new snowy challenges and rewards coming soon!~~\n Season 14 is Badlands. Our Bad\n\nNew Mobs & Variants:\n:mc_zombie: Do NOT seek high ground to escape the new Bouldering Zombie variant. True to its name, this mob has discovered the cardio & strength benefits of rock climbing and will climb after you. You have been warned!\n:mc_zombie: Not to be outdone by its bouldering brethren, the Lobbing Zombie variant has been practicing for the big leagues and will lob (get it?) meat at you! Gross, it didn’t even ask if you were a vegetarian. Both variants are available in an Adventure Chest near you.\n\nBug Fixes:\n\uD83D\uDC1B  Various bug fixes",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD73",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f973.png"
+          },
+          "count": 77
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDDDF",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f9df.png"
+          },
+          "count": 57
+        },
+        {
+          "emoji": {
+            "id": "688934534686965769",
+            "name": "melon_head",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934534686965769.png"
+          },
+          "count": 53
+        },
+        {
+          "emoji": {
+            "id": "692500947527532574",
+            "name": "boost",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500947527532574.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "❄️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2744.png"
+          },
+          "count": 39
+        },
+        {
+          "emoji": {
+            "id": "759116971018682410",
+            "name": "arrowup",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/759116971018682410.png"
+          },
+          "count": 19
+        }
+      ],
+      "mentions": []
+    }
+  ],
+  "messageCount": 21
+}

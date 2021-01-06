@@ -1,0 +1,190 @@
+{
+  "guild": {
+    "id": "579700549780242492",
+    "name": "MINECRAFT EARTH",
+    "iconUrl": "https://cdn.discordapp.com/icons/579700549780242492/149abc0fccbfb2be0cc113cc0c7059c1.png"
+  },
+  "channel": {
+    "id": "599412122853572640",
+    "type": "GuildTextChat",
+    "category": "Welcome",
+    "name": "faq",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "683207253293006848",
+      "type": "Default",
+      "timestamp": "2020-02-29T07:01:42.562+00:00",
+      "timestampEdited": "2020-04-28T23:04:08.581+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```Gameplay```\n:earth: **What is Minecraft Earth?**\nMinecraft Earth is an augmented reality mobile game that brings the Minecraft world into our universe! Build creations with friends and place them in the real world at life-size, discover new mobs to use in your builds, and put your survival skills to the test as you battle Minecraft mobs in real life!\n\n:style: **Can I use skins or customize my character?**\nYes. You can use skins that you own from Minecraft Marketplace skin packs or customize your appearance using the in-game Character Creator. Minecraft Earth does not support importing external skins.\n\n:friends:  **Can I build and play with friends?**\nYes! You can invite nearby friends to build with you in your buildplate or play an Adventure together! Place your buildplate on a surface or Adventure on the ground, and tap “Invite Friend”. Your friends can tap \"Join Friend\" from the Buildplate or Adventure menu to scan your QR code. You and your friends need to be in the same location to play together.",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "683207278802763795",
+      "type": "Default",
+      "timestamp": "2020-02-29T07:01:48.644+00:00",
+      "timestampEdited": "2020-04-28T23:05:10.845+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "\uDB40\uDC00\n:adventures: **What are Adventures?**\nAdventures are the survival part of Minecraft Earth. They are slices of a Minecraft world in life-size on the ground. Activate an Adventure Crystal to place an Adventure on your in-game map and tap on it to play! Dig down and explore—you might find mobs, valuable resources, hidden treasures, and other surprises!\n\n:adventure_crystal: **What are Adventure Crystals?**\nAdventure Crystals are in-game items that you can use to activate a private Adventure that only you and friends who you invite to play with you can see! You can find Adventure Crystals in tappables, daily challenges, and in Adventure Chests at the end of each Adventure!\n\n:ruby: **What are Rubies?**\nRubies are a virtual currency that you can earn from tappables or purchase in the Store. Each time you collect from a tappable, you have a chance to find Rubies! You can use Rubies to buy things in the Store, such as buildplates and Boosts.\n\n:boost: **What are Boosts?**\nBoosts are in-game items that you can use to enhance your abilities for a short amount of time.\u00A0You can use Rubies to buy Boosts in the Store, or by purchasing a Minecraft Earth Boost Mini figure and activating it in-game with an NFC-capable device. Learn more about Boosts and Boost Mini figures:\nhttps://help.minecraft.net/hc/en-us/articles/360039922812",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Minecraft Earth Boosts and Mini-Figures!",
+          "url": "https://help.minecraft.net/hc/en-us/articles/360039922812",
+          "timestamp": null,
+          "description": "General Info – Minecraft Earth Boosts and Minecraft Earth Boost Minis\u00A0\n\nMattel and Minecraft Earth have partnered to create an all new line of mini-figures called Minecraft Earth Boost Minis tha...",
+          "thumbnail": {
+            "url": "https://theme.zdassets.com/theme_assets/2155033/c77e4caec282c6311546f9ca0b4611b098f4ca97.png",
+            "width": 512,
+            "height": 512
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "683207307865227271",
+      "type": "Default",
+      "timestamp": "2020-02-29T07:01:55.573+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```Accounts and Player Safety```\n\uD83D\uDC64 **Do I need a Microsoft or Xbox Live account?**\nYes. A free Microsoft or Xbox Live account allows you to track your progress and save both builds and inventory to your profile. A paid Xbox Live Gold subscription is not required to play Minecraft Earth.\n\n⚙️ **Can I manage privacy and safety settings or set parental controls?**\nYes. You can use Xbox Live Account Management to adjust your safety and privacy settings. Parents can create child accounts for their children using Microsoft Family and use parental control settings available on devices. Learn more about these options:\n:xbox: <https://support.microsoft.com/help/4482922>\n:apple: <https://support.apple.com/HT201304>\n:android: <https://support.google.com/googleplay/answer/1075738>\n\n\uD83D\uDD14 **How can I report a location?**\nMinecraft Earth gameplay is generated in public places, such as parks and open urban areas. If you find tappables or Adventures in a location that is not suitable for playing, tap on the report icon in-game or submit a report on the official help center.\n<https://help.minecraft.net/hc/requests/new>\n\n\uD83D\uDEE1️ **What should I do if I play in a public location?**\nBe safe! Look around and pay attention to your real world surroundings at all times. You should abide by all local laws and regulations and you should not trespass. Watch the Safety First video for handy tips:\nhttps://youtube.com/watch?v=djKPSKufFJU",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Minecraft Earth: Safety First!",
+          "url": "https://www.youtube.com/watch?v=djKPSKufFJU",
+          "timestamp": null,
+          "description": "Playing Minecraft Earth in the real world is fun and easy. Just keep these handy suggestions in mind to also play safely! No Nitwits were harmed in the making of this video.\n\nAudio Description version is here: https://youtu.be/C9ShXml-dOw",
+          "color": "#FF0000",
+          "author": {
+            "name": "Minecraft",
+            "url": "https://www.youtube.com/channel/UC1sELGmy5jp5fQUugmuYlXQ"
+          },
+          "thumbnail": {
+            "url": "https://i.ytimg.com/vi/djKPSKufFJU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "683207346583109662",
+      "type": "Default",
+      "timestamp": "2020-02-29T07:02:04.804+00:00",
+      "timestampEdited": "2020-06-26T20:35:38.464+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```Availability and Devices```\n\uD83C\uDFF7️ **How much does Minecraft Earth cost?**\nMinecraft Earth is free to play.\n\n\uD83C\uDF10 **Where is Minecraft Earth available?**\nMinecraft Earth Early Access is available worldwide! You can start crafting in real life in countries that have the Apple App Store and Google Play Store. Minecraft Earth is not available in China, Cuba, Iran, Myanmar/Burma, Sudan, Iraq, and UAE.\n\n\uD83D\uDCF2 **How can I get Minecraft Earth Early Access?**\nDownload Minecraft Earth on your device's store.\n:apple: <https://apps.apple.com/app/minecraft-earth/id1467316099>\n:android: <https://play.google.com/store/apps/details?id=com.mojang.minecraftearth>\n\n\uD83D\uDCF1 **What kind of device do I need to play Minecraft Earth?**\nYou will need an internet-connected mobile device running iOS 12+ that supports AR or Android 8+ that supports the Google Play Services for AR app. Some devices that support AR are currently not compatible with Minecraft Earth. Check the list of compatible devices:\n:apple: <https://apple.com/ios/augmented-reality/>\n:android: <https://developers.google.com/ar/discover/supported-devices>\n\uD83D\uDCF5 https://aka.ms/MCEDevices\n https://help.minecraft.net/hc/en-us/articles/360044959212",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Minecraft Earth Not Compatible With All Devices",
+          "url": "https://aka.ms/MCEDevices",
+          "timestamp": null,
+          "description": "Minecraft Earth is playable on most Augmented Reality capable devices. \u00A0Below you will find links to Apple and Google’s lists for devices that support AR:\nARCore/Android:\u00A0https://developers.google....",
+          "thumbnail": {
+            "url": "https://theme.zdassets.com/theme_assets/2155033/c77e4caec282c6311546f9ca0b4611b098f4ca97.png",
+            "width": 512,
+            "height": 512
+          },
+          "fields": []
+        },
+        {
+          "title": "Minecraft Earth 32-bit Android Support",
+          "url": "https://help.minecraft.net/hc/en-us/articles/360044959212",
+          "timestamp": null,
+          "description": "Starting on August 1st, 2020 Minecraft Earth will no longer support some 32-bit Android devices. The impacted devices have been added to the device compatibility list http://aka.ms/MCEDevices.\nIf y...",
+          "thumbnail": {
+            "url": "https://theme.zdassets.com/theme_assets/2155033/c77e4caec282c6311546f9ca0b4611b098f4ca97.png",
+            "width": 512,
+            "height": 512
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "683207375934717967",
+      "type": "Default",
+      "timestamp": "2020-02-29T07:02:11.802+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```Help and Support```\n❓ **I have a question that is not answered here. Where can I find more information?**\nVisit the official site and help center to learn more about Minecraft Earth.\n<https://help.minecraft.net/>\n\n\uD83D\uDCF5 **Minecraft Earth is available in my country. Why does Google Play say it's not available?**\nThis is a Play Store bug. You may see the “not available” message if you have a device that is not compatible with Minecraft Earth. Check the list of supported and unsupported devices.\n\n⚠️ **I discovered an issue in the game. What should I do?**\nYou're not alone! Check the list of known issues the developers are aware of and actively working to fix. Please report any other game bugs on the official bug tracker.\nhttps://aka.ms/MCEIssues",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Minecraft Earth Known Issues",
+          "url": "https://aka.ms/MCEIssues",
+          "timestamp": null,
+          "description": "You're not alone! Here are some issues that we're aware of and are actively working to fix.\n\u00A0\nBuildplates & Items:\n- Salmon mobs disappear when reloading the buildplate.\u00A0 Keep your salmon safel...",
+          "thumbnail": {
+            "url": "https://theme.zdassets.com/theme_assets/2155033/c77e4caec282c6311546f9ca0b4611b098f4ca97.png",
+            "width": 512,
+            "height": 512
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [],
+      "mentions": []
+    }
+  ],
+  "messageCount": 5
+}

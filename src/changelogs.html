@@ -1,0 +1,2626 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MINECRAFT EARTH - changelogs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+        /* General */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-300.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-400.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-500.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-600.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-700.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    max-width: 100%;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.preserve-whitespace {
+    white-space: pre-wrap;
+}
+
+.spoiler {
+    /* width: fit-content; */
+    display: inline-block;
+    /* This is more consistent across browsers, the old attribute worked well under Chrome but not FireFox. */
+}
+
+.spoiler--hidden {
+    cursor: pointer;
+}
+
+.spoiler-text {
+    border-radius: 3px;
+}
+
+.spoiler--hidden .spoiler-text {
+    color: rgba(0, 0, 0, 0);
+}
+
+.spoiler--hidden .spoiler-text::selection {
+    color: rgba(0, 0, 0, 0);
+}
+
+.spoiler-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.spoiler--hidden .spoiler-image {
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.spoiler--hidden .spoiler-image * {
+    filter: blur(44px);
+}
+
+.spoiler--hidden .spoiler-image:after {
+    content: "SPOILER";
+    color: #dcddde;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    padding: 100%;
+    border-radius: 20px;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
+}
+
+.spoiler--hidden:hover .spoiler-image:after {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.quote {
+    margin: 0.1em 0;
+    padding-left: 0.6em;
+    border-left: 4px solid;
+    border-radius: 3px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 0.25em;
+    padding: 0.5em;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+.mention {
+    border-radius: 3px;
+    padding: 0 2px;
+    color: #7289da;
+    background: rgba(114, 137, 218, .1);
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0 0.06em;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1em;
+    height: 1em;
+}
+
+.emoji--large {
+    width: 2.8em;
+    height: 2.8em;
+}
+
+/* Preamble */
+
+.preamble {
+    display: grid;
+    margin: 0 0.3em 0.6em 0.3em;
+    max-width: 100%;
+    grid-template-columns: auto 1fr;
+}
+
+.preamble__guild-icon-container {
+    grid-column: 1;
+}
+
+.preamble__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.preamble__entries-container {
+    grid-column: 2;
+    margin-left: 0.6em;
+}
+
+.preamble__entry {
+    font-size: 1.4em;
+}
+
+.preamble__entry--small {
+    font-size: 1em;
+}
+
+/* Chatlog */
+
+.chatlog {
+    max-width: 100%;
+}
+
+.chatlog__message-group {
+    display: grid;
+    margin: 0 0.6em;
+    padding: 0.9em 0;
+    border-top: 1px solid;
+    grid-template-columns: auto 1fr;
+}
+
+.chatlog__reference-symbol {
+    grid-column: 1;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+    border-radius: 8px 0 0 0;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.chatlog__reference {
+    display: flex;
+    grid-column: 2;
+    margin-left: 1.2em;
+    margin-bottom: 0.25em;
+    font-size: 0.875em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+}
+
+.chatlog__reference-avatar {
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    margin-right: 0.25em;
+}
+
+.chatlog__reference-name {
+    margin-right: 0.25em;
+    font-weight: 600;
+}
+
+.chatlog__reference-link {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatlog__reference-link:hover {
+    text-decoration: none;
+}
+
+.chatlog__reference-content > * {
+    display: inline;
+}
+
+.chatlog__reference-edited-timestamp {
+    margin-left: 0.25em;
+    font-size: 0.8em;
+}
+
+.chatlog__author-avatar-container {
+    grid-column: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    grid-column: 2;
+    margin-left: 1.2em;
+    min-width: 50%;
+}
+
+.chatlog__author-name {
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 0.3em;
+    font-size: 0.75em;
+}
+
+.chatlog__message {
+    padding: 0.1em 0.3em;
+    margin: 0 -0.3em;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: 0.95em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 0.15em;
+    font-size: 0.8em;
+}
+
+.chatlog__attachment {
+    margin-top: 0.3em;
+}
+
+.chatlog__attachment-thumbnail {
+    vertical-align: top;
+    max-width: 45vw;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__attachment-container {
+    height: 40px;
+    width: 100%;
+    max-width: 520px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.chatlog__attachment-icon {
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.chatlog__attachment-icon > .a {
+    fill: #f4f5fb;
+    d: path("M50,935a25,25,0,0,1-25-25V50A25,25,0,0,1,50,25H519.6L695,201.32V910a25,25,0,0,1-25,25Z");
+}
+
+.chatlog__attachment-icon > .b {
+    fill: #7789c4;
+    d: path("M509.21,50,670,211.63V910H50V50H509.21M530,0H50A50,50,0,0,0,0,50V910a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50h0V191Z");
+}
+
+.chatlog__attachment-icon > .c {
+    fill: #f4f5fb;
+    d: path("M530,215a25,25,0,0,1-25-25V50a25,25,0,0,1,16.23-23.41L693.41,198.77A25,25,0,0,1,670,215Z");
+}
+
+.chatlog__attachment-icon > .d {
+    fill: #7789c4;
+    d: path("M530,70.71,649.29,190H530V70.71M530,0a50,50,0,0,0-50,50V190a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50Z");
+}
+
+.chatlog__attachment-filesize {
+    color: #72767d;
+    font-size: 12px;
+}
+
+.chatlog__attachment-filename {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.chatlog__embed {
+    display: flex;
+    margin-top: 0.3em;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 0.25em;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.6em;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    display: flex;
+    width: 100%;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    margin-bottom: 0.3em;
+    align-items: center;
+}
+
+.chatlog__embed-author-icon {
+    margin-right: 0.5em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 0.2em;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 0.6em;
+    font-size: 0.875em;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 1.2em;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 0.6em;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 0.6em;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 0.2em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 0.35em 0.1em 0.1em 0.1em;
+    padding: 0.2em 0.35em;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 0.35em;
+    font-size: 0.875em;
+}
+
+.chatlog__bot-tag {
+    position: relative;
+    top: -.2em;
+    margin-left: 0.3em;
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    font-weight: 500;
+}
+
+/* Postamble */
+
+.postamble {
+    margin: 1.4em 0.3em 0.6em 0.3em;
+    padding: 1em;
+    border-top: 1px solid;
+}
+    </style>
+    <style>
+        /* General */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler-text {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.spoiler--hidden .spoiler-text {
+    background-color: #202225;
+}
+
+.spoiler--hidden:hover .spoiler-text {
+    background-color: rgba(32, 34, 37, 0.8);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #b9bbbe !important;
+}
+
+/* === Preamble === */
+
+.preamble__entry {
+    color: #ffffff;
+}
+
+/* Chatlog */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__reference-symbol {
+    border-color: #4f545c;
+}
+
+.chatlog__reference {
+    color: #b5b6b8;
+}
+
+.chatlog__reference-link {
+    color: #b5b6b8;
+}
+
+.chatlog__reference-link:hover {
+    color: #ffffff;
+}
+
+.chatlog__reference-edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__attachment-container {
+    background-color: #2f3136;
+    border-color: #292b2f;
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-color-pill--default {
+    background-color: rgba(79, 84, 92, 1);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Postamble */
+
+.postamble {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.postamble__entry {
+    color: #ffffff;
+}
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <img class="preamble__guild-icon" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/149abc0fccbfb2be0cc113cc0c7059c1-B183E.png" alt="Guild icon">
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">MINECRAFT EARTH</div>
+        <div class="preamble__entry">Welcome / changelogs</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">October 3, 2019 at 10:20 AM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="629367184019423253" id="message-629367184019423253">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth - 0.4.0</strong>
+
+New Features:
+Be on the lookout for new things in tappables! Added some new, rare tappables to the world. Get out there and be the first to discover them!
+Improved Inventory Management! Inventory items have been split into different categories and can be searched by name for easy organization
+
+Changes:
+Updated the ground texture on the map
+Updated the texture for the backpack in Play mode
+Updated icons for stone slabs and brown beds, and backpack
+
+Fixes:
+Fixed crashing on some low-end devices when entering Buildplates
+Fixed a crash when using an empty bucket on a trapdoor through liquid source block
+Fixed a crash that could occur when purchasing Buildplates
+Fixed getting disconnected from the server when milking a cow with a full hotbar
+Fixed getting disconnected from the server when picking up items dropped by salmon and rabbits
+Fixed getting disconnected from the server when picking up a flower pot
+Blocks now catch fire when Lava flows next to them
+Muddy Pigs are now muddier on the Buildplate selection screen
+Changes to the vibration setting are now saved when restarting the game (MCE-85)
+Items that start with special characters are now shown in the correct alphabetical order when sorted</span>
+
+                                <span class="chatlog__edited-timestamp" title="October 3, 2019 at 10:25 AM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127378;" title="&#127378;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f192-3E0D4.png">
+                                <span class="chatlog__reaction-count">369</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127476;" title="&#127476;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f4-6C4DE.png">
+                                <span class="chatlog__reaction-count">263</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127464;" title="&#127464;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e8-D8C42.png">
+                                <span class="chatlog__reaction-count">253</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127481;" title="&#127481;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f9-24F03.png">
+                                <span class="chatlog__reaction-count">253</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127358;" title="&#127358;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f17e-78F24.png">
+                                <span class="chatlog__reaction-count">252</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127463;" title="&#127463;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e7-86C69.png">
+                                <span class="chatlog__reaction-count">246</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127466;" title="&#127466;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ea-4B558.png">
+                                <span class="chatlog__reaction-count">250</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127479;" title="&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f7-2C305.png">
+                                <span class="chatlog__reaction-count">249</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127486;" title="&#127486;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1fe-B7194.png">
+                                <span class="chatlog__reaction-count">204</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128231;" title="&#128231;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f4e7-BFD2B.png">
+                                <span class="chatlog__reaction-count">192</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127480;" title="&#127480;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f8-B6AC7.png">
+                                <span class="chatlog__reaction-count">192</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="‼" title="‼" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/203c-8DE9D.png">
+                                <span class="chatlog__reaction-count">192</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="❗" title="❗" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/2757-BC354.png">
+                                <span class="chatlog__reaction-count">195</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="❕" title="❕" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/2755-FE934.png">
+                                <span class="chatlog__reaction-count">187</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="6⃣" title="6⃣" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/36-20e3-40DEB.png">
+                                <span class="chatlog__reaction-count">174</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="❔" title="❔" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/2754-4129A.png">
+                                <span class="chatlog__reaction-count">171</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="earth2" title="earth2" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/590549078967058432-1EE9B.png">
+                                <span class="chatlog__reaction-count">270</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="haruhiyay" title="haruhiyay" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/603368311882907680-2AB35.png">
+                                <span class="chatlog__reaction-count">234</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="nyan_ghast" title="nyan_ghast" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/393639197564731392-2113E.gif">
+                                <span class="chatlog__reaction-count">253</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="steve_dabbing" title="steve_dabbing" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/425370892181176331-D74EF.png">
+                                <span class="chatlog__reaction-count">280</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">December 11, 2019 at 10:42 AM (UTC-08:00)</span>
+
+            <div class="chatlog__message " data-message-id="654392653009387540" id="message-654392653009387540">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth - 0.8.0</strong>
+
+<strong>General</strong>
+Added new hostile mob tracker for Adventures
+Added notifications for complete but not collected challenges
+Mooblooms now look correct when sheared for their buttercups
+Added smelting intensity animations
+
+<strong>Audio:</strong>
+Updated audio in various parts of the game
+
+<strong>Blocks:</strong>
+Added support for many new blocks and items which will be coming soon: 
+snowball, bone, rotten flesh, gunpowder, raw salmon, food and nature items, acacia blocks
+Added recipes for:
+polished granite, andesite, diorite, and lapis blocks
+
+<strong>Weapons/Tools</strong>
+Improved Diamond Tool and Weapon damage.
+Improved Iron Tool and Weapon damage
+Improved effectiveness for using right tool on corresponding blocks
+(ex: Shovel on dirt) 
+Decreased effectiveness of wrong tool on corresponding blocks
+(ex: Sword on dirt)
+
+<strong>Bugs:</strong>
+77 bug fixes! Including:
+Cluckshrooms no longer drown when entering water
+fix for salmon – they no longer disappear when put on buildplates
+Locked crafting/smelting slot bug - Players that had all of their crafting/smelting slots locked should see this resolved in R8</span>
+
+                                <span class="chatlog__edited-timestamp" title="December 17, 2019 at 2:43 PM (UTC-08:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="RabbitBeam" title="RabbitBeam" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/603994498757951716-E7F49.gif">
+                                <span class="chatlog__reaction-count">98</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="GWcmeisterPeepoLove" title="GWcmeisterPeepoLove" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/403295311189245952-86607.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127881;" title="&#127881;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f389-D0935.png">
+                                <span class="chatlog__reaction-count">50</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128077;" title="&#128077;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44d-1485B.png">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127463;&#127479;" title="&#127463;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e7-1f1f7-46EA8.png">
+                                <span class="chatlog__reaction-count">37</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="flame" title="flame" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/632009327452094467-DE78A.png">
+                                <span class="chatlog__reaction-count">35</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127467;&#127479;" title="&#127467;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1eb-1f1f7-63747.png">
+                                <span class="chatlog__reaction-count">35</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="SnowsgivingTree" title="SnowsgivingTree" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/648636171982995467-28ACF.png">
+                                <span class="chatlog__reaction-count">34</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="Milkandmochahuglove" title="Milkandmochahuglove" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/586527272693923851-2BECC.png">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="jeb_shrug" title="jeb_shrug" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/627001644302729216-79D1C.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mce_discord" title="mce_discord" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/621139371474681864-6F1B2.png">
+                                <span class="chatlog__reaction-count">40</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="cluckshroom" title="cluckshroom" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/604029923904061645-137BA.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ASASDance" title="ASASDance" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/582665954052276238-DC3B4.gif">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="dab" title="dab" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/515286895371091969-7F856.png">
+                                <span class="chatlog__reaction-count">32</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128031;" title="&#128031;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f41f-A0F74.png">
+                                <span class="chatlog__reaction-count">30</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128033;" title="&#128033;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f421-26AC3.png">
+                                <span class="chatlog__reaction-count">31</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128032;" title="&#128032;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f420-3075F.png">
+                                <span class="chatlog__reaction-count">30</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mcefr_logo" title="mcefr_logo" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/642393998706737162-45B67.png">
+                                <span class="chatlog__reaction-count">49</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#129327;" title="&#129327;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f92f-BFD8C.png">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128076;" title="&#128076;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44c-B3B3D.png">
+                                <span class="chatlog__reaction-count">37</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">December 17, 2019 at 2:42 PM (UTC-08:00)</span>
+
+            <div class="chatlog__message " data-message-id="656627315673137168" id="message-656627315673137168">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth - 0.9.0</strong>
+
+<strong>General: </strong>
+Get to know your way around with the new Build Mode tutorial – much easier than putting together furniture IRL! 
+Improved speed of sign-in and app resume speeds by up to 50% on all platforms because loading screens are only cute the first 5 times you see them. 
+Free stuff! Players are now gifted starting items the first time they enter Build Mode. 
+Location reporting now has comment box for specifying detailed reasons like “busy road,” “water feature,” and “super haunted, abandon hope ye who Adventure here.” 
+Layout of profile and Buildplates has been updated – spiffy! 
+Not such a tough row to hoe – farming in Buildplates now requires tools for harvesting. 
+We added more Adventures for you to explore. ALGEBRAIC! 
+ 
+<strong>Audio: </strong>
+Lofi Beats to Mine and Craft To: Buildplates build and play mode added Vanilla ambient music. 
+ 
+<strong>Mobs: </strong>
+Jolly Llama can eat ferns covered in snow because we don’t have iceberg lettuce in the game. 
+ 
+<strong>Multiple major bug fixes, including: </strong>
+Game crashes 
+Sign-in issues 
+Some smelting bugs 
+Lots of other stuff that you didn’t even know needed fixin’</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="clapclap" title="clapclap" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/535226328006524938-E1782.gif">
+                                <span class="chatlog__reaction-count">156</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mce_discord" title="mce_discord" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/621139371474681864-6F1B2.png">
+                                <span class="chatlog__reaction-count">95</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="Jolly_Llama_Head" title="Jolly_Llama_Head" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/652237853501161493-14E79.png">
+                                <span class="chatlog__reaction-count">85</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="Jolly_Llama_Prancing" title="Jolly_Llama_Prancing" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/652237170542772289-DF1B8.gif">
+                                <span class="chatlog__reaction-count">84</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127467;&#127479;" title="&#127467;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1eb-1f1f7-63747.png">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mcefr_logo" title="mcefr_logo" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/642393998706737162-45B67.png">
+                                <span class="chatlog__reaction-count">82</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127470;&#127475;" title="&#127470;&#127475;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ee-1f1f3-E028C.png">
+                                <span class="chatlog__reaction-count">44</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127463;&#127479;" title="&#127463;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e7-1f1f7-46EA8.png">
+                                <span class="chatlog__reaction-count">41</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127469;&#127482;" title="&#127469;&#127482;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ed-1f1fa-B3E76.png">
+                                <span class="chatlog__reaction-count">47</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128659;" title="&#128659;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f693-6FEBC.png">
+                                <span class="chatlog__reaction-count">47</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128077;" title="&#128077;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44d-1485B.png">
+                                <span class="chatlog__reaction-count">52</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127479;&#127480;" title="&#127479;&#127480;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f7-1f1f8-B6695.png">
+                                <span class="chatlog__reaction-count">41</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="GWcmeisterPeepoLove" title="GWcmeisterPeepoLove" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/403295311189245952-86607.png">
+                                <span class="chatlog__reaction-count">50</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127481;&#127479;" title="&#127481;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f9-1f1f7-15C3B.png">
+                                <span class="chatlog__reaction-count">48</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="build_plate" title="build_plate" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/600849967984148490-543DD.png">
+                                <span class="chatlog__reaction-count">54</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127482;&#127480;" title="&#127482;&#127480;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1fa-1f1f8-A328E.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128563;" title="&#128563;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f633-F7868.png">
+                                <span class="chatlog__reaction-count">42</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="flame" title="flame" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/632009327452094467-DE78A.png">
+                                <span class="chatlog__reaction-count">44</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="❤" title="❤" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/2764-18179.png">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128166;" title="&#128166;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f4a6-DA32A.png">
+                                <span class="chatlog__reaction-count">29</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">January 15, 2020 at 6:37 PM (UTC-08:00)</span>
+
+            <div class="chatlog__message " data-message-id="667195717617582093" id="message-667195717617582093">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth - 0.10.0 </strong>
+
+<strong>New Features:</strong>
+
+Do you ever wish there were two of you? There can be! Mob of Me is now available for purchase in the Store. 
+Make it FASHION! You can now select a style from your Character Creator closet when placing their Mob of Me on a Buildplate. 
+Stay charged all day by enabling Battery Saver Mode in game Settings. It turns your screen off when you turn your phone upside-down – cool!  
+
+<strong>Adventures:</strong>
+
+We added 10 new Adventures to keep things fresh in the new year. 
+Know where you stand - Adventures now have a clearly defined proximity circle so you know when you’re close enough to enter. 
+Instant gratification! Reward screens for Adventures load faster. 
+Skeleton arrows now travel slower to limit the number of Adventurers with arrows in their knees. 
+Adventure location reporting now allows for up to 250 character comments so that you can help us make Minecraft Earth a better place to play. 
+
+<strong>Bug Fixes: </strong>
+
+Fixed an issue where Adventures didn&#39;t show the player receiving any rewards because it’s 2020 and YOU DESERVE THIS. 
+Adventures now accurately indicate if they have been played by others. 
+Good news, barbarian roleplayers! You can break blocks with swords again.</span>
+
+                                <span class="chatlog__edited-timestamp" title="January 15, 2020 at 6:37 PM (UTC-08:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">101</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="spinning_pig" title="spinning_pig" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/595461607031570443-D0BA4.gif">
+                                <span class="chatlog__reaction-count">75</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/393622342581878785-398EF.gif">
+                                <span class="chatlog__reaction-count">90</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127482;&#127474;" title="&#127482;&#127474;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1fa-1f1f2-FC566.png">
+                                <span class="chatlog__reaction-count">53</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="psword" title="psword" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/667191516137127946-A97DE.gif">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="skeleton" title="skeleton" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/647983110259998770-7CCCB.png">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128374;️" title="&#128374;️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f576-ED4AF.png">
+                                <span class="chatlog__reaction-count">53</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="spinning_rainbow_sheep" title="spinning_rainbow_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599422791229636608-5C859.gif">
+                                <span class="chatlog__reaction-count">83</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="confetti" title="confetti" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/663004828313845789-7C8C1.gif">
+                                <span class="chatlog__reaction-count">60</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ablobcolorshift" title="ablobcolorshift" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/635256397621231636-9B155.gif">
+                                <span class="chatlog__reaction-count">73</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="glazed_terracotta_magenta" title="glazed_terracotta_magenta" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/346698935500406785-1DEE0.png">
+                                <span class="chatlog__reaction-count">60</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="GWeniThinkUp" title="GWeniThinkUp" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/398885992137752606-DFFE2.png">
+                                <span class="chatlog__reaction-count">46</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127470;&#127475;" title="&#127470;&#127475;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ee-1f1f3-E028C.png">
+                                <span class="chatlog__reaction-count">41</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="flame" title="flame" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/632009327452094467-DE78A.png">
+                                <span class="chatlog__reaction-count">48</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mcefr_logo" title="mcefr_logo" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/642393998706737162-45B67.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mce_discord" title="mce_discord" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/621139371474681864-6F1B2.png">
+                                <span class="chatlog__reaction-count">38</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ruby" title="ruby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/616032990232969224-F8B7D.png">
+                                <span class="chatlog__reaction-count">38</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="qr_scan" title="qr_scan" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/639049199236939786-FEF96.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="moobloom" title="moobloom" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/600899402521116703-5FBC9.png">
+                                <span class="chatlog__reaction-count">31</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_pig" title="muddy_pig" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/600899402592288776-65573.png">
+                                <span class="chatlog__reaction-count">35</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/5d1bedc6467698f9cfc4d224bed3992a-0EB9C.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="taime#0001" data-user-id="233008749747372032" style="color: rgb(111,69,198)">taime</span>
+
+
+        <span class="chatlog__timestamp">January 29, 2020 at 12:00 PM (UTC-08:00)</span>
+
+            <div class="chatlog__message " data-message-id="672169130509729797" id="message-672169130509729797">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth - 0.11.0</strong>
+
+<strong><img class="emoji " alt="chest_open" title="chest_open" src="https://cdn.discordapp.com/emojis/600868546645458944.png"> Improvements!  <img class="emoji " alt="chest_open" title="chest_open" src="https://cdn.discordapp.com/emojis/600868546645458944.png"></strong>
+
+We reduced the file size of Minecraft Earth and made it more stable. Small, but mighty! 
+Added a selection indicator when choosing your Mob of Me, so you can decide what Me you want to be today. 
+The Mob of Me selection screen now has an exit button so you can get back to mining, crafting, and building in glorious fashion. 
+Illuminating! Bright mode is now color balanced for a more pleasant viewing experience in outdoor conditions. 
+The Crafting and Smelting menus have been overhauled so they’re easier to use, and they look dang spiffy. 
+
+<strong><img class="emoji " alt="skeleton" title="skeleton" src="https://cdn.discordapp.com/emojis/647983110259998770.png">Adventures! <img class="emoji " alt="skeleton" title="skeleton" src="https://cdn.discordapp.com/emojis/647983110259998770.png"> </strong>
+
+Adventure previews got a makeover – they’re full screen and have a new UI that really complements your eyes. 
+Time is of the essence! There’s a new indicator that lets you know how much time you have left in an Adventure before it despawns. 
+
+<strong><img class="emoji " alt="sign" title="sign" src="https://cdn.discordapp.com/emojis/616358850584379402.png"> Bugs Fixes! <img class="emoji " alt="sign" title="sign" src="https://cdn.discordapp.com/emojis/616358850584379402.png"> </strong>
+
+Incred-apple! Trees now spawn apples as intended. 
+Fit check! Players can now rotate their avatar in the profile screen, and the dressing room now loads properly for new accounts with fresh installs. 
+Vibe check! Haptic feedback no longer triggers when vibration is turned off on Android devices. 
+Fixed an issue with item clipping while people occlusion is enabled. Cool!</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">75</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_walk" title="muddy_walk" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/672170014979260426-5E3D0.png">
+                                <span class="chatlog__reaction-count">53</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128076;" title="&#128076;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44c-B3B3D.png">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127822;" title="&#127822;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f34e-1EBD6.png">
+                                <span class="chatlog__reaction-count">48</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="pcat" title="pcat" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/667191121041948695-20E87.png">
+                                <span class="chatlog__reaction-count">42</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127464;" title="&#127464;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e8-D8C42.png">
+                                <span class="chatlog__reaction-count">42</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127476;" title="&#127476;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f4-6C4DE.png">
+                                <span class="chatlog__reaction-count">41</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="⏺️" title="⏺️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/23fa-9B2B0.png">
+                                <span class="chatlog__reaction-count">43</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127473;" title="&#127473;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f1-64DCB.png">
+                                <span class="chatlog__reaction-count">42</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127378;" title="&#127378;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f192-3E0D4.png">
+                                <span class="chatlog__reaction-count">46</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_pig2" title="muddy_pig2" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599613969434542103-18E2A.png">
+                                <span class="chatlog__reaction-count">43</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="earth" title="earth" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/600849904507551754-77A60.png">
+                                <span class="chatlog__reaction-count">44</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128691;" title="&#128691;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f6b3-C2E38.png">
+                                <span class="chatlog__reaction-count">32</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="GWeniPopcorn" title="GWeniPopcorn" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/393462246430474241-2C0CC.png">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="levers" title="levers" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/616358833123491892-E8CA5.png">
+                                <span class="chatlog__reaction-count">34</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mob_of_me" title="mob_of_me" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/600873503130124330-1CD14.png">
+                                <span class="chatlog__reaction-count">35</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="qr_scan" title="qr_scan" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/639049199236939786-FEF96.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="crafting_table" title="crafting_table" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/632010518709665809-D3B92.png">
+                                <span class="chatlog__reaction-count">34</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="earth2" title="earth2" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/590549078967058432-1EE9B.png">
+                                <span class="chatlog__reaction-count">34</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127819;" title="&#127819;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f34b-0F929.png">
+                                <span class="chatlog__reaction-count">29</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/5d1bedc6467698f9cfc4d224bed3992a-0EB9C.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="taime#0001" data-user-id="233008749747372032" style="color: rgb(111,69,198)">taime</span>
+
+
+        <span class="chatlog__timestamp">February 11, 2020 at 1:40 PM (UTC-08:00)</span>
+
+            <div class="chatlog__message " data-message-id="676905364524105730" id="message-676905364524105730">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth - 0.12.0</strong>
+<img class="emoji " alt="fast_parrot" title="fast_parrot" src="https://cdn.discordapp.com/emojis/599444224118882305.gif"> <strong>New Stuff!</strong><img class="emoji " alt="fast_parrot" title="fast_parrot" src="https://cdn.discordapp.com/emojis/599444224118882305.gif"> 
+
+Meat is back on the menu! You can eat food to regain health in Adventures. Fruit and vegetables are also on the menu - all part of a balanced diet.
+To raise the steaks, health is now persistent between Adventures. If you take damage in one Adventure, you’ll be hurt when you start your next Adventure.
+Your health is displayed while you’re on the Map. If you die in an adventure, you respawn on the map but with reduced health.
+Eating is also accessible from the Inventory screen using the new &quot;info&quot; button, which leads us to…
+There’s a new Item Info button on the Inventory Screen – click through to see item stats and discover how chicken compares to mutton, or what the damage and durability values for your tools are. Plus, funny blurbs on your favorite blocks!
+Tired of people walking all over you? We added a people occlusion toggle for iPhones/iOS 13+.
+Coming soon! Night themed Buildplates will be available in the Store. Look up to see the stars! Don’t sleep on this new offer!
+Coming soon! We’ve implemented the underlying code for a new feature called Boosts. Stay tuned for the full release!
+
+<img class="emoji " alt="chest_open" title="chest_open" src="https://cdn.discordapp.com/emojis/600868546645458944.png"><strong>New Mob!</strong> <img class="emoji " alt="chest_open" title="chest_open" src="https://cdn.discordapp.com/emojis/600868546645458944.png">
+
+The WOOLY COW has arrived! This new fuzzy friend could use a haircut. I wonder what happens when you use your shears…? <img class="emoji " alt="🤔" title="🤔" src="https://twemoji.maxcdn.com/2/72x72/1f914.png"></span>
+
+                                <span class="chatlog__edited-timestamp" title="February 11, 2020 at 1:42 PM (UTC-08:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="676905543897579531" id="message-676905543897579531">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><img class="emoji " alt="sign" title="sign" src="https://cdn.discordapp.com/emojis/616358850584379402.png"><strong>Bug Fixes!</strong><img class="emoji " alt="sign" title="sign" src="https://cdn.discordapp.com/emojis/616358850584379402.png">
+
+Sweet, sweet freedom! Players will no longer get stuck in the Adventure preview screen.
+There was a complicated bug where you couldn’t pick up a liquid block if there was nothing behind it in AR. That bug doesn’t exist anymore. Success!
+This bug is kicking the bucket - you now get your bucket back when smelting with lava. Cook those porkchops lighting fast.
+We fixed a UI overlapping issue with the Adventure stats preview screen on iPhone 7 Plus. Helpful!
+Thanks to recent improvements, the following devices have been removed from the Blacklist: Motoroloa moto x4, Motorola One, Samsung Galaxy A30, and the Samsung Galaxy A70. You can now play Minecraft Earth on these devices!
+
+<img class="emoji " alt="angry_furnace" title="angry_furnace" src="https://cdn.discordapp.com/emojis/672173479285489725.gif"><strong>New Recipes!</strong><img class="emoji " alt="angry_furnace" title="angry_furnace" src="https://cdn.discordapp.com/emojis/672173479285489725.gif">
+
+Bucket of Mud
+Stone Slab
+Sandstone
+Spruce Button</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="dancing_parrot" title="dancing_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/675157929724346389-94229.gif">
+                                <span class="chatlog__reaction-count">64</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">76</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="angry_furnace" title="angry_furnace" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/672173479285489725-D5D1C.png">
+                                <span class="chatlog__reaction-count">51</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_pig2" title="muddy_pig2" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599613969434542103-18E2A.png">
+                                <span class="chatlog__reaction-count">46</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mcefr_logo" title="mcefr_logo" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/642393998706737162-45B67.png">
+                                <span class="chatlog__reaction-count">40</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128374;️" title="&#128374;️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f576-ED4AF.png">
+                                <span class="chatlog__reaction-count">37</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="flame" title="flame" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/632009327452094467-DE78A.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127817;" title="&#127817;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f349-25942.png">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127851;" title="&#127851;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f36b-C2509.png">
+                                <span class="chatlog__reaction-count">35</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="compass" title="compass" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/600850619770863649-75CE3.png">
+                                <span class="chatlog__reaction-count">34</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="Jolly_Llama_Head" title="Jolly_Llama_Head" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/652237853501161493-14E79.png">
+                                <span class="chatlog__reaction-count">32</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="levers" title="levers" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/616358833123491892-E8CA5.png">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="experience" title="experience" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/641426632862859316-CC4FC.png">
+                                <span class="chatlog__reaction-count">27</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="salmon" title="salmon" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/647892271014084622-B0930.gif">
+                                <span class="chatlog__reaction-count">20</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">February 28, 2020 at 1:42 PM (UTC-08:00)</span>
+
+            <div class="chatlog__message " data-message-id="683066527724863544" id="message-683066527724863544">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth 0.13.0 Patch Notes</strong> – February 27, 2020
+
+<strong>New Stuff!</strong>
+<img class="emoji " alt="boosts" title="boosts" src="https://cdn.discordapp.com/emojis/683027011807346733.png"> Coming soon - POWER!! <strong>UNLIMITED POWER!!</strong> We’ve introduced 12 different Boosts that can be purchased from the Store or activated by scanning a Minecraft Earth Minifig. Each Boost has 3 levels that will increase its power, duration, or both:
+- Increase Attack Damage
+- Increase Crafting Speed
+- Increase Max Health
+- Increase Mining Speed
+- Increase Player Defense
+- Increase Tappable Radius
+- Increase XP From Adventures
+- Increase XP From Collecting Mobs
+- Increased Health Gained from Eating
+- Keep Items in Backpack On Death
+- Keep items in Hotbar On Death
+- Smelting Speed Boost
+
+<img class="emoji " alt="mc_sheep" title="mc_sheep" src="https://cdn.discordapp.com/emojis/302439127322722314.png">  The dye’s the limit! Your <strong>sheep can be dyed</strong> your favorite color in the name of FASHION! (Or in the name of your favorite sports team, that’s fine too.)
+
+<img class="emoji " alt="redstone" title="redstone" src="https://cdn.discordapp.com/emojis/600872986479951872.png"> Coming Soon - You’ve seen them in AR, now pet them IRL! Some select Minecraft Earth mobs are making their way to a store near you as <strong>Mini Figurines</strong>! They’ll also be scannable and unlock powerful Boosts for you in-game.
+
+<strong>New Mobs!</strong>
+<img class="emoji " alt="glow_squid" title="glow_squid" src="https://cdn.discordapp.com/emojis/683023101583294548.png"> Your own watery night light, the <strong>Glow Squid</strong>, is diving into the world of Minecraft Earth! 
+<img class="emoji " alt="skeleton_wolf" title="skeleton_wolf" src="https://cdn.discordapp.com/emojis/683023118339670026.png"> It’s Halloween 365 days a year for the <strong>Skeleton Wolf</strong>. Beware this bag o’ bones! 
+
+<strong>Bug Fixes!</strong>
+- This is a no clone zone! We fixed an exploit that allowed users to sign-in to Minecraft Earth from the same account on multiple devices.
+- We improved performance for Chinese, Japanese and Korean text. 太牛了! 凄い! 대박!
+- Hooray! Multiple crash bugs were fixed for iOS and Android devices so that you can mine, craft, and build in peace.
+- Mobs looked a bit rough around the edges in Bright Mode, so we gussied them up a bit! Now they’re looking pretty fly.</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="skeleton_wolf" title="skeleton_wolf" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/683023118339670026-5DD4F.png">
+                                <span class="chatlog__reaction-count">63</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="glow_squid" title="glow_squid" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/683023101583294548-88177.png">
+                                <span class="chatlog__reaction-count">62</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="spinning_rainbow_sheep" title="spinning_rainbow_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599422791229636608-5C859.gif">
+                                <span class="chatlog__reaction-count">69</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="boosts" title="boosts" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/683027011807346733-17627.png">
+                                <span class="chatlog__reaction-count">42</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="sponge" title="sponge" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/672593304541593613-5CBC4.gif">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="dancing_steve" title="dancing_steve" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/613523198377590935-A69A5.gif">
+                                <span class="chatlog__reaction-count">41</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="dabbing_totem" title="dabbing_totem" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/532984294633766922-0E5E0.gif">
+                                <span class="chatlog__reaction-count">50</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127464;&#127475;" title="&#127464;&#127475;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e8-1f1f3-EE200.png">
+                                <span class="chatlog__reaction-count">31</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="heartbeat" title="heartbeat" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/656308463777087509-C1717.gif">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="pgrin" title="pgrin" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/667191268970987521-571C0.png">
+                                <span class="chatlog__reaction-count">29</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="earth2" title="earth2" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/590549078967058432-1EE9B.png">
+                                <span class="chatlog__reaction-count">32</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">March 11, 2020 at 10:52 AM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="687357302965403657" id="message-687357302965403657">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Mincraft Earth R14 Patch Notes – March 11, 2020</strong> 
+
+<strong>New Stuff! </strong>
+<img class="emoji " alt="chest" title="chest" src="https://cdn.discordapp.com/emojis/600849948103409687.png"> There’s gold in them blocks! What exciting loot will you find in your next Adventure? Common, Uncommon and Rare Adventures now contain special Adventure Chests with unique rewards for daring players. 
+<img class="emoji " alt="build_plate" title="build_plate" src="https://cdn.discordapp.com/emojis/600849967984148490.png">  This new Buildplate is a grand slam – or should we say, a grand ram? There’s a new, ewe-nique Highland House Buildplate in the Store.
+<img class="emoji " alt="boosts" title="boosts" src="https://cdn.discordapp.com/emojis/683027011807346733.png"> Adventure is within reach! We’ve simplified and reduced the distance requirement for Adventures.  From now on, Adventures will share the same, larger interaction radius as Tappables so you don’t have to be as close to get in. That way, if you use a Tappable Radius Boost, it will work for Adventures too!
+<img class="emoji " alt="compass" title="compass" src="https://cdn.discordapp.com/emojis/600850619770863649.png"> Ding faster! Killing mobs inside Adventures will now give you experience points. If you survive, that is!</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="animPotato" title="animPotato" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/417756785080795137-F1FF0.gif">
+                                <span class="chatlog__reaction-count">70</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128077;" title="&#128077;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44d-1485B.png">
+                                <span class="chatlog__reaction-count">26</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128563;" title="&#128563;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f633-F7868.png">
+                                <span class="chatlog__reaction-count">11</span>
+                            </div>
+                    </div>
+            </div>
+            <div class="chatlog__message " data-message-id="687357561175015508" id="message-687357561175015508">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">:mob_of_me:  <strong>New Mobs! </strong>:mob_of_me: 
+•    No need to butt heads about it, the Horned Sheep is finally here! It may look friendly, but this overprotective beast is baaaaad to the bone and will ram any players or Mobs of Me that get to close to the herd. Watch out when two Horned Sheep charge each other! 
+•    Not all Golems are hot headed, the new Melon Golem is as cool as ice. This fruity guardian chooses rapid fire melon seeds as it’s attack of choice. Although not as tough alone, in small groups they can be ex-seed-ingly effective!
+
+:sign: <strong>Bug Fixes! </strong>:sign: 
+•    No need to look so Grim! The Skeleton Wolf’s damage has been rebalanced.
+•    We’ve improved performance while on the Map and UI screens so players should experience fewer issues. NAVIGATIONAL!
+•    The Early Access text on the loading screen now displays appropriately because you were all going wild with the theories. (Yes, we’re still in Early Access. No, Minecraft Earth is not fully released. No, it wasn’t an ARG, but that does give us some ideas…)</span>
+
+                                <span class="chatlog__edited-timestamp" title="March 22, 2020 at 11:34 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="dancing_parrot" title="dancing_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/675157929724346389-94229.gif">
+                                <span class="chatlog__reaction-count">77</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="boosts" title="boosts" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/683027011807346733-17627.png">
+                                <span class="chatlog__reaction-count">57</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ruby" title="ruby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/616032990232969224-F8B7D.png">
+                                <span class="chatlog__reaction-count">62</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="chest_open" title="chest_open" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/600868546645458944-33E32.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="✅" title="✅" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/2705-6C755.png">
+                                <span class="chatlog__reaction-count">37</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127481;&#127479;" title="&#127481;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f9-1f1f7-15C3B.png">
+                                <span class="chatlog__reaction-count">31</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127464;&#127479;" title="&#127464;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e8-1f1f7-763F2.png">
+                                <span class="chatlog__reaction-count">16</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128998;" title="&#128998;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f7e6-D669D.png">
+                                <span class="chatlog__reaction-count">10</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">March 25, 2020 at 3:10 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="692495685051875428" id="message-692495685051875428">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R15 Patch Notes – March 25, 2020</strong>
+ We want to help you #FlattenTheCurve! The health and safety of our players is incredibly important to the Minecraft Earth team. Current COVID-19 pre-cautionary guidelines from the World Health Organization and the Centers for Disease Control encourages individuals to stay home and avoid public places and gatherings of 10 or more people. In accordance with these guidelines, we’ve made the following changes to empower Minecraft Earth players to continue to build, craft, Adventure, and mine from the safety of home! 
+Increased Tappable spawn rate 
+Increased Tappable density 
+Added the ability to spawn Adventures anywhere 
+ 
+<strong>New Stuff!</strong> 
+Introducing a real gem of a feature – Adventure Crystals! These powerful jewels that you collect from Tappables and Adventure Chests allow you to summon an Adventure anywhere. Check out that shiny new button at the bottom of the screen, if you’re up for a challenge. 
+Forget raising the roof, we’re raising the level cap to 25! Ok, now you can raise the roof. 
+We&#39;ve got a new skeleton crew! Bone Spiders are here to add an element of danger to your next Adventure. 
+What a tree-t! Dark Forest Buildplates are now available in the Store.</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="salmon" title="salmon" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/647892271014084622-B0930.gif">
+                                <span class="chatlog__reaction-count">71</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="adventure_chest" title="adventure_chest" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/689550168038572192-63D99.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127481;&#127479;" title="&#127481;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f9-1f1f7-15C3B.png">
+                                <span class="chatlog__reaction-count">24</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128999;" title="&#128999;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f7e7-FBCFC.png">
+                                <span class="chatlog__reaction-count">13</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128039;" title="&#128039;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f427-54630.png">
+                                <span class="chatlog__reaction-count">9</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127845;" title="&#127845;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f365-CEC3B.png">
+                                <span class="chatlog__reaction-count">10</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="diamond" title="diamond" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/689549981086122115-F1ABE.png">
+                                <span class="chatlog__reaction-count">12</span>
+                            </div>
+                    </div>
+            </div>
+            <div class="chatlog__message " data-message-id="692495778500837466" id="message-692495778500837466">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>New Mobs! </strong>
+The Tropical Slime is making a big splash in Minecraft Earth! This aquatic ooze travels with a school of fishy friends and brings a beachy feel to any Buildplate. 
+That’s one fiery temper! The Iron Furnace Golem is a fearsome protector that’s ready to burn bridges with any invader. Be careful on your buildpalte through as its firey attacks can set things alight. 
+
+<strong>Bug Fixes!</strong> 
+Various Fixes were made so that Adventure Chests spawn as expected in adventures! 
+
+<strong>Et Cetera!</strong> 
+Peep that new loading screen art. Pretty cool, right? <img class="emoji " alt="👀" title="👀" src="https://twemoji.maxcdn.com/2/72x72/1f440.png"> 
+The Boost Icon got an electrifying makeover. 
+Settings has a new home on the profile screen, so it may not be exactly where you remembered, but it hasn’t gone away! 
+Join friend and Code Scan can now be found in the Buildplates screen! 
+Challenges can now be accessed directly from the World Map. Navigational! 
+Let off some steam -- the mighty Melon Golem will melt if their surroundings get too hot.</span>
+
+                                <span class="chatlog__edited-timestamp" title="March 25, 2020 at 3:11 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="baby" title="baby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/649034392978587668-B4AC4.png">
+                                <span class="chatlog__reaction-count">94</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">139</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mob_of_me" title="mob_of_me" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934162941476936-81131.png">
+                                <span class="chatlog__reaction-count">88</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mcefr_logo" title="mcefr_logo" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/642393998706737162-45B67.png">
+                                <span class="chatlog__reaction-count">110</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="tropical_slime" title="tropical_slime" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/692500948102152363-592C8.png">
+                                <span class="chatlog__reaction-count">98</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128076;" title="&#128076;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44c-B3B3D.png">
+                                <span class="chatlog__reaction-count">77</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="phat" title="phat" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/667191363527245825-A541F.gif">
+                                <span class="chatlog__reaction-count">76</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="bone_spider" title="bone_spider" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/692526738554486835-56F83.png">
+                                <span class="chatlog__reaction-count">85</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="furnace_golem" title="furnace_golem" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/692500948672839900-C07EC.png">
+                                <span class="chatlog__reaction-count">83</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="horned_sheep" title="horned_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934477380190212-0BF5D.png">
+                                <span class="chatlog__reaction-count">78</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128039;" title="&#128039;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f427-54630.png">
+                                <span class="chatlog__reaction-count">72</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#129003;" title="&#129003;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f7eb-A97F9.png">
+                                <span class="chatlog__reaction-count">68</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="adventure_crystal" title="adventure_crystal" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/692500946273435669-71773.png">
+                                <span class="chatlog__reaction-count">74</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="flame" title="flame" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934206998315049-D2F18.png">
+                                <span class="chatlog__reaction-count">69</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ruby" title="ruby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123406098438-BBBAB.png">
+                                <span class="chatlog__reaction-count">73</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mce_discord" title="mce_discord" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/621139371474681864-6F1B2.png">
+                                <span class="chatlog__reaction-count">71</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_pig" title="muddy_pig" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934163050659850-9770A.png">
+                                <span class="chatlog__reaction-count">69</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="make_stuff" title="make_stuff" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934073447612425-8A0F6.png">
+                                <span class="chatlog__reaction-count">66</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="levers" title="levers" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934073351405619-D5750.png">
+                                <span class="chatlog__reaction-count">68</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="glow_squid" title="glow_squid" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934407117078530-DF7AD.png">
+                                <span class="chatlog__reaction-count">71</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">April 28, 2020 at 9:01 AM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="704724044955648111" id="message-704724044955648111">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R16 Patch Notes – April 14, 2020 </strong>
+
+<strong>New Stuff! </strong>
+Show off your incredible creations to your friends with Buildplate sharing! They’ll be able to view your Buildplate in Play Mode, either tabletop or life size, which means they can interact, break blocks, and build but the changes they make won’t be permanently saved.
+New Adventures have been added to the mix!  
+After activating an Adventure Crystal, you’ll now automatically be taken to a preview panel. The calm before the storm! 
+
+<strong>New Mobs! </strong>
+We’re introducing a new Mob variant that’s absolutely PIG-ture perfect! The Spotted Pig can now be spotted in Tappables, so be on the lookout. 
+
+<strong>Bug Fixes! </strong>
+
+Mobs are making a splash! We’ve added back the splash sounds Mobs make when in the water. 
+It’s a DRY heat! Desert Rabbits now show was yellow instead of brown in Buildplate preview. 
+Hey there all you cool cats and kittens, Ocelots no longer wait to attack Chickens. 
+That Iron Golem... what a knockout! We’ve reduced the Melon Golem&#39;s knockback so they won’t push mobs as far as before. 
+The Melon Golem&#39;s face will now go back to a neutral state after a targeted mob has been killed or returned to inventory. <img class="emoji " alt="😐" title="😐" src="https://twemoji.maxcdn.com/2/72x72/1f610.png"> 
+An Uncommon and a Rare Adventure were giving the wrong Adventure chest rewards, these have now been fixed! EPIC! 
+We’ve added an error message in case an Adventure Crystal activation fails so you’ll stay on the Adventure Crystal screen.
+ 
+<strong>Et Cetera! </strong>
+
+We’ve made performance improvements that should improve the game experience for most devices!</span>
+
+                                <span class="chatlog__edited-timestamp" title="April 28, 2020 at 9:02 AM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="spotted_pig" title="spotted_pig" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/699697855581126786-3C9BA.png">
+                                <span class="chatlog__reaction-count">46</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="adventure_crystals" title="adventure_crystals" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/692500945833033746-5A14A.gif">
+                                <span class="chatlog__reaction-count">34</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128516;" title="&#128516;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f604-ABA04.png">
+                                <span class="chatlog__reaction-count">27</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="timer" title="timer" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/689550147780083720-5E13F.png">
+                                <span class="chatlog__reaction-count">26</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ruby" title="ruby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123406098438-BBBAB.png">
+                                <span class="chatlog__reaction-count">26</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="jebparrot" title="jebparrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/700747329925414972-C7095.gif">
+                                <span class="chatlog__reaction-count">28</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="adventures" title="adventures" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704772811893243987-60ECB.png">
+                                <span class="chatlog__reaction-count">23</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">April 28, 2020 at 1:24 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="704790250781802579" id="message-704790250781802579">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R17 Patch Notes – April 28, 2020</strong>
+
+<strong>New Stuff!</strong>
+Are you up for a Challenge? Build, craft, and collect your way through the all-new Season Challenge system to earn exclusive rewards:
+- Sign-in for daily Challenges while the Season is active.
+- Some Tappables contain additional Challenges for you to conquer.
+- If you&#39;re feeling fancy, complete the entire Season for exclusive Character Creator rewards.
+- Season Challenges are only around for a limited time, so don’t dally!
+
+Calling all completionists! Keep track of the blocks, items, and Mobs you&#39;ve collected in the new Player Journal.
+
+Bigger is sometimes better. You’re now able to load Buildplates in full-size from shared links.
+
+A fancy new night themed Buildplate can now be found in store. Own the night!
+
+A number of new Adventures have arrived to challenge your might.
+
+<strong>New Mobs!</strong>
+With the addition of the Player Journal, we wanted to add some diversity to the Mobs you know and love! Please welcome the whole herd of new Mob variations to collect:
+Amber Chicken
+Stormy Chicken
+Sunset Cow
+Ashen Cow
+Piebald Pig
+Pale Pig
+Flecked Sheep
+Rocky Sheep
+Vested Rabbit
+Muddy Foot Rabbit
+
+<strong>Et Cetera!</strong>
+Your people occlusion, bright mode, and precision mode preferences will stick around from session to session instead of resetting each time you play. Nifty!
+
+Check out the new Activity Log and Player Stats in Profile screen for even more info about how you play Minecraft Earth.
+Peep that shiny new Adventure Crystal icon! It’s a real gem.</span>
+
+                                <span class="chatlog__edited-timestamp" title="April 28, 2020 at 1:25 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="journal" title="journal" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704758102947266580-2D1EA.png">
+                                <span class="chatlog__reaction-count">85</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="challenges" title="challenges" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704758102213525576-C6D4F.png">
+                                <span class="chatlog__reaction-count">69</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="earth" title="earth" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934072655151141-3CF74.png">
+                                <span class="chatlog__reaction-count">70</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="adventures" title="adventures" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704772811893243987-60ECB.png">
+                                <span class="chatlog__reaction-count">67</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="cookie" title="cookie" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704772811645911080-C5EDF.png">
+                                <span class="chatlog__reaction-count">64</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="stormy_chicken" title="stormy_chicken" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/697291529634709544-E53BE.png">
+                                <span class="chatlog__reaction-count">63</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="sunset_cow" title="sunset_cow" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/697291530892738630-39D8D.png">
+                                <span class="chatlog__reaction-count">63</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_foot_rabbit" title="muddy_foot_rabbit" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704772096118751354-67492.png">
+                                <span class="chatlog__reaction-count">63</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="rocky_sheep" title="rocky_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704772097154482536-91C00.png">
+                                <span class="chatlog__reaction-count">63</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127345;️" title="&#127345;️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f171-9B83E.png">
+                                <span class="chatlog__reaction-count">54</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="jebparrot" title="jebparrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/700747329925414972-C7095.gif">
+                                <span class="chatlog__reaction-count">98</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128532;" title="&#128532;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f614-D4BEE.png">
+                                <span class="chatlog__reaction-count">43</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ruby" title="ruby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123406098438-BBBAB.png">
+                                <span class="chatlog__reaction-count">46</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="melon_head" title="melon_head" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934534686965769-CED96.png">
+                                <span class="chatlog__reaction-count">38</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127344;️" title="&#127344;️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f170-72614.png">
+                                <span class="chatlog__reaction-count">37</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mob_of_me" title="mob_of_me" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934162941476936-81131.png">
+                                <span class="chatlog__reaction-count">37</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">May 20, 2020 at 1:52 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="712769662827364484" id="message-712769662827364484">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R18 Patch Notes – May 20, 2020 </strong>
+
+<strong>New Stuff! </strong>
+<img class="emoji " alt="adventure_crystals" title="adventure_crystals" src="https://cdn.discordapp.com/emojis/692500945833033746.gif"> Danger and all its rewards await you in new <strong>Epic Adventures!</strong> Are you up to the task?  
+<img class="emoji " alt="adventures" title="adventures" src="https://cdn.discordapp.com/emojis/704772811893243987.png"> GET TO THA CHOPPA! Er, Adventure! Get straight into the action with faster Adventure load times.  
+<img class="emoji " alt="adventure_chest" title="adventure_chest" src="https://cdn.discordapp.com/emojis/689550168038572192.png"> See the riches that await you at the end of your next Adventure – players can view what items are included in Adventure chests as they play.  
+<img class="emoji " alt="build_plate" title="build_plate" src="https://cdn.discordapp.com/emojis/641550071179116556.png">  Buildplate previews are animated and have shiny new description pages in the store. 
+<img class="emoji " alt="journal_open" title="journal_open" src="https://cdn.discordapp.com/emojis/704758103064707553.png">  Player Journal: Collect <strong>stickers</strong> in the Player Journal to earn rewards! 
+<img class="emoji " alt="seasons" title="seasons" src="https://cdn.discordapp.com/emojis/712734034832130239.png">  Challenges: <strong>Season 2</strong> is now playable – Complete all the Challenges to unlock some pretty awesome new items for your character. 
+
+<strong>New Mobs &amp; Variants: </strong>
+<img class="emoji " alt="midnight_chicken" title="midnight_chicken" src="https://cdn.discordapp.com/emojis/712767399161495566.png">  Embrace the night, or at least this amazing new Mob variant, the <strong>Midnight Chicken</strong>! 
+
+<strong>Bug Fixes: </strong>
+<img class="emoji " alt="🐛" title="🐛" src="https://twemoji.maxcdn.com/2/72x72/1f41b.png"> Fixed a content update bug on Android devices that forced too-frequent content updates. Sometimes there can be too much of a good thing!  
+✨ Various additional bug fixes for an even better game experience!  
+<img class="emoji " alt="🐰" title="🐰" src="https://twemoji.maxcdn.com/2/72x72/1f430.png"> A Mob has no name. Actually, the Desert Rabbit Player Journal entry has been updated to reflect the correct name.</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="earth" title="earth" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934072655151141-3CF74.png">
+                                <span class="chatlog__reaction-count">79</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ruby" title="ruby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123406098438-BBBAB.png">
+                                <span class="chatlog__reaction-count">72</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="challenges" title="challenges" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/704758102213525576-C6D4F.png">
+                                <span class="chatlog__reaction-count">66</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="adventure_chest" title="adventure_chest" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/689550168038572192-63D99.png">
+                                <span class="chatlog__reaction-count">70</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="midnight_chicken" title="midnight_chicken" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/712767399161495566-9DD33.png">
+                                <span class="chatlog__reaction-count">81</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="jebparrot" title="jebparrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/700747329925414972-C7095.gif">
+                                <span class="chatlog__reaction-count">91</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="adventure_crystals" title="adventure_crystals" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/692500945833033746-5A14A.gif">
+                                <span class="chatlog__reaction-count">75</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mcefr_logo" title="mcefr_logo" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/642393998706737162-45B67.png">
+                                <span class="chatlog__reaction-count">62</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128200;" title="&#128200;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f4c8-7E398.png">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">June 10, 2020 at 10:51 AM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="720334396351184999" id="message-720334396351184999">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R19 Patch Notes – June 2, 2020</strong>
+
+<strong>New Stuff!</strong>
+- A new Challenge awaits! Challenge Season 3: &quot;Adventure&quot; is now available – complete all the Challenges and unlock great new items for your character! <img class="emoji " alt="seasons" title="seasons" src="https://cdn.discordapp.com/emojis/712734034832130239.png"> 
+<em>Adventure Crystals</em>: Find new, amazing Epic Adventure Crystals! If you’re up for an adventure of epic proportions, get ready to take on the Epic Adventure crystals! These are now available as well as new crystals of all rarities! <img class="emoji " alt="adventure_crystals" title="adventure_crystals" src="https://cdn.discordapp.com/emojis/692500945833033746.gif"> 
+- Have an empty Adventure Crystal slot? Fear not! You can now tap the slot to find out how to obtain more crystals!
+
+<strong>New Mobs &amp; Variants:</strong>
+- Find the latest EWE-nique sheep to join the herd, Inky Sheep! <img class="emoji " alt="inky_sheep" title="inky_sheep" src="https://cdn.discordapp.com/emojis/717461547236196422.png"> 
+- Have a hopping good time finding the new Harelequin Rabbit! Yep, you read that right, HARE! Because, you know, it’s a rabbit! <img class="emoji " alt="harelequin_rabbit" title="harelequin_rabbit" src="https://cdn.discordapp.com/emojis/717462192450043924.png"> 
+
+<strong>Bug Fixes:</strong>
+- Various bug fixes!
+
+<strong>Et Cetera!</strong>
+- Things just got more a-peel-ing! You should now be able to find apples more often!
+- Concrete and concrete powder are now available (starting Thursday 6/4)!
+- Exciting new customizations can be found in journal rewards for collecting 5 rabbits and 5 sheep!</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">116</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128077;" title="&#128077;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44d-1485B.png">
+                                <span class="chatlog__reaction-count">50</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="earth2" title="earth2" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/590549078967058432-1EE9B.png">
+                                <span class="chatlog__reaction-count">48</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">June 23, 2020 at 12:00 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="725062691944661226" id="message-725062691944661226">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R20 Patch Notes – June 18, 2020</strong>
+
+<strong>New Stuff!</strong>
+<img class="emoji " alt="bone_spider" title="bone_spider" src="https://cdn.discordapp.com/emojis/692526738554486835.png">  Get ready, get set, a new season is GO! Challenge Season 4: &quot;Dark Forest&quot; is now available! Complete the challenges to earn some great new Character Creator rewards!
+<img class="emoji " alt="buildplate" title="buildplate" src="https://cdn.discordapp.com/emojis/688934072373739531.png">  New Epic Buildplates &amp; Large Biome buildplates are now available in the store!
+<img class="emoji " alt="porkchop" title="porkchop" src="https://cdn.discordapp.com/emojis/579137878936911883.png">  Lighten the load: Stack split your Hotbar before heading off to an Adventure!
+
+<strong>New Mobs &amp; Variants:</strong>
+<img class="emoji " alt="inky_sheep" title="inky_sheep" src="https://cdn.discordapp.com/emojis/717461547236196422.png">  What might you find in the inky shadows of a tappable in this new update? The new Vanilla Squid!
+<img class="emoji " alt="albino_cow" title="albino_cow" src="https://cdn.discordapp.com/emojis/723361392543137873.png">  MOOve over y’all! The Albino Cow can now be found in tappables and is ready to be added to your COWlection!
+
+<strong>Bug Fixes:</strong>
+<img class="emoji " alt="search" title="search" src="https://cdn.discordapp.com/emojis/584240878948843521.gif">  Search once again! You should no longer crash upon tapping the search icon on the crafting or smelting screen!
+
+<strong>Et Cetera!</strong>
+◼️  Shadows will now have a more shadowy appearance!</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">99</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="BouncingBlobOnAcid" title="BouncingBlobOnAcid" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/690212975834955842-3F7C9.gif">
+                                <span class="chatlog__reaction-count">105</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="minecraftsquid" title="minecraftsquid" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/679164397016449050-3E48B.png">
+                                <span class="chatlog__reaction-count">72</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="albino_cow" title="albino_cow" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/723361392543137873-10BE7.png">
+                                <span class="chatlog__reaction-count">75</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="flame" title="flame" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934206998315049-D2F18.png">
+                                <span class="chatlog__reaction-count">57</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="㊗️" title="㊗️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/3297-A9254.png">
+                                <span class="chatlog__reaction-count">47</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128553;" title="&#128553;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f629-B5B8C.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127345;️" title="&#127345;️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f171-9B83E.png">
+                                <span class="chatlog__reaction-count">32</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127466;" title="&#127466;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ea-4B558.png">
+                                <span class="chatlog__reaction-count">34</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128231;" title="&#128231;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f4e7-BFD2B.png">
+                                <span class="chatlog__reaction-count">33</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">July 16, 2020 at 3:48 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="733454959118385213" id="message-733454959118385213">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R21 Patch Notes – July 16, 2020 </strong>
+
+<strong>New Stuff! </strong>
+<img class="emoji " alt="adventure_crystals" title="adventure_crystals" src="https://cdn.discordapp.com/emojis/692500945833033746.gif"> Get more info from ‘The more you know: <strong>Reward screen</strong>’! You’ll now be able to see chest rewards, mobs killed, and active XP related Boosts! 
+✂️ Do more with shears! Use <strong>shears</strong> to directly collect cobwebs, leaves, and flowers! 
+<img class="emoji " alt="party_wool" title="party_wool" src="https://cdn.discordapp.com/emojis/689566157967065144.gif"> <strong>Season 5: Color!</strong> Look out for more challenges and great new rewards in the new upcoming season! 
+<img class="emoji " alt="buildplate" title="buildplate" src="https://cdn.discordapp.com/emojis/688934072373739531.png">  New Rainbow Sheep Buildplate, the <strong>Colorful Cottage</strong>! It’s a magical place to be creative with color and wool! Be proud of your creations! 
+
+<strong>New Mobs &amp; Variants: </strong>
+<img class="emoji " alt="rainbow_sheep" title="rainbow_sheep" src="https://cdn.discordapp.com/emojis/733363413396357181.png"> This sheep is colorful and EWE-nique!  You won’t have to look for clouds to find the new <strong>Rainbow Sheep</strong>, look for them now in a Tappable near you! 
+
+Bug Fixes: 
+<img class="emoji " alt="🐛" title="🐛" src="https://twemoji.maxcdn.com/2/72x72/1f41b.png"> Various bug fixes</span>
+
+                                <span class="chatlog__edited-timestamp" title="July 16, 2020 at 3:49 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="rainbow_sheep" title="rainbow_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/733363413396357181-7F969.png">
+                                <span class="chatlog__reaction-count">92</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="rainbow_wool" title="rainbow_wool" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/733372025703366700-DAA18.png">
+                                <span class="chatlog__reaction-count">89</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="party_wool" title="party_wool" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/689566157967065144-C67A8.png">
+                                <span class="chatlog__reaction-count">79</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="spinning_rainbow_sheep" title="spinning_rainbow_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599422791229636608-5C859.gif">
+                                <span class="chatlog__reaction-count">100</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="party_sheep" title="party_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/425383178782507030-90C66.gif">
+                                <span class="chatlog__reaction-count">81</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128293;" title="&#128293;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f525-3A6D7.png">
+                                <span class="chatlog__reaction-count">59</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128077;" title="&#128077;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f44d-1485B.png">
+                                <span class="chatlog__reaction-count">61</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128039;" title="&#128039;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f427-54630.png">
+                                <span class="chatlog__reaction-count">37</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127881;" title="&#127881;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f389-D0935.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127470;&#127479;" title="&#127470;&#127479;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ee-1f1f7-E22FA.png">
+                                <span class="chatlog__reaction-count">20</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">August 12, 2020 at 12:04 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="743183173227118712" id="message-743183173227118712">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Minecraft Earth R23 Patch Notes – August 12, 2020
+
+New Stuff!
+<img class="emoji " alt="crafting" title="crafting" src="https://cdn.discordapp.com/emojis/689549750344745009.gif"> You can now unlock additional Crafting Tables and Furnaces with Rubies so you can craft and smelt even more things!
+<img class="emoji " alt="golden_carrot" title="golden_carrot" src="https://cdn.discordapp.com/emojis/689550039319576635.png">  New season alert! Season 7: Farm to Table is coming soon!
+<img class="emoji " alt="adventure_crystals" title="adventure_crystals" src="https://cdn.discordapp.com/emojis/692500945833033746.gif">  We’ve added more Adventures for you to explore. Use an Adventure Crystal and see if you find one!
+
+New Mobs &amp; Variants:
+<img class="emoji " alt="bronzed_chicken" title="bronzed_chicken" src="https://cdn.discordapp.com/emojis/743169041232822363.png">  You might expect a bronze for 3rd place, but the Bronzed Chicken is #1 in our book! Look around for the new Bronzed Chicken in tappables near you! 
+
+Bug Fixes:
+<img class="emoji " alt="🐛" title="🐛" src="https://twemoji.maxcdn.com/2/72x72/1f41b.png">  Various bug fixes
+
+Et Cetera!
+<img class="emoji " alt="stCaution" title="stCaution" src="https://cdn.discordapp.com/emojis/558650513797939200.png">  There is a known issue with the price not showing if you do not have enough Rubies to purchase Crafting Table and Furnace slots. We’re working on it! 
+
+<img class="emoji " alt="crafting" title="crafting" src="https://cdn.discordapp.com/emojis/689549750344745009.gif">Crafting Table Prices:
+•    2nd Slot - 380 Rubies
+•    3rd Slot - 630 Rubies
+<img class="emoji " alt="angry_furnace" title="angry_furnace" src="https://cdn.discordapp.com/emojis/688934272903806998.gif"> Furnace Prices:
+•    2nd Slot - 260 Rubies
+•    3rd Slot - 480 Rubies</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">110</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="POGSLIDE" title="POGSLIDE" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/452946284874301450-AB6BD.gif">
+                                <span class="chatlog__reaction-count">106</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="party_potato" title="party_potato" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/425383253076082701-17582.gif">
+                                <span class="chatlog__reaction-count">86</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="merl_wave" title="merl_wave" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/700401909789491210-32CC5.gif">
+                                <span class="chatlog__reaction-count">70</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="bronzed_chicken" title="bronzed_chicken" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/743169041232822363-31209.png">
+                                <span class="chatlog__reaction-count">64</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="merl_yay" title="merl_yay" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/743173870240137297-66B2F.png">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="ruby" title="ruby" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123406098438-BBBAB.png">
+                                <span class="chatlog__reaction-count">68</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127988;‍☠️" title="&#127988;‍☠️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f3f4-200d-2620-14D4B.png">
+                                <span class="chatlog__reaction-count">52</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="tnt" title="tnt" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123968004176-474CA.png">
+                                <span class="chatlog__reaction-count">60</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="magenta_upvote" title="magenta_upvote" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/739316659637977098-BD6F4.png">
+                                <span class="chatlog__reaction-count">50</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127477;" title="&#127477;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f5-E259F.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127476;" title="&#127476;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f4-6C4DE.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127468;" title="&#127468;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ec-E889A.png">
+                                <span class="chatlog__reaction-count">43</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127475;" title="&#127475;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f3-08F96.png">
+                                <span class="chatlog__reaction-count">26</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="⭕" title="⭕" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/2b55-2C031.png">
+                                <span class="chatlog__reaction-count">30</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127472;" title="&#127472;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1f0-DAB53.png">
+                                <span class="chatlog__reaction-count">29</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127470;" title="&#127470;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1ee-B3C1F.png">
+                                <span class="chatlog__reaction-count">26</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127462;" title="&#127462;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f1e6-79872.png">
+                                <span class="chatlog__reaction-count">27</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">October 7, 2020 at 1:33 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="763499344652664852" id="message-763499344652664852">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R27 Patch Notes – October 6, 2020</strong>
+
+New Stuff!
+<img class="emoji " alt="redstone_dust" title="redstone_dust" src="https://cdn.discordapp.com/emojis/688934123015766027.png"> We’re seeing red, but only because Season 11: Redstone is coming soon! Get your engineering hat on and prepare to build mechanical creations with new challenges and rewards!
+<img class="emoji " alt="sticky_piston" title="sticky_piston" src="https://cdn.discordapp.com/emojis/762188281852461096.png"> We don&#39;t mean to pushy...wait, actually we do! Stock up on redstone and get ready to push with new pistons and sticky pistons!
+
+New Mobs &amp; Variants:
+<img class="emoji " alt="patched_sheep" title="patched_sheep" src="https://cdn.discordapp.com/emojis/763120048134029354.png"> We’ve patched sheep!? No, that’s not right. Oh, I see now! Introducing the new Patched Sheep variant, with its cute little patches on its cute little knees. Cuteness overload is available in a tappable near you.
+
+Bug Fixes:
+<img class="emoji " alt="🐜" title="🐜" src="https://twemoji.maxcdn.com/2/72x72/1f41c.png">  Various bug fixes</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="redstone_dust" title="redstone_dust" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123015766027-0D9A2.png">
+                                <span class="chatlog__reaction-count">71</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="tnt" title="tnt" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934123968004176-474CA.png">
+                                <span class="chatlog__reaction-count">73</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128165;" title="&#128165;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f4a5-34D68.png">
+                                <span class="chatlog__reaction-count">65</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="patched_sheep" title="patched_sheep" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/763120048134029354-ECAE3.png">
+                                <span class="chatlog__reaction-count">68</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">November 18, 2020 at 10:21 AM (UTC-08:00)</span>
+
+            <div class="chatlog__message " data-message-id="778686416560324608" id="message-778686416560324608">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong>Minecraft Earth R30 Patch Notes – November 17, 2020</strong>
+
+New Stuff!
+<s>Brrr…it’s cold in here! There must be some tundra in the atmosphere! Be sure to bundle up to prepare for Season 14: Tundra, featuring new snowy challenges and rewards coming soon!</s>
+ Season 14 is Badlands. Our Bad
+
+New Mobs &amp; Variants:
+<img class="emoji " alt="mc_zombie" title="mc_zombie" src="https://cdn.discordapp.com/emojis/302439627992858624.png"> Do NOT seek high ground to escape the new Bouldering Zombie variant. True to its name, this mob has discovered the cardio &amp; strength benefits of rock climbing and will climb after you. You have been warned!
+<img class="emoji " alt="mc_zombie" title="mc_zombie" src="https://cdn.discordapp.com/emojis/302439627992858624.png"> Not to be outdone by its bouldering brethren, the Lobbing Zombie variant has been practicing for the big leagues and will lob (get it?) meat at you! Gross, it didn’t even ask if you were a vegetarian. Both variants are available in an Adventure Chest near you.
+
+Bug Fixes:
+<img class="emoji " alt="🐛" title="🐛" src="https://twemoji.maxcdn.com/2/72x72/1f41b.png">  Various bug fixes</span>
+
+                                <span class="chatlog__edited-timestamp" title="November 20, 2020 at 4:17 PM (UTC-08:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#129395;" title="&#129395;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f973-8DAB3.png">
+                                <span class="chatlog__reaction-count">77</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#129503;" title="&#129503;" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/1f9df-3AC91.png">
+                                <span class="chatlog__reaction-count">57</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="melon_head" title="melon_head" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/688934534686965769-CED96.png">
+                                <span class="chatlog__reaction-count">53</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="boost" title="boost" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/692500947527532574-61812.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="❄️" title="❄️" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/2744-DFB5B.png">
+                                <span class="chatlog__reaction-count">39</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="arrowup" title="arrowup" src="MINECRAFT%20EARTH%20-%20Welcome%20-%20changelogs%20%5B629366715486175251%5D.html_Files/759116971018682410-F92E8.png">
+                                <span class="chatlog__reaction-count">19</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 21 message(s)</div>
+</div>
+
+</body>
+
+</html>
