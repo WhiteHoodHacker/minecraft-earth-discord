@@ -1,0 +1,4782 @@
+{
+  "guild": {
+    "id": "579700549780242492",
+    "name": "MINECRAFT EARTH",
+    "iconUrl": "https://cdn.discordapp.com/icons/579700549780242492/149abc0fccbfb2be0cc113cc0c7059c1.png"
+  },
+  "channel": {
+    "id": "745321911546019944",
+    "type": "GuildTextChat",
+    "category": "Build Challenge Archive",
+    "name": "custom-adventure-challenge",
+    "topic": "Design your own custom adventure!\nChallenge dates: August 18, 2020 –\u00A0August 31, 2020 at 6 PM PT"
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "745325345598865439",
+      "type": "Default",
+      "timestamp": "2020-08-18T16:56:49.866+00:00",
+      "timestampEdited": "2020-08-18T17:01:04.086+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": ":adventure_crystals: Custom Adventure Build Challenge! :adventure_crystals: \n\nAdventures! You’ve activated them to defeat mobs o’ plenty, mine epic treasure, and solve all the other wacky puzzles the game designers thought of. We know your minds are brimming with equally zany and  adventurey ideas and we want to see them in real life!\n\n:adventures: How? **Design your own custom adventure!** Grab any size buildplate, use any and all blocks in your inventory, and place your favorite friendly or not-so friendly mobs.\n\nYour creations should be just as fun in regular and life-size play modes. ↕️ Will you build high or low? \uD83E\uDDE9 Puzzley contraptions? ⚔️ Hordes of mobs? \uD83C\uDD95 Something totally new? Now’s your time to shine—shine bright like an adventure crystal!\n\n:timer: Challenge dates: August 18, 2020 –\u00A0August 31, 2020 at 6 PM PT\n\n__Challenge Guidelines__\n:earth: Your creation must be built entirely by you and in Minecraft Earth.\n:crafting_table: Your build must be a brand new creation, crafted just for this challenge.\n:buildplate: Build your imagination! Challenge theme is open to interpretation and buildplate size won’t be a factor in judging.\n:sign: Post your images or video submission and buildplate share link in #custom-adventure-challenge by the end date. Feel free to ask a Moderator to pin it!\n:challenges_og: Submissions may be used in social media posts.\n:fast_parrot: Have fun!",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "692500945833033746",
+            "name": "adventure_crystals",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500945833033746.gif"
+          },
+          "count": 9
+        },
+        {
+          "emoji": {
+            "id": "704772811893243987",
+            "name": "adventures",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772811893243987.png"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": "689550168038572192",
+            "name": "adventure_chest",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689550168038572192.png"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "⚔️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2694.png"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDDE9",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f9e9.png"
+          },
+          "count": 9
+        },
+        {
+          "emoji": {
+            "id": "688934072373739531",
+            "name": "buildplate",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934072373739531.png"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 9
+        },
+        {
+          "emoji": {
+            "id": "616373152598982675",
+            "name": "loading",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/616373152598982675.gif"
+          },
+          "count": 7
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "745341920989151292",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-18T18:02:41.747+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "745325345598865439",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "745362280039841902",
+      "type": "Default",
+      "timestamp": "2020-08-18T19:23:35.723+00:00",
+      "timestampEdited": "2020-08-18T19:23:38.079+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "cool",
+      "author": {
+        "id": "474015876367253506",
+        "name": "I Like Dank Memes",
+        "discriminator": "8030",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/474015876367253506/db7d2563817afa3b85c8a1b457f29f48.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745363454650613832",
+      "type": "Default",
+      "timestamp": "2020-08-18T19:28:15.772+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Let’s get BUILDING! \uD83D\uDE04",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745380363206918225",
+      "type": "Default",
+      "timestamp": "2020-08-18T20:35:27.086+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I have finished it in bedrock, I now need to move it to Minecraft earth \uD83D\uDE1E",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [
+        {
+          "id": "745380360275230941",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/745380360275230941/image0.png",
+          "fileName": "image0.png",
+          "fileSizeBytes": 2010839
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745380523597234247",
+      "type": "Default",
+      "timestamp": "2020-08-18T20:36:05.326+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is gonna take a while",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE2E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f62e.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "745391820498010210",
+      "type": "Default",
+      "timestamp": "2020-08-18T21:20:58.717+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "a cake eating panda adventure would surely be a winner \uD83D\uDE06 \uD83D\uDE08",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745391998780833902",
+      "type": "Default",
+      "timestamp": "2020-08-18T21:21:41.223+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Like the one of #blocktastic-mob-challenge?",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745392172248989697",
+      "type": "Default",
+      "timestamp": "2020-08-18T21:22:22.581+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "From whitehoodhacker",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745438551424106647",
+      "type": "Default",
+      "timestamp": "2020-08-19T00:26:40.238+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Should I remove food from hotbar?",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745438661545295952",
+      "type": "Default",
+      "timestamp": "2020-08-19T00:27:06.493+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Food is too op",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745438975426297949",
+      "type": "Default",
+      "timestamp": "2020-08-19T00:28:21.328+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is the goal to kill the player?  \uD83D\uDE42",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745440535124377641",
+      "type": "Default",
+      "timestamp": "2020-08-19T00:34:33.189+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yes.",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "705649782898819114",
+            "name": "eyes_shaking",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/705649782898819114.gif"
+          },
+          "count": 5
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "745444018242191382",
+      "type": "Default",
+      "timestamp": "2020-08-19T00:48:23.629+00:00",
+      "timestampEdited": "2020-08-20T13:05:48.77+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "the gold block is supposed to be the adventure chest: https://www.minecraft.net/earth/buildplateshare?id=b3lh8ndfqqj",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [
+        {
+          "id": "745444018162237540",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/745444018162237540/image0.png",
+          "fileName": "image0.png",
+          "fileSizeBytes": 575833
+        }
+      ],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 8
+        },
+        {
+          "emoji": {
+            "id": "704772811893243987",
+            "name": "adventures",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772811893243987.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "688934073351405619",
+            "name": "levers",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934073351405619.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "712425365251031041",
+            "name": "muddy_foot_rabbit",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/712425365251031041.png"
+          },
+          "count": 6
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "745444051175604387",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-19T00:48:31.481+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "745444018242191382",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "745446761954541628",
+      "type": "Default",
+      "timestamp": "2020-08-19T00:59:17.781+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "First one in! Looking good!",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745446812269150348",
+      "type": "Default",
+      "timestamp": "2020-08-19T00:59:29.777+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thanks :)",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745447180793413663",
+      "type": "Default",
+      "timestamp": "2020-08-19T01:00:57.64+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hm, just a question, could someone resubmit, change the submission for another plate?",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745447265266696307",
+      "type": "Default",
+      "timestamp": "2020-08-19T01:01:17.78+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Sure! If you think of something else or want to change it you can do that.",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745447318941335654",
+      "type": "Default",
+      "timestamp": "2020-08-19T01:01:30.577+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Just let us know so which one you want to be your submission/pinned.",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745447344916529182",
+      "type": "Default",
+      "timestamp": "2020-08-19T01:01:36.77+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ok",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745475321414811718",
+      "type": "Default",
+      "timestamp": "2020-08-19T02:52:46.887+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I almost instantly died by the explosion in the build plate because I was too close",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745480844369461380",
+      "type": "Default",
+      "timestamp": "2020-08-19T03:14:43.662+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Still pretty sick tho",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745562859056005140",
+      "type": "Default",
+      "timestamp": "2020-08-19T08:40:37.487+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm pretty excited to finish up my custom adventure soon \uD83D\uDE03",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745767367874838568",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:13:16.189+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I finished my custom adventure build",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745767780111876116",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:14:54.474+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It's a weathered archer tower in the dark forest",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745767904561332277",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:15:24.145+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The gold block is the adventure chest",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745768052481720432",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:15:59.412+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "First you have to defeat all of the enemies first before it appears",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745768176112894113",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:16:28.888+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm proud of this build :）",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745768335513485445",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:17:06.892+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "And there's also a hidden secret",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745768375694917948",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:17:16.472+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "And an Easter egg",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745769415668269128",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:21:24.421+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Lucky_Guesser can you add a screenshot to your post?",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "323627949876183040",
+          "name": "Lucky_Guesser",
+          "discriminator": 5336,
+          "nickname": "Lucky_Guesser",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "745769584862298235",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:22:04.76+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It also needs to all be *one* post.",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745770505902227596",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:25:44.353+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "Check out the buildplate I created in Minecraft Earth!\nhttps://www.minecraft.net/earth/buildplateshare?id=bf7nzei0eis",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [
+        {
+          "id": "745770505604300890",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/745770505604300890/Screenshot_20200819-1724282.png",
+          "fileName": "Screenshot_20200819-1724282.png",
+          "fileSizeBytes": 1147507
+        }
+      ],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "724338133193326592",
+            "name": "steve_pog",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/724338133193326592.png"
+          },
+          "count": 9
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "745770527356092547",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-19T22:25:49.468+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "745770505902227596",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "745772978750619741",
+      "type": "Default",
+      "timestamp": "2020-08-19T22:35:33.926+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ooh",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745838870939172978",
+      "type": "Default",
+      "timestamp": "2020-08-20T02:57:23.848+00:00",
+      "timestampEdited": "2020-08-20T20:52:36.375+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "I built the iconic adventure loading screen \n\nhttps://www.minecraft.net/earth/buildplateshare?id=bcx68ho-_0j",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [
+        {
+          "id": "745838870674800750",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/745838870674800750/image0.png",
+          "fileName": "image0.png",
+          "fileSizeBytes": 146823
+        },
+        {
+          "id": "745838871077716048",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/745838871077716048/image1.png",
+          "fileName": "image1.png",
+          "fileSizeBytes": 725045
+        }
+      ],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "724338133193326592",
+            "name": "steve_pog",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/724338133193326592.png"
+          },
+          "count": 14
+        },
+        {
+          "emoji": {
+            "id": "616373152598982675",
+            "name": "loading",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/616373152598982675.gif"
+          },
+          "count": 14
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "745839131955036262",
+      "type": "Default",
+      "timestamp": "2020-08-20T02:58:26.079+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "but sadly, it can’t really be played cause the buildplate I’m using wasn’t very deep",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745841092838162523",
+      "type": "Default",
+      "timestamp": "2020-08-20T03:06:13.59+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Oh snap!",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745856392736276482",
+      "type": "Default",
+      "timestamp": "2020-08-20T04:07:01.37+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Wow",
+      "author": {
+        "id": "271304990566383619",
+        "name": "CrabRaver",
+        "discriminator": "5417",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/271304990566383619/8c582658227cb61e421975ce0dba24af.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745875404681904158",
+      "type": "Default",
+      "timestamp": "2020-08-20T05:22:34.171+00:00",
+      "timestampEdited": "2020-08-20T10:39:15.034+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "My submission https://www.minecraft.net/earth/buildplateshare?id=bahujps6s2s",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [
+        {
+          "id": "745875404291702814",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/745875404291702814/image0.png",
+          "fileName": "image0.png",
+          "fileSizeBytes": 80742
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745876850059902988",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-20T05:28:18.776+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "745875404681904158",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "745972041035022367",
+      "type": "Default",
+      "timestamp": "2020-08-20T11:46:34.073+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hmmm",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745972070608797748",
+      "type": "Default",
+      "timestamp": "2020-08-20T11:46:41.124+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "can I get pinned?",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745977355285299201",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-20T12:07:41.089+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "745838870939172978",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "745977414420529213",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:07:55.188+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I assumed you had been, sorry about that",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745983067797323897",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:30:23.058+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What do the people who win get??\nAre there build uploaded onc website or something?",
+      "author": {
+        "id": "449201448270430209",
+        "name": "Savage Minecrafter",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/449201448270430209/a_07bde0c8567108d8245555835ac07f82.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745983138580267060",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:30:39.934+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yeah",
+      "author": {
+        "id": "291674649337659392",
+        "name": "PeepoPooPoo",
+        "discriminator": "6969",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/291674649337659392/a_d2e79757c74637febccce9d7edda4c17.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745983191877419050",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:30:52.641+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "its on an article on the minecraft website",
+      "author": {
+        "id": "291674649337659392",
+        "name": "PeepoPooPoo",
+        "discriminator": "6969",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/291674649337659392/a_d2e79757c74637febccce9d7edda4c17.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745983634590138379",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:32:38.192+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "> What do the people who win get??\n> Are there build uploaded onc website or something?\nIt is for fun ^^",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745984678712049796",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:36:47.13+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Though the winner of this may get their custom adventure into the game",
+      "author": {
+        "id": "216451928224301058",
+        "name": "Fazbear Entertainment",
+        "discriminator": "7566",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/216451928224301058/acc932ee713da3a3d26cdba40308cf0c.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745986616262393988",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:44:29.078+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That hasn't been stated anywhere, this is only for fun.",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745986767269920848",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:45:05.081+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I say that as in the devs may get interest into this channel",
+      "author": {
+        "id": "216451928224301058",
+        "name": "Fazbear Entertainment",
+        "discriminator": "7566",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/216451928224301058/acc932ee713da3a3d26cdba40308cf0c.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "745986859158470737",
+      "type": "Default",
+      "timestamp": "2020-08-20T12:45:26.989+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Not as in its confirmed",
+      "author": {
+        "id": "216451928224301058",
+        "name": "Fazbear Entertainment",
+        "discriminator": "7566",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/216451928224301058/acc932ee713da3a3d26cdba40308cf0c.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746036734495555685",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:03:38.196+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You may also win a mention spot on the Minecraft.net site",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746037063660339230",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:04:56.675+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think they all get put on the website now. \nBut I wouldn't be expecting that your adventure gets put into the game",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746037495967383644",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:06:39.745+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "All contestants?",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746037812368900188",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:07:55.181+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "not all no",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746037850532741243",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:08:04.28+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i thought you meant the challenge itself not the people",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746037866630742128",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:08:08.118+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "mbmb",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038121946153042",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:09:08.99+00:00",
+      "timestampEdited": "2020-08-20T16:09:21.116+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I got mentioned on a previous one. I'm just wondering is it's by random or by votes?",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038389714976879",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:10:12.831+00:00",
+      "timestampEdited": "2020-08-20T16:10:35.197+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Community Assistance incoming",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038392927813632",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:10:13.597+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think it’s what the person making the post on the website thinks works well as a screenshot, etc.",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038453023801395",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:10:27.925+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Oh ok",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038525161504869",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:10:45.124+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Just a personal theory, not based on any real facts",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038698587717823",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:11:26.472+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I guess we (Contestants) were lucky?",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038796302155806",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:11:49.769+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Sort of? Maybe they just... liked your stuff",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746038867261653144",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:12:06.687+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "\uD83D\uDE04 lol",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746039034869973083",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:12:46.648+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I’m always pleased when my stuff shows up in a post, but don’t expect it.",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746049344263684188",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:53:44.599+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Just Finished my MCE Test World Build! Time to convert to MCE!",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [
+        {
+          "id": "746049341617340550",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/746049341617340550/SPOILER_unknown.png",
+          "fileName": "SPOILER_unknown.png",
+          "fileSizeBytes": 600527
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746050092779438171",
+      "type": "Default",
+      "timestamp": "2020-08-20T16:56:43.059+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "How will you convert the chest :)",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746051191061872740",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:01:04.91+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It's the adventure chest. Just use your imagination!",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746051333903220957",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:01:38.966+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Also those block on the side are for the signs on top for how much I need",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746051481861619713",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:02:14.242+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "For example the Smooth Sandstone Stair Blocks would be 28 needed.",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746053580040962060",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:10:34.487+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I’d want to see someone building pre existing adventure structures from reg Minecraft",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746053660437381222",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:10:53.655+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "that wouldnt be original tho",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746053793652932769",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:11:25.416+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So it wouldn't be eligible to win",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746065010958270485",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:55:59.83+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "maybe with a creative twist",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746065210598621216",
+      "type": "Default",
+      "timestamp": "2020-08-20T17:56:47.428+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "like being original :p",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746161155491233827",
+      "type": "Default",
+      "timestamp": "2020-08-21T00:18:02.473+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "idk but i see no one making a common adventure",
+      "author": {
+        "id": "386504320469696523",
+        "name": "-_-lol.ivan-_-",
+        "discriminator": "8897",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/386504320469696523/f001aa55502ae86e2c3019537490458e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746161189100191865",
+      "type": "Default",
+      "timestamp": "2020-08-21T00:18:10.486+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so i might make that one",
+      "author": {
+        "id": "386504320469696523",
+        "name": "-_-lol.ivan-_-",
+        "discriminator": "8897",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/386504320469696523/f001aa55502ae86e2c3019537490458e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "746161324383535114",
+      "type": "Default",
+      "timestamp": "2020-08-21T00:18:42.74+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I went ham on my plate \uD83D\uDE05",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "672171950793162753",
+            "name": "muddy_walk",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/672171950793162753.gif"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD53",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f953.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "747084735439700128",
+      "type": "Default",
+      "timestamp": "2020-08-23T13:28:01.092+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "My submission : Decaying Prison\nhttps://www.minecraft.net/earth/buildplateshare?id=bhj5oxggauw\nContext:\nIf it were to be an actual adventure as soon as you atack a mob or break a block, all of the bars would start decaying releasing all the mobs one by one loot is hidden throughout the prison and under it\nKilling all of the mobs releases the adventure chest",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [
+        {
+          "id": "747084735217532968",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/747084735217532968/SmartSelect_20200823-152037_Minecraft_Earth.jpg",
+          "fileName": "SmartSelect_20200823-152037_Minecraft_Earth.jpg",
+          "fileSizeBytes": 149590
+        }
+      ],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "705649782898819114",
+            "name": "eyes_shaking",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/705649782898819114.gif"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE2E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f62e.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDFF0",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f3f0.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "747084948439171113",
+      "type": "Default",
+      "timestamp": "2020-08-23T13:28:51.875+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Might update it later if that is still possible",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747088298123460720",
+      "type": "Default",
+      "timestamp": "2020-08-23T13:42:10.502+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Here is a build mode screenshot because tallgrass doesn't have color in the other one",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747088319434981416",
+      "type": "Default",
+      "timestamp": "2020-08-23T13:42:15.583+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [
+        {
+          "id": "747088315899183155",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/747088315899183155/20200823_154137.jpg",
+          "fileName": "20200823_154137.jpg",
+          "fileSizeBytes": 283523
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747091452420685895",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-23T13:54:42.545+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "747084735439700128",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "747097283547365398",
+      "type": "Default",
+      "timestamp": "2020-08-23T14:17:52.794+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "spoopy",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747101010283200562",
+      "type": "Default",
+      "timestamp": "2020-08-23T14:32:41.317+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i thought it looked slightly bland but its actually really good and surprisingly really detailed, the only complaint i have with the build is that, it might probably need more vegetation, like swapping some of the stone bricks with the moss stone bricks, or probably add some vines to make it look better than just plain grey.",
+      "author": {
+        "id": "386504320469696523",
+        "name": "-_-lol.ivan-_-",
+        "discriminator": "8897",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/386504320469696523/f001aa55502ae86e2c3019537490458e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747102206376935525",
+      "type": "Default",
+      "timestamp": "2020-08-23T14:37:26.488+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ooo I love your build style @Carcharias! I really enjoy doing similar things with stone bricks and such",
+      "author": {
+        "id": "329778047760728065",
+        "name": "Frahst",
+        "discriminator": "5934",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/329778047760728065/a033bb727929ce524d409323bbd43e58.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "424903229651025930",
+          "name": "Carcharias",
+          "discriminator": 7147,
+          "nickname": "Carcharias #RememberEarth",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "747110802254987405",
+      "type": "Default",
+      "timestamp": "2020-08-23T15:11:35.905+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "> i thought it looked slightly bland but its actually really good and surprisingly really detailed, the only complaint i have with the build is that, it might probably need more vegetation, like swapping some of the stone bricks with the moss stone bricks, or probably add some vines to make it look better than just plain grey.\nYeah I will try that but I don't have a lot of mossy stuff so need to craft that",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747110823381434480",
+      "type": "Default",
+      "timestamp": "2020-08-23T15:11:40.942+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Could also mix in some cobble",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747155616073515030",
+      "type": "Default",
+      "timestamp": "2020-08-23T18:09:40.352+00:00",
+      "timestampEdited": "2020-08-23T18:13:17.998+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I like that your build has the use of stone brick stairs to make it seem like bricks are missing, A+ detail :buildplate:",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747197378355921047",
+      "type": "Default",
+      "timestamp": "2020-08-23T20:55:37.256+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah that's a teqnique I rly like using",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747599728669098085",
+      "type": "Default",
+      "timestamp": "2020-08-24T23:34:25.046+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "> I think it’s what the person making the post on the website thinks works well as a screenshot, etc.\n@clovepod yeah, pretty much \uD83D\uDE42",
+      "author": {
+        "id": "741063859393003620",
+        "name": "inkycatz",
+        "discriminator": "9874",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/741063859393003620/71686d922f3fad66989402726c28c050.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "606180587174232064",
+          "name": "clovepod",
+          "discriminator": 1311,
+          "nickname": "cLOVEpod",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "747600900020764763",
+      "type": "Default",
+      "timestamp": "2020-08-24T23:39:04.318+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If there's a good contrast between the image and the background or its on that nice grayish solid background from buildplate share (which makes it super easy to crop to the right size), that's also helpful. Hope that helps!",
+      "author": {
+        "id": "741063859393003620",
+        "name": "inkycatz",
+        "discriminator": "9874",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/741063859393003620/71686d922f3fad66989402726c28c050.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747601853986111529",
+      "type": "Default",
+      "timestamp": "2020-08-24T23:42:51.761+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I just have super strange dimensions to work with, but I want to get as many submissions out there to encourage folks to participate as I can.",
+      "author": {
+        "id": "741063859393003620",
+        "name": "inkycatz",
+        "discriminator": "9874",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/741063859393003620/71686d922f3fad66989402726c28c050.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "688934123406098438",
+            "name": "ruby",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123406098438.png"
+          },
+          "count": 12
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "747669699919347742",
+      "type": "Default",
+      "timestamp": "2020-08-25T04:12:27.492+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi",
+      "author": {
+        "id": "459265708824461324",
+        "name": "Zetsu",
+        "discriminator": "1717",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/459265708824461324/15bf06dcc607f49da20f2d8d2be59e38.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747669929444245595",
+      "type": "Default",
+      "timestamp": "2020-08-25T04:13:22.215+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi Zetsu\n\nAre you working on a custom adventure for this challenge?",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "747691524233494589",
+      "type": "Default",
+      "timestamp": "2020-08-25T05:39:10.814+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm making another custom build, hope to post soon",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748199873144291445",
+      "type": "Default",
+      "timestamp": "2020-08-26T15:19:10.639+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You know it’s a fun challenge when folks want to make multiple builds :steve_dabbing:",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748200582304759808",
+      "type": "Default",
+      "timestamp": "2020-08-26T15:21:59.716+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "you can only submit one right?",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748200747606343742",
+      "type": "Default",
+      "timestamp": "2020-08-26T15:22:39.127+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I have 2 pinned submissions, better remove the first.",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748200787917668423",
+      "type": "Default",
+      "timestamp": "2020-08-26T15:22:48.738+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "you can submit multiple times but will be asked to chose which onoe to be judged on",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748200914292310026",
+      "type": "Default",
+      "timestamp": "2020-08-26T15:23:18.868+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "oh",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748201269071708430",
+      "type": "Default",
+      "timestamp": "2020-08-26T15:24:43.454+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "We’ll leave both pinned \uD83D\uDE01 so folks can check em out for sure",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748243851868897391",
+      "type": "Default",
+      "timestamp": "2020-08-26T18:13:55.984+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "I took advantage of the desert grass coloring for the savanna biome\nI hope yall like it\nCheck out the buildplate I created in Minecraft Earth!\nhttps://www.minecraft.net/earth/buildplateshare?id=b68sclyjr0j",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [
+        {
+          "id": "748243851424038982",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/748243851424038982/Screenshot_20200826-1311442.png",
+          "fileName": "Screenshot_20200826-1311442.png",
+          "fileSizeBytes": 1173021
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748245958629916752",
+      "type": "Default",
+      "timestamp": "2020-08-26T18:22:18.275+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Rip to my two skeletons that swam in the lava on purpose in this build",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748249273614860330",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-26T18:35:28.629+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "748243851868897391",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "748250775913889964",
+      "type": "Default",
+      "timestamp": "2020-08-26T18:41:26.805+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ooh",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748250902779133953",
+      "type": "Default",
+      "timestamp": "2020-08-26T18:41:57.052+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "the trapdoors tho",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748250940359835648",
+      "type": "Default",
+      "timestamp": "2020-08-26T18:42:06.012+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "good build hack",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748251833277087915",
+      "type": "Default",
+      "timestamp": "2020-08-26T18:45:38.9+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Oo",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748251872477053050",
+      "type": "Default",
+      "timestamp": "2020-08-26T18:45:48.246+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That’s a cute hut",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748262230684074014",
+      "type": "Default",
+      "timestamp": "2020-08-26T19:26:57.835+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "Can you free the forgotten souls, that got locked inside this **Tomb Of Nightful Day**?\nhttps://www.minecraft.net/earth/buildplateshare?id=biwh9965u9l",
+      "author": {
+        "id": "493694302682218497",
+        "name": "! ! [Thick 'n' not Slim] ♟",
+        "discriminator": "7143",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/493694302682218497/d85ade3bc7a7e486287e36b50ac01f35.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748262255111569521",
+      "type": "Default",
+      "timestamp": "2020-08-26T19:27:03.659+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "493694302682218497",
+        "name": "! ! [Thick 'n' not Slim] ♟",
+        "discriminator": "7143",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/493694302682218497/d85ade3bc7a7e486287e36b50ac01f35.png"
+      },
+      "attachments": [
+        {
+          "id": "748262252095864972",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/748262252095864972/Screenshot_20200826-212451_Minecraft_Earth.jpg",
+          "fileName": "Screenshot_20200826-212451_Minecraft_Earth.jpg",
+          "fileSizeBytes": 194800
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748263292757082163",
+      "type": "Default",
+      "timestamp": "2020-08-26T19:31:11.053+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Uuu, so spooky",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748263394305507509",
+      "type": "Default",
+      "timestamp": "2020-08-26T19:31:35.264+00:00",
+      "timestampEdited": "2020-08-26T19:31:53.855+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Also how would this work:** You click the button, which changes few grass blocks into terracota, with night / amber chicken, click button again to make the trapdoor open up and fight 2 skeletons to get the sweet chest!",
+      "author": {
+        "id": "493694302682218497",
+        "name": "! ! [Thick 'n' not Slim] ♟",
+        "discriminator": "7143",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/493694302682218497/d85ade3bc7a7e486287e36b50ac01f35.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748264276606844939",
+      "type": "Default",
+      "timestamp": "2020-08-26T19:35:05.621+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Like the epic adventure: dimension portal?\nWhere the blocks change",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748264568010047519",
+      "type": "Default",
+      "timestamp": "2020-08-26T19:36:15.097+00:00",
+      "timestampEdited": "2020-08-26T19:38:19.65+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Something like that, but it would only just open the tomb*, just some visual change to the tomb to give it some life \uD83D\uDC40\nEdit: forgot how dimension portal worked, i stated wrong thing about it lol",
+      "author": {
+        "id": "493694302682218497",
+        "name": "! ! [Thick 'n' not Slim] ♟",
+        "discriminator": "7143",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/493694302682218497/d85ade3bc7a7e486287e36b50ac01f35.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748264874337108050",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-26T19:37:28.131+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "748262230684074014",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "748265167808364705",
+      "type": "Default",
+      "timestamp": "2020-08-26T19:38:38.1+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I like the contrast of the blocks with the chickens",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748275671402414142",
+      "type": "Default",
+      "timestamp": "2020-08-26T20:20:22.352+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "freaky",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748504635266039848",
+      "type": "Default",
+      "timestamp": "2020-08-27T11:30:11.591+00:00",
+      "timestampEdited": "2020-08-29T11:25:20.441+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "Dark icy adventure.  Look for the switches so there is light and the flap doors open.  But beware because skeletons guard the treasure.\n\nhttps://www.minecraft.net/earth/buildplateshare?id=bvwfygdqknz",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [
+        {
+          "id": "748504634405945345",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/748504634405945345/sketch-1598526980370.png",
+          "fileName": "sketch-1598526980370.png",
+          "fileSizeBytes": 1016697
+        },
+        {
+          "id": "748504634984890428",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/748504634984890428/sketch-1598526938536.png",
+          "fileName": "sketch-1598526938536.png",
+          "fileSizeBytes": 1084088
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748505241099698177",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-27T11:32:36.033+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "748504635266039848",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "748505275614625884",
+      "type": "Default",
+      "timestamp": "2020-08-27T11:32:44.262+00:00",
+      "timestampEdited": "2020-08-27T11:32:55.496+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "*under the sea~*",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748507310892253195",
+      "type": "Default",
+      "timestamp": "2020-08-27T11:40:49.51+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Bruh",
+      "author": {
+        "id": "699575050336075856",
+        "name": "Onbot",
+        "discriminator": "6534",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/699575050336075856/d0d92cb3dad6075b7f55e191bab1b854.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748520339948175410",
+      "type": "Default",
+      "timestamp": "2020-08-27T12:32:35.879+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That looks amazing",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748521388146556929",
+      "type": "Default",
+      "timestamp": "2020-08-27T12:36:45.789+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "thanks \uD83D\uDE0A",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748526972702818405",
+      "type": "Default",
+      "timestamp": "2020-08-27T12:58:57.251+00:00",
+      "timestampEdited": "2020-08-27T12:59:00.999+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "damn that, thats really amazing, especially the stained glass since you put so much shades to make it look more colorful. ||wished there was a silk touch pickaxe so i can mine them all lmao||",
+      "author": {
+        "id": "386504320469696523",
+        "name": "-_-lol.ivan-_-",
+        "discriminator": "8897",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/386504320469696523/f001aa55502ae86e2c3019537490458e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748528703004213301",
+      "type": "Default",
+      "timestamp": "2020-08-27T13:05:49.787+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is really good one \uD83D\uDE42",
+      "author": {
+        "id": "697704722861391882",
+        "name": "Wither",
+        "discriminator": "2296",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/697704722861391882/e51ef1fb194707e461b4942eb6db7653.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748529042151702528",
+      "type": "Default",
+      "timestamp": "2020-08-27T13:07:10.646+00:00",
+      "timestampEdited": "2020-08-27T13:11:24.086+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@-_-lol.ivan-_- \nThx\nIt also hides other rare building blocks. \uD83D\uDE0B",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "386504320469696523",
+          "name": "-_-lol.ivan-_-",
+          "discriminator": 8897,
+          "nickname": "-_-lol.ivan-_-",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "748529097851928656",
+      "type": "Default",
+      "timestamp": "2020-08-27T13:07:23.926+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah",
+      "author": {
+        "id": "697704722861391882",
+        "name": "Wither",
+        "discriminator": "2296",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/697704722861391882/e51ef1fb194707e461b4942eb6db7653.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748595135285297286",
+      "type": "Default",
+      "timestamp": "2020-08-27T17:29:48.477+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "An underwater adventure, cool",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748613716483899443",
+      "type": "Default",
+      "timestamp": "2020-08-27T18:43:38.58+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Helo",
+      "author": {
+        "id": "623933309688348702",
+        "name": "Poor gamer tech tips",
+        "discriminator": "1317",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/623933309688348702/9858b0108569bcb53d6733d59460da0c.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748614209067286559",
+      "type": "Default",
+      "timestamp": "2020-08-27T18:45:36.021+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi there! Are you working on a build for the challenge? ^.^",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748700785717805166",
+      "type": "Default",
+      "timestamp": "2020-08-28T00:29:37.503+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "cool \uD83D\uDE42",
+      "author": {
+        "id": "742656789853765712",
+        "name": "EasedRainbow567",
+        "discriminator": "8430",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/742656789853765712/eda27e55ec9af25b1855a65836c1908a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "748741577568026675",
+      "type": "Default",
+      "timestamp": "2020-08-28T03:11:43.038+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'll probably make a scarecrow build",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749502647052271716",
+      "type": "Default",
+      "timestamp": "2020-08-30T05:35:56.143+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Tomorrow is the last day for the challenge?",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749502872374476860",
+      "type": "Default",
+      "timestamp": "2020-08-30T05:36:49.864+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Nope",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749502895669510155",
+      "type": "Default",
+      "timestamp": "2020-08-30T05:36:55.418+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "31st!",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749714953895804979",
+      "type": "Default",
+      "timestamp": "2020-08-30T19:39:34.039+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Bu",
+      "author": {
+        "id": "628744377958662144",
+        "name": "\uD83D\uDC8BLerice Bitch~\uD83D\uDC8B",
+        "discriminator": "3982",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/628744377958662144/8293a7f24200d02353932319ff56c374.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749926768835821609",
+      "type": "Default",
+      "timestamp": "2020-08-31T09:41:14.656+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "I call this submission \"Minish farming\" \nEnjoy the world from a small perspective \nThis adventure is free from enemies to encourage adventurers to play! \nUncover the earth to find the adventure chest \n\nCheck out the buildplate I created in Minecraft Earth!\nhttps://www.minecraft.net/earth/buildplateshare?id=boprw8fqaxb",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [
+        {
+          "id": "749926768420454400",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/749926768420454400/Screenshot_20200831-0436042.png",
+          "fileName": "Screenshot_20200831-0436042.png",
+          "fileSizeBytes": 858100
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749933323652169740",
+      "type": "Default",
+      "timestamp": "2020-08-31T10:07:17.446+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cute adventure, only with a stone spade and an iron hoe I can't take out the diamond and the gold block. \uD83D\uDE06",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749933679639527434",
+      "type": "Default",
+      "timestamp": "2020-08-31T10:08:42.32+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "There are no monsters, but you can't get the treasures either. \uD83E\uDD73",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749934705926733864",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-31T10:12:47.006+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "180266711801528320",
+        "name": "tehgreedo",
+        "discriminator": "5431",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/180266711801528320/5cb2f7af8400ebff6e993744ed540e4e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "749926768835821609",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "749936280581701702",
+      "type": "Default",
+      "timestamp": "2020-08-31T10:19:02.433+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Oh whoops I forgot about that, though if it were an actual adventure you'd go back to it with a pickaxe",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749937014224191538",
+      "type": "Default",
+      "timestamp": "2020-08-31T10:21:57.347+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The gold block is the adventure chest btw",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749937237373747270",
+      "type": "Default",
+      "timestamp": "2020-08-31T10:22:50.55+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm happy you are the first person to like it \uD83D\uDE01",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "749939113494315089",
+      "type": "Default",
+      "timestamp": "2020-08-31T10:30:17.852+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "the build looks so lovely \uD83D\uDE0A",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750037116737552491",
+      "type": "Default",
+      "timestamp": "2020-08-31T16:59:43.646+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "The Floor is Lava\n\nEnter through the nether portal…  cross the floor.. get the treasure.  EZPZ!  \n\nTry it in Life Size for that warm-n-cozy feeling! \n\nBuild plate share:  https://www.minecraft.net/earth/buildplateshare?id=bofvu7feiyd\n\nPlay testing:  <https://youtu.be/3xmRcLeJnUAv>",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [
+        {
+          "id": "750037114711965827",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/750037114711965827/image0.png",
+          "fileName": "image0.png",
+          "fileSizeBytes": 3832829
+        },
+        {
+          "id": "750037115596701846",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/750037115596701846/image1.png",
+          "fileName": "image1.png",
+          "fileSizeBytes": 4692350
+        },
+        {
+          "id": "750037116305670234",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/750037116305670234/image2.png",
+          "fileName": "image2.png",
+          "fileSizeBytes": 2269289
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750037165081231492",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-31T16:59:55.172+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "750037116737552491",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "750038671247409204",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:05:54.27+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "that’s a lotta lava",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750038821625659462",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:06:30.123+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You make a cobble path to the center right? From the water bucket in the video",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750038866932793345",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:06:40.925+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "how do you get the water?",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750039030242082897",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:07:19.861+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i will just say that I expect clever gamers to find ways I haven't thought of to do this - but I can only think of a couple of ways.",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750039081672507583",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:07:32.123+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The water source in the middle of course",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750039095530749992",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:07:35.427+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "And I didn't have time to really play test all the different ideas \uD83D\uDE42",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750039224920703056",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:08:06.276+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "How do you get *to* the water without dying of fire damage first?   \uD83D\uDE09",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750039673274892298",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:09:53.172+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```Good question```",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750049082944258078",
+      "type": "Default",
+      "timestamp": "2020-08-31T17:47:16.612+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm excited about a good little adventure.\nlove lava \uD83D\uDE0D  \nGG",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750054017761017856",
+      "type": "Default",
+      "timestamp": "2020-08-31T18:06:53.164+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "thought you might like that!",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750056087029415947",
+      "type": "Default",
+      "timestamp": "2020-08-31T18:15:06.516+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "mine is the water adventure yours is the lava.\nFire and water \uD83D\uDE06",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750056361143828490",
+      "type": "Default",
+      "timestamp": "2020-08-31T18:16:11.87+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "now we need stone",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750057123223961800",
+      "type": "Default",
+      "timestamp": "2020-08-31T18:19:13.564+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "Mini Desert Cactus Temple\nhttps://www.minecraft.net/earth/buildplateshare?id=bey7dqz0l_o",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [
+        {
+          "id": "750057123013984378",
+          "url": "https://cdn.discordapp.com/attachments/745321911546019944/750057123013984378/image0.png",
+          "fileName": "image0.png",
+          "fileSizeBytes": 313473
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750057352681619466",
+      "type": "Default",
+      "timestamp": "2020-08-31T18:20:08.271+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Needed to change the design do to limited materials available.",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750057551693086801",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2020-08-31T18:20:55.719+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "750057123223961800",
+        "channelId": "745321911546019944",
+        "guildId": "579700549780242492"
+      }
+    },
+    {
+      "id": "750059763752239227",
+      "type": "Default",
+      "timestamp": "2020-08-31T18:29:43.115+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "cute",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750059799814864927",
+      "type": "Default",
+      "timestamp": "2020-08-31T18:29:51.713+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":buildplate:",
+      "author": {
+        "id": "715396297988898877",
+        "name": "Bogopogo",
+        "discriminator": "8541",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/715396297988898877/95d7e9a54895683dbd6625dface2725d.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750082529729445908",
+      "type": "Default",
+      "timestamp": "2020-08-31T20:00:10.947+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pretty smol and fun ⛏️",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750083065409306727",
+      "type": "Default",
+      "timestamp": "2020-08-31T20:02:18.663+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "5 hours left to submit",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750092874065903686",
+      "type": "Default",
+      "timestamp": "2020-08-31T20:41:17.229+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "All these adventure builds look amazing. I will be trying them all out later today. \uD83D\uDE04",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750093395611091095",
+      "type": "Default",
+      "timestamp": "2020-08-31T20:43:21.575+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "good luck!",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750104873554411620",
+      "type": "Default",
+      "timestamp": "2020-08-31T21:28:58.13+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "have fun \uD83E\uDD73",
+      "author": {
+        "id": "513660891938553886",
+        "name": "Gurgensson",
+        "discriminator": "8032",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513660891938553886/662a3d45f04be795660802c4d656ed09.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750151422053449758",
+      "type": "Default",
+      "timestamp": "2020-09-01T00:33:56.157+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi @Pop idiot this chat is used for the current Minecraft Earth build challenge",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "748433959830028339",
+          "name": "Pop idiot",
+          "discriminator": 354,
+          "nickname": "Pop idiot",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "750159219671564289",
+      "type": "Default",
+      "timestamp": "2020-09-01T01:04:55.254+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Event has Ended! :timer: :ruby:",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750172301164806145",
+      "type": "Default",
+      "timestamp": "2020-09-01T01:56:54.125+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":eyesshaking:",
+      "author": {
+        "id": "241110448735387650",
+        "name": "MajorDoMo",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/241110448735387650/de096a1a215db970d4c78600679ad4b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750172322882912349",
+      "type": "Default",
+      "timestamp": "2020-09-01T01:56:59.303+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":eyesshaking:",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750172417472724992",
+      "type": "Default",
+      "timestamp": "2020-09-01T01:57:21.855+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yes, the event has totally ended and we didn't forget. \n\nhooray for fantastic builds!",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE06",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f606.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "750190118697959445",
+      "type": "Default",
+      "timestamp": "2020-09-01T03:07:42.156+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@NewCalixto @Lucky_Guesser Hey there! Looks like we didn't notice that you both made more than 1 awesome build. Let me know which one you want to be voted on. (Don't worry, we'll still play them all). Sorry about that!",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "323627949876183040",
+          "name": "Lucky_Guesser",
+          "discriminator": 5336,
+          "nickname": "Lucky_Guesser",
+          "isBot": false
+        },
+        {
+          "id": "589141319012712457",
+          "name": "NewCalixto",
+          "discriminator": 9295,
+          "nickname": "Skarl #RememberEarth",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "750190344116895816",
+      "type": "Default",
+      "timestamp": "2020-09-01T03:08:35.9+00:00",
+      "timestampEdited": "2020-09-01T03:08:56.447+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Guess I'll submit...\nThe forest tower, aka my very first submission",
+      "author": {
+        "id": "323627949876183040",
+        "name": "Lucky_Guesser",
+        "discriminator": "5336",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/323627949876183040/c6d24b0149f815ad2b35b71c999c2e4a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "✅",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2705.png"
+          },
+          "count": 6
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "750190462257725531",
+      "type": "Default",
+      "timestamp": "2020-09-01T03:09:04.067+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cool choice! Thank you. :merl_yay:",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750253050341490818",
+      "type": "Default",
+      "timestamp": "2020-09-01T07:17:46.229+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Uh are we allowed to vote on our own builds or vote in general",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750253113138741258",
+      "type": "Default",
+      "timestamp": "2020-09-01T07:18:01.201+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm not sure this is the first build chalange I'm competing in",
+      "author": {
+        "id": "424903229651025930",
+        "name": "Carcharias",
+        "discriminator": "7147",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/424903229651025930/62a044a1395af2b074ef0c6c76a28bac.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750287392354861098",
+      "type": "Default",
+      "timestamp": "2020-09-01T09:34:14.003+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://discord.com/channels/579700549780242492/745321911546019944/745875404681904158 I will choose this one :)",
+      "author": {
+        "id": "589141319012712457",
+        "name": "NewCalixto",
+        "discriminator": "9295",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/589141319012712457/c7a331ba7d88f17cf0817f73d7898816.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750339690128998401",
+      "type": "Default",
+      "timestamp": "2020-09-01T13:02:02.764+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think https://discord.com/channels/579700549780242492/745321911546019944/747084735439700128 is gonna win.",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750339801739296889",
+      "type": "Default",
+      "timestamp": "2020-09-01T13:02:29.374+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It’s just as good as NinjaK’s Designs",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750344386780594196",
+      "type": "Default",
+      "timestamp": "2020-09-01T13:20:42.533+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@NewCalixto Thank you. \uD83D\uDC4D",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "589141319012712457",
+          "name": "NewCalixto",
+          "discriminator": 9295,
+          "nickname": "Skarl #RememberEarth",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "750344502585065494",
+      "type": "Default",
+      "timestamp": "2020-09-01T13:21:10.143+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Carcharias Yes you can! (But you can only vote once!  We will put up the voting form soon. \uD83D\uDE42",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "424903229651025930",
+          "name": "Carcharias",
+          "discriminator": 7147,
+          "nickname": "Carcharias #RememberEarth",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "750377062837256237",
+      "type": "Default",
+      "timestamp": "2020-09-01T15:30:33.112+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I would suggest no one votes for themselves and vote for others. I and maybe others would find it cheating.",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750377367129686136",
+      "type": "Default",
+      "timestamp": "2020-09-01T15:31:45.661+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it is okay to vote for whomever you want, including  yourself. I asked about this the first time we did community voting.",
+      "author": {
+        "id": "606180587174232064",
+        "name": "clovepod",
+        "discriminator": "1311",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/606180587174232064/094361c71c14de66a1cac209b08d73bc.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750377479713194134",
+      "type": "Default",
+      "timestamp": "2020-09-01T15:32:12.503+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "as long as you dont vote multiple times thats all that matters.",
+      "author": {
+        "id": "91015836701065216",
+        "name": "Shiro",
+        "discriminator": "5555",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/91015836701065216/102f93d516ff3a8d1606aff3d2ff7abf.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750377803979030528",
+      "type": "Default",
+      "timestamp": "2020-09-01T15:33:29.814+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmm ok!",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750407845299617888",
+      "type": "Default",
+      "timestamp": "2020-09-01T17:32:52.223+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Litorom1  TY for the kind mention \uD83D\uDE0A  . Some fab builds for this challenge, gonna be hard to pick a winner, good luck all",
+      "author": {
+        "id": "675830682714374164",
+        "name": "NinjaK",
+        "discriminator": "8846",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/675830682714374164/94a627ab190048a25d7867115b870450.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "364887089164320768",
+          "name": "Litorom1",
+          "discriminator": 1038,
+          "nickname": "Lito (Earth to Minecraft)",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "750410784776913021",
+      "type": "Default",
+      "timestamp": "2020-09-01T17:44:33.049+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thanks and Your welcome you make the best builds it's hard to compete.",
+      "author": {
+        "id": "364887089164320768",
+        "name": "Litorom1",
+        "discriminator": "1038",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/364887089164320768/b5f6947eb0e552cd22edeec5abb4b837.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750412127176491111",
+      "type": "Default",
+      "timestamp": "2020-09-01T17:49:53.102+00:00",
+      "timestampEdited": "2020-09-01T18:02:16.714+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Lucky_Guesser\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/745770505902227596\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=bf7nzei0eis\n\nSkarl (NewCalixto)\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/745875404681904158\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=bahujps6s2s\n\nBogopogo\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/745838870939172978\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=bcx68ho-_0j\n\nCarcharias\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/747084735439700128\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=bhj5oxggauw\n\nTable Smasher (Thick 'n' not Slin)\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/748262230684074014\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=biwh9965u9l\n\nGurgensson\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/748504635266039848\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=bvwfygdqknz\n\nclovepod\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/750037116737552491\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=bofvu7feiyd\n\nLitorom1\nhttps://discordapp.com/channels/579700549780242492/745321911546019944/750057123223961800\n:buildplate: https://www.minecraft.net/earth/buildplateshare?id=bey7dqz0l_o",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750419922860900432",
+      "type": "Default",
+      "timestamp": "2020-09-01T18:20:51.738+00:00",
+      "timestampEdited": "2020-09-01T18:53:37.405+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":adventures: What mysteries and treasures await in the custom adventures you designed? Let’s find out! And you won’t even need to use an Adventure Crystal—hurray!\n\nLoad up these shiny buildplates and pick your favorite custom adventure for the #custom-adventure-challenge. Cast your vote by **September 4** at 8 AM PT using the form below! :merl_yay:\n(Edit: Apologies for my original typo. End date is September 4th!)\nhttps://forms.gle/K2VHfceZwYnB2tvS9",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Custom Adventure Build Challenge Vote",
+          "url": "https://forms.gle/K2VHfceZwYnB2tvS9",
+          "timestamp": null,
+          "description": "You and your fellow official Minecraft Earth Discord builders crafted amazing creations! Now, choose your favorite build challenge entry!\n- Voting period: September 1 2020  to September 4 2020 @ 8 AM PT\n- Please PLAY all the buildplates linked below and browse the screenshots ...",
+          "fields": []
+        }
+      ],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "750421556915863624",
+      "type": "Default",
+      "timestamp": "2020-09-01T18:27:21.327+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "^the embed is wrong. September 4th!",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "559508079629172736",
+            "name": "facepalm",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/559508079629172736.png"
+          },
+          "count": 9
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDDF3️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f5f3.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "689550168038572192",
+            "name": "adventure_chest",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689550168038572192.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "704772811893243987",
+            "name": "adventures",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772811893243987.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "672171950793162753",
+            "name": "muddy_walk",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/672171950793162753.gif"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "743173911017029724",
+            "name": "merl_pep",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/743173911017029724.png"
+          },
+          "count": 6
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "750428254044946502",
+      "type": "Default",
+      "timestamp": "2020-09-01T18:53:58.047+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yay. the embed has been updated!",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "751577063126990848",
+      "type": "Default",
+      "timestamp": "2020-09-04T22:58:55.476+00:00",
+      "timestampEdited": "2020-09-05T01:44:28.041+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":adventures: Epic adventures ahoy! The **custom adventures** you designed were full of creativity, wit, and fun! So what kinds of epicness did you build for us to explore? You crafted a hot obstacle engulfed in lava, treasure filled prison of undead mobs, an above ground tomb with some bow-and-arrrow wielding souls below, and even created and imagined all the mysteries of the loading screen IRL! And many more! :adventure_crystals: \n\n:challenges: The zany and  adventurey winners of the #custom-adventure challenge are…\n:diamond: @Gurgensson - Dark Icy Adventure\n:gold: @Carcharias - Decaying Prison\n:iron: @Lucky_Guesser - Forest Tower\n\n**Congratulations to the winners! And thank you to everyone who participated!** Submissions may be featured in social media posts. Checkout all the mystery-filled builds in the \uD83D\uDCCC pinned messages. :fast_parrot:",
+      "author": {
+        "id": "345293769408512000",
+        "name": "ProfessorValko",
+        "discriminator": "8617",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/345293769408512000/bf694245d47948061b1e63a871ba7e32.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "337019209949118464",
+            "name": "yay",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/337019209949118464.png"
+          },
+          "count": 13
+        },
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 23
+        },
+        {
+          "emoji": {
+            "id": "425383253076082701",
+            "name": "party_potato",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/425383253076082701.gif"
+          },
+          "count": 17
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD73",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f973.png"
+          },
+          "count": 14
+        },
+        {
+          "emoji": {
+            "id": "689566157967065144",
+            "name": "party_wool",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689566157967065144.png"
+          },
+          "count": 13
+        },
+        {
+          "emoji": {
+            "id": "704758102213525576",
+            "name": "challenges",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704758102213525576.png"
+          },
+          "count": 15
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC40",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f440.png"
+          },
+          "count": 13
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF89",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f389.png"
+          },
+          "count": 13
+        },
+        {
+          "emoji": {
+            "id": "692500945833033746",
+            "name": "adventure_crystals",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500945833033746.gif"
+          },
+          "count": 14
+        },
+        {
+          "emoji": {
+            "id": "689550168038572192",
+            "name": "adventure_chest",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689550168038572192.png"
+          },
+          "count": 12
+        },
+        {
+          "emoji": {
+            "id": "704772811893243987",
+            "name": "adventures",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/704772811893243987.png"
+          },
+          "count": 11
+        },
+        {
+          "emoji": {
+            "id": "689549981086122115",
+            "name": "diamond",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689549981086122115.png"
+          },
+          "count": 15
+        }
+      ],
+      "mentions": [
+        {
+          "id": "323627949876183040",
+          "name": "Lucky_Guesser",
+          "discriminator": 5336,
+          "nickname": "Lucky_Guesser",
+          "isBot": false
+        },
+        {
+          "id": "424903229651025930",
+          "name": "Carcharias",
+          "discriminator": 7147,
+          "nickname": "Carcharias #RememberEarth",
+          "isBot": false
+        },
+        {
+          "id": "513660891938553886",
+          "name": "Gurgensson",
+          "discriminator": 8032,
+          "nickname": "Gurgensson",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "757694727796686868",
+      "type": "Default",
+      "timestamp": "2020-09-21T20:08:20.394+00:00",
+      "timestampEdited": "2020-09-21T21:09:49.027+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Custom Adventure Challenge Blog! https://www.minecraft.net/en-us/article/minecraft-earth--custom-adventure-challenge",
+      "author": {
+        "id": "174696197636751360",
+        "name": "Joe-G",
+        "discriminator": "1907",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/174696197636751360/dce0cd5845ba8aaa5fc936db2a5179a0.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Minecraft Earth: Custom Adventure Challenge",
+          "url": "https://www.minecraft.net/en-us/article/minecraft-earth--custom-adventure-challenge",
+          "timestamp": null,
+          "description": "",
+          "thumbnail": {
+            "url": "https://www.minecraft.net/content/dam/community/fy21/earth/hero_earthCA_C-09212020.jpg",
+            "width": 1170,
+            "height": 500
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "694017611796840469",
+            "name": "dancing_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/694017611796840469.gif"
+          },
+          "count": 33
+        },
+        {
+          "emoji": {
+            "id": "692500945833033746",
+            "name": "adventure_crystals",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500945833033746.gif"
+          },
+          "count": 28
+        },
+        {
+          "emoji": {
+            "id": "688934072373739531",
+            "name": "buildplate",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934072373739531.png"
+          },
+          "count": 25
+        },
+        {
+          "emoji": {
+            "id": "688934206998315049",
+            "name": "flame",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934206998315049.png"
+          },
+          "count": 20
+        }
+      ],
+      "mentions": []
+    }
+  ],
+  "messageCount": 201
+}
