@@ -1,0 +1,3227 @@
+{
+  "guild": {
+    "id": "579700549780242492",
+    "name": "MINECRAFT EARTH",
+    "iconUrl": "https://cdn.discordapp.com/icons/579700549780242492/149abc0fccbfb2be0cc113cc0c7059c1.png"
+  },
+  "channel": {
+    "id": "623283474878693376",
+    "type": "GuildTextChat",
+    "category": "Q&A Archive",
+    "name": "dev-answers-9-18",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "623957658185105408",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:04:58.284+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will breeding be coming?\nYes, breeding is coming,  keep your eyes peeled.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623957763764256802",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:05:23.456+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Who is the tutorial character?\nMerl is her name!",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623957782780968980",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:05:27.99+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will adventures be common? Yes! \nCan we collect resources from them! Yes you can!!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623957837059588109",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:05:40.931+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will any of the Minecraft earth mobs be ported to regular minecraft or are they earth exclusive?\nA: TBD \uD83D\uDE42",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623957933352288286",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:06:03.889+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Who is the owner of the Peanut Butter, the purple cat show out at the Seattle / London\nMerl and PB are BFFs",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958045353050163",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:06:30.592+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will minecraft earth be released in 2019 in the neterlands\nYes it will its coming!",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958046770593823",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:06:30.93+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will Minecraft Earth be at Minecon Live?\nTune in to find out more ^_^",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958067943309321",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:06:35.978+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Stupid question: will gamemode creative be a thing in Minecraft: Earth?\nA: Not stupid! Creative mode is represented by Buildplates in MCE",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958230468526080",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:07:14.727+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I will clarify that Minecraft Earth will be out in Beta in 2019 in the Netherlands.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958242061713448",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:07:17.491+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will Adventures be common and can we collect items on Adventures?\nA: Adventures will be less common than tappables, and you will be able to collect items from them!",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958370927509522",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:07:48.215+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Special events in the future? \nYes!! They’ll be tied into real world days/events and/or some special game events",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958543719989338",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:08:29.412+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Chests and hoppers in Minecraft Earth?\nYes! Most vanillla blocks will be in game eventually",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958774566223883",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:09:24.45+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "During holidays can we expect to see any exclusive mob variants like a Christmas Pig, etc? Haha, that would be such a cool idea!",
+      "author": {
+        "id": "272524611562897408",
+        "name": "kellyKVerde",
+        "discriminator": "9007",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/272524611562897408/7e701546bbe196df6429d295994c722f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958805675376660",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:09:31.867+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be any Easter eggs added inside MCE?\nA: Who says there aren't any already?",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958842983841835",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:09:40.762+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "How will the nether and end work in MCE?\nThe End and The Nether will come to MCE in a future update!",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958854622773298",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:09:43.537+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Holiday Exclusive mobs? \nYes! Some very pretty and special mob/mob variants for holidays!!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958898272894986",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:09:53.944+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Will it be possible to mod Minecraft: Earth?\nA: Hopefully not \uD83D\uDE42",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623958966057041931",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:10:10.105+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will you be able to tame pets and take them out on the world map?\nHmmm...Great idea!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959089717706802",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:10:39.588+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: The google play store says that this app will have Wear OS integration, is this true?\nA: That was not intentional, and we have no current plans for that.  I'll try to get that fixed.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959142138380289",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:10:52.086+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will Minecraft Earth be released worldwide in 2019?\n****[REDACTED]***",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959350586769408",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:11:41.784+00:00",
+      "timestampEdited": "2019-09-18T19:13:51.966+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Any reasons why you don't plan to allow us to upload our own skins to MCE?  Using our own personal skins make us feel like our character is personalized\nA: As with anything that has to do with personalization and creativity, there are people who abuse it and like to do inappropriate things. We will not allow this because the most important thing at the end of the day is keeping our players safe.",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959360971997186",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:11:44.26+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Are there ores under the build plate?\nNo there are not currently ores under buildplates, you find Ores and goodies in Adventures",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959588806590464",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:12:38.58+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Roughly how will crafting work?\nA: recipes will be the same but some of the functions will be a bit different",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959596381241361",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:12:40.386+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Will hostile/passive mobs spawn naturally? \nA: Yes in adventures!",
+      "author": {
+        "id": "272524611562897408",
+        "name": "kellyKVerde",
+        "discriminator": "9007",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/272524611562897408/7e701546bbe196df6429d295994c722f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959614840635403",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:12:44.787+00:00",
+      "timestampEdited": "2019-09-18T19:13:11.261+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: If I jump out of my tree house layered as a MCE tree house, will I take fall damage in game after I recover from breaking my legs?\n\nA: Plz don’t do this.",
+      "author": {
+        "id": "605905671443185704",
+        "name": "nathansoz",
+        "discriminator": "7504",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959682188574796",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:13:00.844+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Why is this channel called Q-and-A if all the answers are in a different channel, and only questions are in this one?\nA: YOU ARE NOT MY MOM!",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959726157201418",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:13:11.327+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will there be more different looking tappables in the future?\nYes we are adding Tappable types as the game evolves. You may see some new trees soon \uD83D\uDE42",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959734617243654",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:13:13.344+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(but solid point)",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623959783384547328",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:13:24.971+00:00",
+      "timestampEdited": "2019-09-18T19:13:38.201+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Do u think it possible that there will be a release date reveal soon...?\nA: Sure, anything is possible.",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960038880444437",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:14:25.886+00:00",
+      "timestampEdited": "2019-09-18T19:14:34.843+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: How has your day been?\nA: Great!",
+      "author": {
+        "id": "88843595632635904",
+        "name": "Pyroclasm",
+        "discriminator": "1763",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/88843595632635904/76552e116f56ee9809c8bb90a96acd98.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960090101153812",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:14:38.098+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there an option to make our player visible by other player on maps, especially friends?\nA: We have been considering this, but have to take player safety and privacy laws and policies into account.  We have no announcements on this feature for now.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960131444408341",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:14:47.955+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will Minecraft Earth be receiving the same updates as Minecraft Bedrock and Java editions in the future?\nA: We are using the same engine as Bedrock so we want to add content update to earth, but it may not be immediate. They will eventually make it",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960196540268586",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:15:03.475+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will the games soundtrack be available online?\nA: That's really a cool suggestion. We'll think about it!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960262831243274",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:15:19.28+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there any way some relief could be provided to passenger-commuters? It feels like I'm being punished for riding the bus to work with the constant fast-travel warnings.\nA: We will have more features and functions later in the dev process that won't be affected by speed limits but for right now we have the cap in place for good reason \uD83D\uDE42",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960340769800222",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:15:37.862+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is every normal mob in mc gonna have a mce exclusive version or only some of them\nWe have lots of new Mobs variants coming for lots of MC Mobs. They are new awesome and very exciting",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960486198902794",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:16:12.535+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there a plan to add weather into the game overworld?\nA/Q: What would you like to see?",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960498794135582",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:16:15.538+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can I have a hint of wat the next mob variant will be after the horned sheep?\nA: No.  Revel in the awesomeness of the existing variants, they want your appreciation too!  :muddy_pig2: :cluckshroom: :moobloom:",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960556897959947",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:16:29.391+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there an option to play minecraft earth in landscape orientation ?\nespecially build, play mode, and probably photo mode ?\nA: We are primarily a portrait game as of right now, but if we see that the community really wants it, we may prioritize it",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960689681367080",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:17:01.049+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: If noteblocks are added, can we play songs on them?\nA: Noteblocks are added and you CAN play songs on them, like Baby Shark!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960771897851905",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:17:20.651+00:00",
+      "timestampEdited": "2019-09-18T19:24:37.496+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Will I be able to kill gently murder using lava my friends\nA: You will be able to damage all things with Lava as you would in  Minecraft! But why hurt your friends?!",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623960923333197844",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:17:56.756+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will buildplates be available irl?\nA: We are not real estate developers and cannot sell you plots of land, unfortunately.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623961021094297601",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:18:20.064+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Quick Question, cats or dogs?\nA: Yes",
+      "author": {
+        "id": "88843595632635904",
+        "name": "Pyroclasm",
+        "discriminator": "1763",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/88843595632635904/76552e116f56ee9809c8bb90a96acd98.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623961032355741714",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:18:22.749+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be additional uses for rubies than buying buildplates?\nA: Short answer is Yes!",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623961224756985877",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:19:08.621+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there herobrine in mce..?\nA: Herobrine has been removed",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623961465757368331",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:20:06.08+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Are there any limits to the capabilities of Redstone, and if so why?\nOur goal is that anything you would like to build with Redstone in MC you should be  able to build in MCE",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623961566194434110",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:20:30.026+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: I don't know what to ask\nA: :eyesshaking:",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623961939428769793",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:21:59.012+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is there a build limit?\nAs high as your imagination (and ladders) can go (safely)",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623962022861864990",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:22:18.904+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be MCE news in MC Live?\nA: Do tune in to Minecon Live, you never know what will be shared!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623962118005325836",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:22:41.588+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Let's give Peanut butter the cat some love , will u join me devs? smiley_cat:\nA: \uD83D\uDE3A❤️❤️❤️❤️",
+      "author": {
+        "id": "348258568765440000",
+        "name": "dr_erin_swoop",
+        "discriminator": "0432",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/348258568765440000/a5f38c3a25df026fa3803c49d6b21443.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623962177661042708",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:22:55.811+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there any plan on doing a community submitted mob?\nA: Yes why not! We read the feedback section and would love suggestions",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623962393424429076",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:23:47.253+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Can we have more MCE emojis in this Discord server?\n:muddy_pig2:",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "600899402592288776",
+            "name": "muddy_pig",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600899402592288776.png"
+          },
+          "count": 55
+        },
+        {
+          "emoji": {
+            "id": "616373152598982675",
+            "name": "loading",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/616373152598982675.gif"
+          },
+          "count": 43
+        },
+        {
+          "emoji": {
+            "id": "604029923904061645",
+            "name": "cluckshroom",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/604029923904061645.png"
+          },
+          "count": 43
+        },
+        {
+          "emoji": {
+            "id": "621139371474681864",
+            "name": "mce_discord",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/621139371474681864.png"
+          },
+          "count": 45
+        },
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 63
+        },
+        {
+          "emoji": {
+            "id": "600899402521116703",
+            "name": "moobloom",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600899402521116703.png"
+          },
+          "count": 53
+        },
+        {
+          "emoji": {
+            "id": "599613969434542103",
+            "name": "muddy_pig2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599613969434542103.png"
+          },
+          "count": 58
+        },
+        {
+          "emoji": {
+            "id": "688934407683440703",
+            "name": "skeleton_wolf",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934407683440703.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": "688934123968004176",
+            "name": "tnt",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934123968004176.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "623962395303477249",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:23:47.701+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will Daily rewards be a feature?\nWe are looking at a lot of new features at the moment including what daily rewards would mean for MCE. We want to make sure they are meaningful and fun!",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623962451217612800",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:24:01.032+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can we make obscure redstone contraptions?\nA: This is all up to you and whatever you can create!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623962507622481920",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:24:14.48+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there any plan on doing a community submitted mob?\nA: as @Flexology said, we would love to hear your ideas!!",
+      "author": {
+        "id": "272524611562897408",
+        "name": "kellyKVerde",
+        "discriminator": "9007",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/272524611562897408/7e701546bbe196df6429d295994c722f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "219183711558696960",
+          "name": "Flexology",
+          "discriminator": 1,
+          "nickname": "Flexology",
+          "isBot": false
+        }
+      ]
+    },
+    {
+      "id": "623962779723759667",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:25:19.354+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: When will it be available in [INSERTPLACEHERE] on IOS\nA: \\*\\*/\\*\\*/\\*\\*\\*\\*",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623962954601332756",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:26:01.048+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can we get a \"fast mode\" that will skip the collection animation of tappables?\nA: I worked hard on those animations \uD83E\uDD7A",
+      "author": {
+        "id": "272524611562897408",
+        "name": "kellyKVerde",
+        "discriminator": "9007",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/272524611562897408/7e701546bbe196df6429d295994c722f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963013245960203",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:26:15.03+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can we make obscure redstone contraptions?\nA: all red stone from bedrock works but some blocks will take time to appear, like pistons and red stone comparitors, will come in later updates",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963223716266011",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:27:05.21+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can we get a \"fast mode\" that will skip the collection animation of tappables?\nA: We don't currently have plans to add this.  Its been suggested enough for future consideration though.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963401856745503",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:27:47.682+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be ray tracing in MCE ?\nÁ: we are working to have the phones cooler, so probably not until several generations of phones from now",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963583235096601",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:28:30.926+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Are there going to be in-game purchases of some sort?\nA: Yes, in the Android beta this already exists - you can purchase rubies and use them to buy buildplates.  More things will come to the store in future updates!",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963653594677279",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:28:47.701+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: If I put TNT infront of my house and set it off will it blow up my house?\nA: It will! TNT will  act the same way it does in Minecraft",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963667628818471",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:28:51.047+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: In the last q&a i saw you will be able to make tools how will they benefit us and will we be able to uncraft items?\nA: You’ll be able to craft tools. These tools can be used in adventures to mine/collect/farm resources and battle hostile mobs. \nCan you uncraft then? Nope",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963765444050976",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:29:14.368+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Will battery consumption be improved?\n\nWe are just at the beginning of our performance journey! We will continue to improve it as we make new updates. There are, of course, limits to what we can do, as AR enables every sensor in the device at the same time. \n\nWhat device are you running and what’s your experience?",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963912370520074",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:29:49.398+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: #MOUNTAINGANG? are u going to add mountains to minecraft earth?\nA: Since MCE is based on the actual Earth, technically yes, there will be mountains",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623963918741667853",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:29:50.917+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What was the inspiration behind the muddy pig and it’s mechanics?\nWhen creating our first Mob for MCE we wanted to set the foundation for future Mobs where they live and interact with the environment. We created the Muddy Pig and the new Mud block which creates exciting new interactions and possibilities in the world. We take great care with all new Mob designs to make sure they are special. For example the Cluckshroom hides in the dark and plants Mushrooms.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964003210756113",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:30:11.056+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: When doing an adventure can I do it with other people, if so could I murder my friends.\nA: Yes, you can do these with other players!  \nA: No, you cannot directly murder your friends in Adventures.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964009242034206",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:30:12.494+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will we be able to encounter and battle mobs from the map? E.g. a skeleton appear on the map and when tapped we enter a battle with it?\nA: mob battles are only within adventures where the full Minecraft game is running",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964066762850314",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:30:26.208+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will egg throwing and hatching a chick be a feature?\nA: yes!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964383025954847",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:31:41.611+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: When you die in adventure mode, do you lose items just like in all other Minecraft editions?\nA: Yes, and currently you lose your hotbar and back back. Not your inventory chest but whatever you took into the adventure in your hotbar and have collected in the adventure in your backpack",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964395709399049",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:31:44.635+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "How many future MCE exclusive mobs are planned?\nLots of new Mobs are planned for the Minecraft universe you will find lots of new Mobs in MCE, there are a lot more on the way.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964482758115387",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:32:05.389+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Approximately how long has MCE been in development?\n\nA: We’ve has aspirations of working in AR since the original HoloLens demo that we showed at E3 2015. We started Minecraft Earth about 18 months ago as an experiment to see what the readiness of mobile AR was. We’ve been excited ever since!",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964603948335138",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:32:34.283+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Are you getting tired of answering 30 questions /min\nA: I think we're having a good time. And time flys when you're having fun \uD83D\uDE42",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623964842180739092",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:33:31.082+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there new music for MCE?\nA: Yes, new music is being worked on now.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965028227350549",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:34:15.439+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Could I place lava/water in adventures?\nA: As long as  you have some in your inventory, yes!",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965039887384578",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:34:18.219+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Could I place lava/water in adventures\nA: Yes, and I've found that lava solves many problems.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965326861664258",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:35:26.639+00:00",
+      "timestampEdited": "2019-09-18T19:35:55.225+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: What is the community in the workplace like while working on the game? Is it a really positive atmosphere, because from what I can tell it is extremely optimistic!\nA:",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [
+        {
+          "id": "623965321681829908",
+          "url": "https://cdn.discordapp.com/attachments/623283474878693376/623965321681829908/image0.jpg",
+          "fileName": "image0.jpg",
+          "fileSizeBytes": 794940
+        }
+      ],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "599444224118882305",
+            "name": "fast_parrot",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/599444224118882305.gif"
+          },
+          "count": 58
+        },
+        {
+          "emoji": {
+            "id": "600850000758702100",
+            "name": "friends",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/600850000758702100.png"
+          },
+          "count": 36
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "623965369849348113",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:35:36.888+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:After Minecraft earth goes live, will you guys be committed to regular updates to improve and add more features into the game?\nA: YES! So many updates",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965370033766430",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:35:36.932+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: If someone pushes you and you are on the edge in adventures do you fly or drop\n\nA: Neither. A hole is AR is not yet a hole in reality. :-). You can walk over the whole or the cliff.",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965384848179230",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:35:40.464+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Is villager trading available in mce?\nA: This is a great question and  it's something we're working through!",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965476858626089",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:36:02.401+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Are there any plans for a way to collect items without having to constantly look at phone whilst walking around? Like the pokemon go plus for pokemon go?\nA: We have haptic feedback to let you know when a new tappable is nearby, so you don't have to look constantly.  We have discussed accessories but have nothing to announce right now.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965652532854824",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:36:44.285+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Will we get bigger buildplates as time goes on\nA: There are plans for this!",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965899132764164",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:37:43.079+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is muddy pig actually real? *For real tho **where are they***\nA: Chillin in the mud and staying cool. \uD83D\uDE04",
+      "author": {
+        "id": "605905671443185704",
+        "name": "nathansoz",
+        "discriminator": "7504",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623965961950855200",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:37:58.056+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Are u #MountainGang for minecraft biome vote?\nA:  Wastelandsssssss",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966095296036894",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:38:29.848+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can we have bigger pic of whats in the wooden box on that workplace image ?\nA: No, but its Legos.  Most of our conference rooms have some hanging out.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966161687543839",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:38:45.677+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there something like a survival mode with zombie waves planned?\nA:  We are working on our new Adventure feature which lets you explore new experiences underground. Here you will find lots of challenges, hostile mobs and rewards! You never know what you will find!",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966201776963612",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:38:55.235+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is muddy pig actually real? For real tho where are they\nA: keep collecting those pig tappables \uD83D\uDE09",
+      "author": {
+        "id": "272524611562897408",
+        "name": "kellyKVerde",
+        "discriminator": "9007",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/272524611562897408/7e701546bbe196df6429d295994c722f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966208538181671",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:38:56.847+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Of how many people does the MCE team consist?\nA: We are part of the larger Minecraft team so everyone is working on things together!",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966245129158657",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:39:05.571+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will fishing be implemented into the game? I just picture relaxing on the shore and fishing in AR... \uD83D\uDC20\n\nA: We want all tools in the game to work. Fishing in AR would be super cool!",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966374871564338",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:39:36.504+00:00",
+      "timestampEdited": "2019-09-18T19:39:47.194+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: If a mob died in Build Mode, can you make it so that you get the spawn egg back instead of the regular mob drops? I'm worried that I might accidentally suffocate my mobs when building, or spawn one in a wall... (Especially the Mob of Me, which I only have one of!)\nA: Right now you can use the Pickup mode to pickup mobs. We have implemented a system to not kill mobs accidentally. If it becomes a very annoying issue, we can come up with some solution!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966423462576138",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:39:48.089+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be an option to take photos and record videos from within the app?\nA: You can do this using Android an iPhone built in features currently.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966471092961306",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:39:59.445+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Does minecraft earth work in landscape mode?\nA: AR does work in landscape mode, but the UI won't rotate. Technically possible!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966671320645661",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:40:47.183+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there a warning for going at high speeds?\nA: Yes. Please don't play and drive, stay safe on the roads and remember that its just a game!",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966851474522123",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:41:30.135+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there an option to customize our nickname in MCE ?\nA: You can change your Xbox gamertag as it pulls your name from Xbox live!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623966995746127913",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:42:04.532+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can we have bigger pic of whats in the wooden box on that workplace image ?\n\uD83D\uDC40\nA:",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [
+        {
+          "id": "623966989597016093",
+          "url": "https://cdn.discordapp.com/attachments/623283474878693376/623966989597016093/image0.jpg",
+          "fileName": "image0.jpg",
+          "fileSizeBytes": 1497588
+        }
+      ],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967028851638282",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:42:12.425+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Why is minecraft earth so awesome?\nA: Because we love Minecraft and its so fun to work on what you love!",
+      "author": {
+        "id": "199013276992929792",
+        "name": "wabbit",
+        "discriminator": "5464",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/199013276992929792/7fa1e495840760515a861a2cf9ffd747.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967141514838016",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:42:39.286+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:  Do mud interact to other liquid, like how water and lava creates cobblestone ?\nA:  Yes mud is a brand new liquid block and works in the ways you'd expect.  You can put it in a bucket, it flows to nearby blocks. If  mud touches lava it dries out and becomes dirt. If mud touches water it is washed away.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967219994591252",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:42:57.997+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will making snow golems and iron golems work the exact same as bedrock and java?\nA: We follow the Bedrock rules for MCE (which are not always the same as Java).  When the appropriate blocks are in the game we plan to support the things they make.  When we don't follow the rules we announce it (such as how you cannot currently make obsidian).",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967391533236249",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:43:38.895+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Q: Any plans for more advanced building options? (e.g. like building a line of blocks at once)\n\nA: Minecraft has always been about building one block at a time. MCE maintains that principle too.",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967405282033683",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:43:42.173+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Is there an option to add friends?\nA: You can build with friends but we're working social features. Check in at the next Q&A",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967648941604876",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:44:40.266+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: HOLD UP what do you mean by full minecraft game running \nA: Context: Adventures.\nAdventures are a small part of the Minecraft world and will function like a full Minecraft experience. That would be the way to fight mobs",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967665119035464",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:44:44.123+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: When will we have another Q & A?\nA: We plan the Q&A's as often as possible. We all love talking with you all and answering the questions the community has. You'll often find many of the dev team members on the channel daily. We will plan the next Q&A and align it when it works best for the team so we can get as many people online as possible!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967763643498497",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:45:07.613+00:00",
+      "timestampEdited": "2019-09-18T19:45:15.937+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Are there gonna be more mobs\nA: \uD83D\uDC40",
+      "author": {
+        "id": "272524611562897408",
+        "name": "kellyKVerde",
+        "discriminator": "9007",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/272524611562897408/7e701546bbe196df6429d295994c722f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967801140314152",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:45:16.553+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: it will be more optimizations for the phones and stuff?\nA: Yes, performance and optimization is part of our ongoing development plans.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623967996821372935",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:46:03.207+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there any plan to add version notes to the updates so we have an idea of what to look out for as testers?\nA: Yes!  Joel and I are working on a process for this now \uD83D\uDE42",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968045735477250",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:46:14.869+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Are there any rarity higher than purple rarity ?\nA: Yes!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968160135118898",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:46:42.144+00:00",
+      "timestampEdited": "2019-09-18T19:47:04.433+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: What is the oldest iPhone this will work on\nA: 6s and SE - we require ARKit support",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "733363413396357181",
+            "name": "rainbow_sheep",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/733363413396357181.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "623968212421443605",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:46:54.61+00:00",
+      "timestampEdited": "2019-09-18T19:47:00.48+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Is there gonna be more news at minecon live\nA: you'll have to wait and see \uD83D\uDE42",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968420576100363",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:47:44.238+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Elytra in AR?\nA: Please do not jump off of things while wearing a cape or wings.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968466210390037",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:47:55.118+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will you be able to play with friends from other countries?\nA: Currently there is not a way to play with friends remotely, but you can play with any friend if they are standing next to you \uD83D\uDE42",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968632736710664",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:48:34.821+00:00",
+      "timestampEdited": "2019-09-18T19:49:26.517+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Who is the best dev on the team\nA: Not me \uD83D\uDE42, I am still learning",
+      "author": {
+        "id": "88843595632635904",
+        "name": "Pyroclasm",
+        "discriminator": "1763",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/88843595632635904/76552e116f56ee9809c8bb90a96acd98.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968677338808321",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:48:45.455+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: What is the rarity higher then purple?\nA: Golden/Orange/Yellow. It’s the ‘earthling’ role color",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968736541671434",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:48:59.57+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q Who is the best dev on the team\nA: There is no \"I\" in team, to create Minecraft Earth it takes a village.",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968851054428169",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:49:26.872+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: so currently my phone is not compatible with the app (moto G5) but i have been accepted into the beta program is my phone ever going to be compatible with Minecraft earth?\n\nA: Our intention is to run on every phone that can run ARKit and ARCore. I don’t believe the Moto G5 is ARCore capable.",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968855349395466",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:49:27.896+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:What if I have no friends?\nA: We're all friends!",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623968901495128075",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:49:38.898+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:What if I have no friends?\nA: Anyone part of the Minecraft Earth community is our friend.",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969087281823745",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:50:23.193+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can I have a hug? \uD83E\uDD7A\nA: \uD83E\uDD17",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969162825564161",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:50:41.204+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: I signed up as soon as MC and MCE tweeted about it. Why did I not get and invite, is it RNG and if not what did i do wrong ?\nA: It is RNG.  Over a million signed up and we invited significantly less than that - and only from specific cities/regions.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969196526534656",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:50:49.239+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can I have a hug? \uD83E\uDD7A\nA: internet hug!!",
+      "author": {
+        "id": "348258568765440000",
+        "name": "dr_erin_swoop",
+        "discriminator": "0432",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/348258568765440000/a5f38c3a25df026fa3803c49d6b21443.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969266407964672",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:51:05.9+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can you ask helen how good her iphone 6s works with minecraft earth\n\nA: We test on the iPhone 6S and the game runs really well! We’d love to hear what you think.",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969287488536576",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:51:10.926+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can you ask helen how good her iphone 6s works with minecraft earth\nA: She plays Minecraft Earth often and has no issues",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969310205018112",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:51:16.342+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: can we get custom potions? like a potion of long reach, to reach farther in the overworld, or a potion of the collector to automatically collect nearby resources?\nA: we are looking at what potions will be in Minecraft Earth to make the most sense. Stay tuned for more info!",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969422574485555",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:51:43.133+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Is there a planned release month and will android/ios get the full game at the same time or wil ios get it earlier like the beta\nA: Our plan is to release features and updates on both platforms simultaneously.  There may be times it isn't exactly the same due to things out of our control.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969644620808243",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:52:36.073+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can Mob of Me wear armour and hold tools?\nA: Not right now, you can customize your Mob of Me with different looks. We hope to add things in the future to make the Mob of Me even more special.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969720810602496",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:52:54.238+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can farmable crops grows if we are not in the buildplates ?\nA: not right now, you have to be ticking. It’s Something we’d like to do in the future. There isn’t as much need for food right now because you don’t eat but you will soon.",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969907675234314",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:53:38.79+00:00",
+      "timestampEdited": "2019-09-18T19:54:42.145+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q:Are adventures  played in AR too ?\nA: Yup!",
+      "author": {
+        "id": "513870108192538624",
+        "name": "MasterTree",
+        "discriminator": "4411",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/513870108192538624/567817c2c11b420572e1c100a4073280.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623969969134108672",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:53:53.443+00:00",
+      "timestampEdited": "2019-09-18T19:54:10.496+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be things you can only get in certain countries?\nA: No, all things in the game will be available to everyone everywhere, though some things you may need to work harder to find due to rarity.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970050797469716",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:54:12.913+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will we ever be able to get a sheep and cow  varient?\n\nA: there’s a cow variant out now and look forward to more soon!",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970248315633665",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:55:00.005+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Ok so if I'm in Croatia, there is a less percent chance I get invited then those who are for example in the US or the UK\nA: there’s only five cities right now in Beta. None in Croatia. But when it releases it will be there !",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970273871265803",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:55:06.098+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: When does the Q & A end?\nA: In six minutes.  \uD83C\uDFB5 Its the Final Countdown! \uD83C\uDFB5",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970287926378497",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:55:09.449+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: When will MCE support other cities / countries? I would really like to test the game \uD83D\uDC40\nA: Following the beta we'll work to unlock more areas!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970391232348160",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:55:34.079+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will minecraft earth use the Java or Bedrock engine? Or will it get a custom one?\n\nA: MCE is built atop Bedrock, with a lot of custom extensions to work in AR.",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970549835628572",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:56:11.893+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be daily quests?\nA: Challenges are coming soon! ™",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970734896840708",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:56:56.015+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there gonna have a \"Turn-off Ar mode\" ?\nA: no, the game is ground up built for AR. Building and adventuring .",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970911598411777",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:57:38.144+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Are there plans to add buildings to the map?\nA: Buildings are currently shown as slightly protruded darker green areas.  We don't currently plan to show them at actual height as it clutters up the map in cities.",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623970954506403843",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:57:48.374+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Turtle variant?\nA: That would be awesome!! \uD83D\uDC22",
+      "author": {
+        "id": "348258568765440000",
+        "name": "dr_erin_swoop",
+        "discriminator": "0432",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/348258568765440000/a5f38c3a25df026fa3803c49d6b21443.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971036949643283",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:58:08.03+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will MCE have a day and night cycle?\nA: Current MCE and the world map is only played in daylight. We are thinking of how the day night cycle would work in MCE and what that would mean for AR gameplay for all the different experiences.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971054661926943",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:58:12.253+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can i play adventure mode in a small room ?\n\nA: Buildplates in Play mode work fine in small spaces. There is a minimum space needed to place it one the ground/table, but it will work in small rooms.",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971064434917416",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:58:14.583+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: will the game run in 60fps?\nA: depends on your phone hardware and then capabilities of the AR library. With best phones and libraries you have constant 60fps",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971356702408716",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:59:24.265+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: What does sideloaded mean ?\nA: Please do not sideload, as such files are unofficial and could have viruses or spyware.  Sideloading is the process of downloading a file and putting it on your phone rather than getting it from official sources (such as the Google Play Store).",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971361215479810",
+      "type": "Default",
+      "timestamp": "2019-09-18T19:59:25.341+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can I kill players and have them drop their items?\nA: sadly no! You could do that in our early prototypes but there was too much griefing.",
+      "author": {
+        "id": "599431884401016885",
+        "name": "torqObsidian",
+        "discriminator": "0928",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971618644820008",
+      "type": "Default",
+      "timestamp": "2019-09-18T20:00:26.717+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Will there be fighting other players in mce?\nA: Nope! Minecraft Earth is a collaborative game experience!",
+      "author": {
+        "id": "248700969397911562",
+        "name": "RaiZero",
+        "discriminator": "7882",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/248700969397911562/1b274d4e469b5e4f7cb6f34ea2d1ebe1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971750622789652",
+      "type": "Default",
+      "timestamp": "2019-09-18T20:00:58.183+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: African or European swallow? Have a great day! \uD83D\uDC4B\n\nA: I don’t know... AAAAAaaaaaah!",
+      "author": {
+        "id": "568296641866760203",
+        "name": "black_snapper",
+        "discriminator": "2276",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971752850227202",
+      "type": "Default",
+      "timestamp": "2019-09-18T20:00:58.714+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: Can there be new types of ores?\nA: Nothing confirmed yet, but maybe :shruganimated:",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623971807610798101",
+      "type": "Default",
+      "timestamp": "2019-09-18T20:01:11.77+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: You broke our hearts when you deconfirmed the ender dolphins. Will there be any water mob variants? Or new water mobs?\nA: There are new Mobs for all types of environments. Keep watching and I am sure you will be very happy.",
+      "author": {
+        "id": "270106231081795584",
+        "name": "ledski",
+        "discriminator": "1153",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/270106231081795584/fb0d1181d7e27fc4eb975c1c1433e453.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE2D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f62d.png"
+          },
+          "count": 10
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "623971849906159656",
+      "type": "Default",
+      "timestamp": "2019-09-18T20:01:21.854+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Q: If you had some final words to say at the end of this Q&A, what would they be?\nA: Thanks for being awesome fans of our game!  We've worked hard and really hope that you all have a blast playing it and keep providing great feedback!",
+      "author": {
+        "id": "334212349475160065",
+        "name": "JORAX",
+        "discriminator": "8179",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/334212349475160065/e25fe356a216ee7f401d28f175b9c4c2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "623972313334939657",
+      "type": "Default",
+      "timestamp": "2019-09-18T20:03:12.344+00:00",
+      "timestampEdited": "2019-09-18T20:06:30.073+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "A big thank you to everyone for joining us for the QnA today! Keep playing and post your feedback and suggestions, either here or on the feedback website. We love you all",
+      "author": {
+        "id": "219183711558696960",
+        "name": "Flexology",
+        "discriminator": "0001",
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/219183711558696960/a_bfa797ab15b21de8bf6de0f3e3e0ef4d.gif"
+      },
+      "attachments": [
+        {
+          "id": "623972308641644565",
+          "url": "https://cdn.discordapp.com/attachments/623283474878693376/623972308641644565/image0.png",
+          "fileName": "image0.png",
+          "fileSizeBytes": 216180
+        }
+      ],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "613515448167694386",
+            "name": "heart",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/613515448167694386.png"
+          },
+          "count": 930
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE0E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f60e.png"
+          },
+          "count": 39
+        },
+        {
+          "emoji": {
+            "id": "688934162941476936",
+            "name": "mob_of_me",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/688934162941476936.png"
+          },
+          "count": 32
+        },
+        {
+          "emoji": {
+            "id": "689562549938683989",
+            "name": "orange_wool",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689562549938683989.png"
+          },
+          "count": 24
+        },
+        {
+          "emoji": {
+            "id": "652237853501161493",
+            "name": "jolly_llama_head",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/652237853501161493.png"
+          },
+          "count": 25
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 26
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD74",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f974.png"
+          },
+          "count": 19
+        },
+        {
+          "emoji": {
+            "id": "712425365787902012",
+            "name": "vested_rabbit",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/712425365787902012.png"
+          },
+          "count": 17
+        },
+        {
+          "emoji": {
+            "id": "699476462553661511",
+            "name": "grass",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/699476462553661511.png"
+          },
+          "count": 17
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE10",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f610.png"
+          },
+          "count": 14
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC44",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f444.png"
+          },
+          "count": 12
+        },
+        {
+          "emoji": {
+            "id": "692500948102152363",
+            "name": "tropical_slime",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/692500948102152363.png"
+          },
+          "count": 10
+        },
+        {
+          "emoji": {
+            "id": "689549981086122115",
+            "name": "diamond",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/689549981086122115.png"
+          },
+          "count": 16
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF46",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f346.png"
+          },
+          "count": 14
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD5A",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f95a.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    }
+  ],
+  "messageCount": 146
+}

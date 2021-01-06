@@ -1,0 +1,4666 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MINECRAFT EARTH - dev-answers-9-18</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+        /* General */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-300.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-400.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-500.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-600.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-700.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    max-width: 100%;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.preserve-whitespace {
+    white-space: pre-wrap;
+}
+
+.spoiler {
+    /* width: fit-content; */
+    display: inline-block;
+    /* This is more consistent across browsers, the old attribute worked well under Chrome but not FireFox. */
+}
+
+.spoiler--hidden {
+    cursor: pointer;
+}
+
+.spoiler-text {
+    border-radius: 3px;
+}
+
+.spoiler--hidden .spoiler-text {
+    color: rgba(0, 0, 0, 0);
+}
+
+.spoiler--hidden .spoiler-text::selection {
+    color: rgba(0, 0, 0, 0);
+}
+
+.spoiler-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.spoiler--hidden .spoiler-image {
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.spoiler--hidden .spoiler-image * {
+    filter: blur(44px);
+}
+
+.spoiler--hidden .spoiler-image:after {
+    content: "SPOILER";
+    color: #dcddde;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    padding: 100%;
+    border-radius: 20px;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
+}
+
+.spoiler--hidden:hover .spoiler-image:after {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.quote {
+    margin: 0.1em 0;
+    padding-left: 0.6em;
+    border-left: 4px solid;
+    border-radius: 3px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 0.25em;
+    padding: 0.5em;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+.mention {
+    border-radius: 3px;
+    padding: 0 2px;
+    color: #7289da;
+    background: rgba(114, 137, 218, .1);
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0 0.06em;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1em;
+    height: 1em;
+}
+
+.emoji--large {
+    width: 2.8em;
+    height: 2.8em;
+}
+
+/* Preamble */
+
+.preamble {
+    display: grid;
+    margin: 0 0.3em 0.6em 0.3em;
+    max-width: 100%;
+    grid-template-columns: auto 1fr;
+}
+
+.preamble__guild-icon-container {
+    grid-column: 1;
+}
+
+.preamble__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.preamble__entries-container {
+    grid-column: 2;
+    margin-left: 0.6em;
+}
+
+.preamble__entry {
+    font-size: 1.4em;
+}
+
+.preamble__entry--small {
+    font-size: 1em;
+}
+
+/* Chatlog */
+
+.chatlog {
+    max-width: 100%;
+}
+
+.chatlog__message-group {
+    display: grid;
+    margin: 0 0.6em;
+    padding: 0.9em 0;
+    border-top: 1px solid;
+    grid-template-columns: auto 1fr;
+}
+
+.chatlog__reference-symbol {
+    grid-column: 1;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+    border-radius: 8px 0 0 0;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.chatlog__reference {
+    display: flex;
+    grid-column: 2;
+    margin-left: 1.2em;
+    margin-bottom: 0.25em;
+    font-size: 0.875em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+}
+
+.chatlog__reference-avatar {
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    margin-right: 0.25em;
+}
+
+.chatlog__reference-name {
+    margin-right: 0.25em;
+    font-weight: 600;
+}
+
+.chatlog__reference-link {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatlog__reference-link:hover {
+    text-decoration: none;
+}
+
+.chatlog__reference-content > * {
+    display: inline;
+}
+
+.chatlog__reference-edited-timestamp {
+    margin-left: 0.25em;
+    font-size: 0.8em;
+}
+
+.chatlog__author-avatar-container {
+    grid-column: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    grid-column: 2;
+    margin-left: 1.2em;
+    min-width: 50%;
+}
+
+.chatlog__author-name {
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 0.3em;
+    font-size: 0.75em;
+}
+
+.chatlog__message {
+    padding: 0.1em 0.3em;
+    margin: 0 -0.3em;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: 0.95em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 0.15em;
+    font-size: 0.8em;
+}
+
+.chatlog__attachment {
+    margin-top: 0.3em;
+}
+
+.chatlog__attachment-thumbnail {
+    vertical-align: top;
+    max-width: 45vw;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__attachment-container {
+    height: 40px;
+    width: 100%;
+    max-width: 520px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.chatlog__attachment-icon {
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.chatlog__attachment-icon > .a {
+    fill: #f4f5fb;
+    d: path("M50,935a25,25,0,0,1-25-25V50A25,25,0,0,1,50,25H519.6L695,201.32V910a25,25,0,0,1-25,25Z");
+}
+
+.chatlog__attachment-icon > .b {
+    fill: #7789c4;
+    d: path("M509.21,50,670,211.63V910H50V50H509.21M530,0H50A50,50,0,0,0,0,50V910a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50h0V191Z");
+}
+
+.chatlog__attachment-icon > .c {
+    fill: #f4f5fb;
+    d: path("M530,215a25,25,0,0,1-25-25V50a25,25,0,0,1,16.23-23.41L693.41,198.77A25,25,0,0,1,670,215Z");
+}
+
+.chatlog__attachment-icon > .d {
+    fill: #7789c4;
+    d: path("M530,70.71,649.29,190H530V70.71M530,0a50,50,0,0,0-50,50V190a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50Z");
+}
+
+.chatlog__attachment-filesize {
+    color: #72767d;
+    font-size: 12px;
+}
+
+.chatlog__attachment-filename {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.chatlog__embed {
+    display: flex;
+    margin-top: 0.3em;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 0.25em;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.6em;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    display: flex;
+    width: 100%;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    margin-bottom: 0.3em;
+    align-items: center;
+}
+
+.chatlog__embed-author-icon {
+    margin-right: 0.5em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 0.2em;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 0.6em;
+    font-size: 0.875em;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 1.2em;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 0.6em;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 0.6em;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 0.2em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 0.35em 0.1em 0.1em 0.1em;
+    padding: 0.2em 0.35em;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 0.35em;
+    font-size: 0.875em;
+}
+
+.chatlog__bot-tag {
+    position: relative;
+    top: -.2em;
+    margin-left: 0.3em;
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    font-weight: 500;
+}
+
+/* Postamble */
+
+.postamble {
+    margin: 1.4em 0.3em 0.6em 0.3em;
+    padding: 1em;
+    border-top: 1px solid;
+}
+    </style>
+    <style>
+        /* General */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler-text {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.spoiler--hidden .spoiler-text {
+    background-color: #202225;
+}
+
+.spoiler--hidden:hover .spoiler-text {
+    background-color: rgba(32, 34, 37, 0.8);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #b9bbbe !important;
+}
+
+/* === Preamble === */
+
+.preamble__entry {
+    color: #ffffff;
+}
+
+/* Chatlog */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__reference-symbol {
+    border-color: #4f545c;
+}
+
+.chatlog__reference {
+    color: #b5b6b8;
+}
+
+.chatlog__reference-link {
+    color: #b5b6b8;
+}
+
+.chatlog__reference-link:hover {
+    color: #ffffff;
+}
+
+.chatlog__reference-edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__attachment-container {
+    background-color: #2f3136;
+    border-color: #292b2f;
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-color-pill--default {
+    background-color: rgba(79, 84, 92, 1);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Postamble */
+
+.postamble {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.postamble__entry {
+    color: #ffffff;
+}
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <img class="preamble__guild-icon" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/149abc0fccbfb2be0cc113cc0c7059c1-B183E.png" alt="Guild icon">
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">MINECRAFT EARTH</div>
+        <div class="preamble__entry">Q&amp;A Archive / dev-answers-9-18</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:04 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623957658185105408" id="message-623957658185105408">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will breeding be coming?
+Yes, breeding is coming,  keep your eyes peeled.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:05 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623957763764256802" id="message-623957763764256802">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Who is the tutorial character?
+Merl is her name!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:05 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623957782780968980" id="message-623957782780968980">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will adventures be common? Yes! 
+Can we collect resources from them! Yes you can!!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:05 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623957837059588109" id="message-623957837059588109">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will any of the Minecraft earth mobs be ported to regular minecraft or are they earth exclusive?
+A: TBD <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:06 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623957933352288286" id="message-623957933352288286">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Who is the owner of the Peanut Butter, the purple cat show out at the Seattle / London
+Merl and PB are BFFs</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="623958045353050163" id="message-623958045353050163">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will minecraft earth be released in 2019 in the neterlands
+Yes it will its coming!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:06 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958046770593823" id="message-623958046770593823">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will Minecraft Earth be at Minecon Live?
+Tune in to find out more ^_^</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:06 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958067943309321" id="message-623958067943309321">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Stupid question: will gamemode creative be a thing in Minecraft: Earth?
+A: Not stupid! Creative mode is represented by Buildplates in MCE</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:07 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958230468526080" id="message-623958230468526080">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">I will clarify that Minecraft Earth will be out in Beta in 2019 in the Netherlands.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:07 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958242061713448" id="message-623958242061713448">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will Adventures be common and can we collect items on Adventures?
+A: Adventures will be less common than tappables, and you will be able to collect items from them!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:07 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958370927509522" id="message-623958370927509522">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Special events in the future? 
+Yes!! They’ll be tied into real world days/events and/or some special game events</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="623958543719989338" id="message-623958543719989338">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Chests and hoppers in Minecraft Earth?
+Yes! Most vanillla blocks will be in game eventually</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7e701546bbe196df6429d295994c722f-38F1D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="kellyKVerde#9007" data-user-id="272524611562897408" style="">kellyKVerde</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:09 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958774566223883" id="message-623958774566223883">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">During holidays can we expect to see any exclusive mob variants like a Christmas Pig, etc? Haha, that would be such a cool idea!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:09 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958805675376660" id="message-623958805675376660">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be any Easter eggs added inside MCE?
+A: Who says there aren&#39;t any already?</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:09 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958842983841835" id="message-623958842983841835">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">How will the nether and end work in MCE?
+The End and The Nether will come to MCE in a future update!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:09 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958854622773298" id="message-623958854622773298">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Holiday Exclusive mobs? 
+Yes! Some very pretty and special mob/mob variants for holidays!!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:09 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958898272894986" id="message-623958898272894986">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Will it be possible to mod Minecraft: Earth?
+A: Hopefully not <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:10 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623958966057041931" id="message-623958966057041931">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will you be able to tame pets and take them out on the world map?
+Hmmm...Great idea!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:10 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959089717706802" id="message-623959089717706802">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: The google play store says that this app will have Wear OS integration, is this true?
+A: That was not intentional, and we have no current plans for that.  I&#39;ll try to get that fixed.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:10 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959142138380289" id="message-623959142138380289">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will Minecraft Earth be released worldwide in 2019?
+<em><strong>*[REDACTED]</strong></em></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:11 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959350586769408" id="message-623959350586769408">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Any reasons why you don&#39;t plan to allow us to upload our own skins to MCE?  Using our own personal skins make us feel like our character is personalized
+A: As with anything that has to do with personalization and creativity, there are people who abuse it and like to do inappropriate things. We will not allow this because the most important thing at the end of the day is keeping our players safe.</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:13 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:11 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959360971997186" id="message-623959360971997186">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Are there ores under the build plate?
+No there are not currently ores under buildplates, you find Ores and goodies in Adventures</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:12 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959588806590464" id="message-623959588806590464">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Roughly how will crafting work?
+A: recipes will be the same but some of the functions will be a bit different</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7e701546bbe196df6429d295994c722f-38F1D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="kellyKVerde#9007" data-user-id="272524611562897408" style="">kellyKVerde</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:12 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959596381241361" id="message-623959596381241361">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Will hostile/passive mobs spawn naturally? 
+A: Yes in adventures!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/4-4551A.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="nathansoz#7504" data-user-id="605905671443185704" style="">nathansoz</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:12 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959614840635403" id="message-623959614840635403">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: If I jump out of my tree house layered as a MCE tree house, will I take fall damage in game after I recover from breaking my legs?
+
+A: Plz don’t do this.</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:13 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:13 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959682188574796" id="message-623959682188574796">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Why is this channel called Q-and-A if all the answers are in a different channel, and only questions are in this one?
+A: YOU ARE NOT MY MOM!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:13 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959726157201418" id="message-623959726157201418">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will there be more different looking tappables in the future?
+Yes we are adding Tappable types as the game evolves. You may see some new trees soon <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:13 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959734617243654" id="message-623959734617243654">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">(but solid point)</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:13 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623959783384547328" id="message-623959783384547328">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Do u think it possible that there will be a release date reveal soon...?
+A: Sure, anything is possible.</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:13 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/76552e116f56ee9809c8bb90a96acd98-10122.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Pyroclasm#1763" data-user-id="88843595632635904" style="color: rgb(111,69,198)">Pyroclasm</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:14 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960038880444437" id="message-623960038880444437">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: How has your day been?
+A: Great!</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:14 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:14 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960090101153812" id="message-623960090101153812">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there an option to make our player visible by other player on maps, especially friends?
+A: We have been considering this, but have to take player safety and privacy laws and policies into account.  We have no announcements on this feature for now.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:14 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960131444408341" id="message-623960131444408341">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will Minecraft Earth be receiving the same updates as Minecraft Bedrock and Java editions in the future?
+A: We are using the same engine as Bedrock so we want to add content update to earth, but it may not be immediate. They will eventually make it</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:15 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960196540268586" id="message-623960196540268586">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will the games soundtrack be available online?
+A: That&#39;s really a cool suggestion. We&#39;ll think about it!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:15 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960262831243274" id="message-623960262831243274">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there any way some relief could be provided to passenger-commuters? It feels like I&#39;m being punished for riding the bus to work with the constant fast-travel warnings.
+A: We will have more features and functions later in the dev process that won&#39;t be affected by speed limits but for right now we have the cap in place for good reason <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:15 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960340769800222" id="message-623960340769800222">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Is every normal mob in mc gonna have a mce exclusive version or only some of them
+We have lots of new Mobs variants coming for lots of MC Mobs. They are new awesome and very exciting</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:16 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960486198902794" id="message-623960486198902794">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there a plan to add weather into the game overworld?
+A/Q: What would you like to see?</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:16 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960498794135582" id="message-623960498794135582">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can I have a hint of wat the next mob variant will be after the horned sheep?
+A: No.  Revel in the awesomeness of the existing variants, they want your appreciation too!  <img class="emoji " alt="muddy_pig2" title="muddy_pig2" src="https://cdn.discordapp.com/emojis/599613969434542103.png"> <img class="emoji " alt="cluckshroom" title="cluckshroom" src="https://cdn.discordapp.com/emojis/604029923904061645.png"> <img class="emoji " alt="moobloom" title="moobloom" src="https://cdn.discordapp.com/emojis/600899402521116703.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:16 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960556897959947" id="message-623960556897959947">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there an option to play minecraft earth in landscape orientation ?
+especially build, play mode, and probably photo mode ?
+A: We are primarily a portrait game as of right now, but if we see that the community really wants it, we may prioritize it</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:17 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960689681367080" id="message-623960689681367080">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: If noteblocks are added, can we play songs on them?
+A: Noteblocks are added and you CAN play songs on them, like Baby Shark!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:17 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960771897851905" id="message-623960771897851905">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Will I be able to kill gently murder using lava my friends
+A: You will be able to damage all things with Lava as you would in  Minecraft! But why hurt your friends?!</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:24 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:17 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623960923333197844" id="message-623960923333197844">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will buildplates be available irl?
+A: We are not real estate developers and cannot sell you plots of land, unfortunately.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/76552e116f56ee9809c8bb90a96acd98-10122.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Pyroclasm#1763" data-user-id="88843595632635904" style="color: rgb(111,69,198)">Pyroclasm</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:18 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623961021094297601" id="message-623961021094297601">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Quick Question, cats or dogs?
+A: Yes</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:18 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623961032355741714" id="message-623961032355741714">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be additional uses for rubies than buying buildplates?
+A: Short answer is Yes!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:19 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623961224756985877" id="message-623961224756985877">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there herobrine in mce..?
+A: Herobrine has been removed</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:20 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623961465757368331" id="message-623961465757368331">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Are there any limits to the capabilities of Redstone, and if so why?
+Our goal is that anything you would like to build with Redstone in MC you should be  able to build in MCE</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:20 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623961566194434110" id="message-623961566194434110">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: I don&#39;t know what to ask
+A: <img class="emoji " alt="eyesshaking" title="eyesshaking" src="https://cdn.discordapp.com/emojis/619601017163743246.gif"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:21 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623961939428769793" id="message-623961939428769793">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Is there a build limit?
+As high as your imagination (and ladders) can go (safely)</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:22 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962022861864990" id="message-623962022861864990">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be MCE news in MC Live?
+A: Do tune in to Minecon Live, you never know what will be shared!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a5f38c3a25df026fa3803c49d6b21443-66D7D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="dr_erin_swoop#0432" data-user-id="348258568765440000" style="color: rgb(141,92,220)">dr_erin_swoop</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:22 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962118005325836" id="message-623962118005325836">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Let&#39;s give Peanut butter the cat some love , will u join me devs? smiley_cat:
+A: <img class="emoji " alt="😺" title="😺" src="https://twemoji.maxcdn.com/2/72x72/1f63a.png">❤️❤️❤️❤️</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:22 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962177661042708" id="message-623962177661042708">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there any plan on doing a community submitted mob?
+A: Yes why not! We read the feedback section and would love suggestions</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:23 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962393424429076" id="message-623962393424429076">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Can we have more MCE emojis in this Discord server?
+<img class="emoji " alt="muddy_pig2" title="muddy_pig2" src="https://cdn.discordapp.com/emojis/599613969434542103.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_pig" title="muddy_pig" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/600899402592288776-65573.png">
+                                <span class="chatlog__reaction-count">55</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="loading" title="loading" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/616373152598982675-CAD84.gif">
+                                <span class="chatlog__reaction-count">43</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="cluckshroom" title="cluckshroom" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/604029923904061645-137BA.png">
+                                <span class="chatlog__reaction-count">43</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mce_discord" title="mce_discord" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/621139371474681864-6F1B2.png">
+                                <span class="chatlog__reaction-count">45</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">63</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="moobloom" title="moobloom" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/600899402521116703-5FBC9.png">
+                                <span class="chatlog__reaction-count">53</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="muddy_pig2" title="muddy_pig2" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/599613969434542103-18E2A.png">
+                                <span class="chatlog__reaction-count">58</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="skeleton_wolf" title="skeleton_wolf" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/688934407683440703-B6098.png">
+                                <span class="chatlog__reaction-count">3</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="tnt" title="tnt" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/688934123968004176-474CA.png">
+                                <span class="chatlog__reaction-count">3</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:23 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962395303477249" id="message-623962395303477249">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will Daily rewards be a feature?
+We are looking at a lot of new features at the moment including what daily rewards would mean for MCE. We want to make sure they are meaningful and fun!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:24 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962451217612800" id="message-623962451217612800">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can we make obscure redstone contraptions?
+A: This is all up to you and whatever you can create!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7e701546bbe196df6429d295994c722f-38F1D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="kellyKVerde#9007" data-user-id="272524611562897408" style="">kellyKVerde</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:24 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962507622481920" id="message-623962507622481920">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there any plan on doing a community submitted mob?
+A: as <span class="mention" title="Flexology#0001">@Flexology</span> said, we would love to hear your ideas!!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:25 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962779723759667" id="message-623962779723759667">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: When will it be available in [INSERTPLACEHERE] on IOS
+A: **/**/****</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7e701546bbe196df6429d295994c722f-38F1D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="kellyKVerde#9007" data-user-id="272524611562897408" style="">kellyKVerde</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:26 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623962954601332756" id="message-623962954601332756">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can we get a &quot;fast mode&quot; that will skip the collection animation of tappables?
+A: I worked hard on those animations <img class="emoji " alt="🥺" title="🥺" src="https://twemoji.maxcdn.com/2/72x72/1f97a.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:26 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963013245960203" id="message-623963013245960203">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can we make obscure redstone contraptions?
+A: all red stone from bedrock works but some blocks will take time to appear, like pistons and red stone comparitors, will come in later updates</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:27 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963223716266011" id="message-623963223716266011">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can we get a &quot;fast mode&quot; that will skip the collection animation of tappables?
+A: We don&#39;t currently have plans to add this.  Its been suggested enough for future consideration though.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:27 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963401856745503" id="message-623963401856745503">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be ray tracing in MCE ?
+&#193;: we are working to have the phones cooler, so probably not until several generations of phones from now</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:28 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963583235096601" id="message-623963583235096601">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Are there going to be in-game purchases of some sort?
+A: Yes, in the Android beta this already exists - you can purchase rubies and use them to buy buildplates.  More things will come to the store in future updates!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:28 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963653594677279" id="message-623963653594677279">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: If I put TNT infront of my house and set it off will it blow up my house?
+A: It will! TNT will  act the same way it does in Minecraft</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:28 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963667628818471" id="message-623963667628818471">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: In the last q&amp;a i saw you will be able to make tools how will they benefit us and will we be able to uncraft items?
+A: You’ll be able to craft tools. These tools can be used in adventures to mine/collect/farm resources and battle hostile mobs. 
+Can you uncraft then? Nope</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:29 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963765444050976" id="message-623963765444050976">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Will battery consumption be improved?
+
+We are just at the beginning of our performance journey! We will continue to improve it as we make new updates. There are, of course, limits to what we can do, as AR enables every sensor in the device at the same time. 
+
+What device are you running and what’s your experience?</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:29 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963912370520074" id="message-623963912370520074">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: #MOUNTAINGANG? are u going to add mountains to minecraft earth?
+A: Since MCE is based on the actual Earth, technically yes, there will be mountains</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:29 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623963918741667853" id="message-623963918741667853">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">What was the inspiration behind the muddy pig and it’s mechanics?
+When creating our first Mob for MCE we wanted to set the foundation for future Mobs where they live and interact with the environment. We created the Muddy Pig and the new Mud block which creates exciting new interactions and possibilities in the world. We take great care with all new Mob designs to make sure they are special. For example the Cluckshroom hides in the dark and plants Mushrooms.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:30 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964003210756113" id="message-623964003210756113">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: When doing an adventure can I do it with other people, if so could I murder my friends.
+A: Yes, you can do these with other players!  
+A: No, you cannot directly murder your friends in Adventures.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:30 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964009242034206" id="message-623964009242034206">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will we be able to encounter and battle mobs from the map? E.g. a skeleton appear on the map and when tapped we enter a battle with it?
+A: mob battles are only within adventures where the full Minecraft game is running</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:30 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964066762850314" id="message-623964066762850314">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will egg throwing and hatching a chick be a feature?
+A: yes!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:31 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964383025954847" id="message-623964383025954847">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: When you die in adventure mode, do you lose items just like in all other Minecraft editions?
+A: Yes, and currently you lose your hotbar and back back. Not your inventory chest but whatever you took into the adventure in your hotbar and have collected in the adventure in your backpack</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:31 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964395709399049" id="message-623964395709399049">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">How many future MCE exclusive mobs are planned?
+Lots of new Mobs are planned for the Minecraft universe you will find lots of new Mobs in MCE, there are a lot more on the way.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:32 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964482758115387" id="message-623964482758115387">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Approximately how long has MCE been in development?
+
+A: We’ve has aspirations of working in AR since the original HoloLens demo that we showed at E3 2015. We started Minecraft Earth about 18 months ago as an experiment to see what the readiness of mobile AR was. We’ve been excited ever since!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:32 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964603948335138" id="message-623964603948335138">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Are you getting tired of answering 30 questions /min
+A: I think we&#39;re having a good time. And time flys when you&#39;re having fun <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:33 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623964842180739092" id="message-623964842180739092">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there new music for MCE?
+A: Yes, new music is being worked on now.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:34 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965028227350549" id="message-623965028227350549">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Could I place lava/water in adventures?
+A: As long as  you have some in your inventory, yes!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:34 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965039887384578" id="message-623965039887384578">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Could I place lava/water in adventures
+A: Yes, and I&#39;ve found that lava solves many problems.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:35 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965326861664258" id="message-623965326861664258">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: What is the community in the workplace like while working on the game? Is it a really positive atmosphere, because from what I can tell it is extremely optimistic!
+A:</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:35 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+                    <div class="chatlog__attachment">
+                        <div class="" onclick="">
+                            <div class="">
+                                    <a href="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/image0-1FD5E.jpg">
+                                        <img class="chatlog__attachment-thumbnail" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/image0-1FD5E.jpg" alt="Image attachment" title="Image: image0.jpg (776.31 KB)">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="fast_parrot" title="fast_parrot" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/599444224118882305-27767.gif">
+                                <span class="chatlog__reaction-count">58</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="friends" title="friends" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/600850000758702100-6B742.png">
+                                <span class="chatlog__reaction-count">36</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:35 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965369849348113" id="message-623965369849348113">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:After Minecraft earth goes live, will you guys be committed to regular updates to improve and add more features into the game?
+A: YES! So many updates</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:35 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965370033766430" id="message-623965370033766430">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: If someone pushes you and you are on the edge in adventures do you fly or drop
+
+A: Neither. A hole is AR is not yet a hole in reality. :-). You can walk over the whole or the cliff.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:35 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965384848179230" id="message-623965384848179230">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Is villager trading available in mce?
+A: This is a great question and  it&#39;s something we&#39;re working through!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:36 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965476858626089" id="message-623965476858626089">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Are there any plans for a way to collect items without having to constantly look at phone whilst walking around? Like the pokemon go plus for pokemon go?
+A: We have haptic feedback to let you know when a new tappable is nearby, so you don&#39;t have to look constantly.  We have discussed accessories but have nothing to announce right now.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:36 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965652532854824" id="message-623965652532854824">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Will we get bigger buildplates as time goes on
+A: There are plans for this!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/4-4551A.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="nathansoz#7504" data-user-id="605905671443185704" style="">nathansoz</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:37 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965899132764164" id="message-623965899132764164">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is muddy pig actually real? *For real tho <strong>where are they*</strong>
+A: Chillin in the mud and staying cool. <img class="emoji " alt="😄" title="😄" src="https://twemoji.maxcdn.com/2/72x72/1f604.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:37 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623965961950855200" id="message-623965961950855200">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Are u #MountainGang for minecraft biome vote?
+A:  Wastelandsssssss</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:38 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966095296036894" id="message-623966095296036894">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can we have bigger pic of whats in the wooden box on that workplace image ?
+A: No, but its Legos.  Most of our conference rooms have some hanging out.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:38 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966161687543839" id="message-623966161687543839">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there something like a survival mode with zombie waves planned?
+A:  We are working on our new Adventure feature which lets you explore new experiences underground. Here you will find lots of challenges, hostile mobs and rewards! You never know what you will find!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7e701546bbe196df6429d295994c722f-38F1D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="kellyKVerde#9007" data-user-id="272524611562897408" style="">kellyKVerde</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:38 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966201776963612" id="message-623966201776963612">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is muddy pig actually real? For real tho where are they
+A: keep collecting those pig tappables <img class="emoji " alt="😉" title="😉" src="https://twemoji.maxcdn.com/2/72x72/1f609.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:38 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966208538181671" id="message-623966208538181671">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Of how many people does the MCE team consist?
+A: We are part of the larger Minecraft team so everyone is working on things together!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:39 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966245129158657" id="message-623966245129158657">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will fishing be implemented into the game? I just picture relaxing on the shore and fishing in AR... <img class="emoji " alt="🐠" title="🐠" src="https://twemoji.maxcdn.com/2/72x72/1f420.png">
+
+A: We want all tools in the game to work. Fishing in AR would be super cool!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:39 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966374871564338" id="message-623966374871564338">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: If a mob died in Build Mode, can you make it so that you get the spawn egg back instead of the regular mob drops? I&#39;m worried that I might accidentally suffocate my mobs when building, or spawn one in a wall... (Especially the Mob of Me, which I only have one of!)
+A: Right now you can use the Pickup mode to pickup mobs. We have implemented a system to not kill mobs accidentally. If it becomes a very annoying issue, we can come up with some solution!</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:39 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:39 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966423462576138" id="message-623966423462576138">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be an option to take photos and record videos from within the app?
+A: You can do this using Android an iPhone built in features currently.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:39 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966471092961306" id="message-623966471092961306">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Does minecraft earth work in landscape mode?
+A: AR does work in landscape mode, but the UI won&#39;t rotate. Technically possible!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:40 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966671320645661" id="message-623966671320645661">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there a warning for going at high speeds?
+A: Yes. Please don&#39;t play and drive, stay safe on the roads and remember that its just a game!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:41 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966851474522123" id="message-623966851474522123">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there an option to customize our nickname in MCE ?
+A: You can change your Xbox gamertag as it pulls your name from Xbox live!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:42 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623966995746127913" id="message-623966995746127913">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can we have bigger pic of whats in the wooden box on that workplace image ?
+<img class="emoji " alt="👀" title="👀" src="https://twemoji.maxcdn.com/2/72x72/1f440.png">
+A:</span>
+
+                        </div>
+                    </div>
+
+                    <div class="chatlog__attachment">
+                        <div class="" onclick="">
+                            <div class="">
+                                    <a href="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/image0-80225.jpg">
+                                        <img class="chatlog__attachment-thumbnail" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/image0-80225.jpg" alt="Image attachment" title="Image: image0.jpg (1.43 MB)">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7fa1e495840760515a861a2cf9ffd747-200EE.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="wabbit#5464" data-user-id="199013276992929792" style="">wabbit</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:42 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967028851638282" id="message-623967028851638282">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Why is minecraft earth so awesome?
+A: Because we love Minecraft and its so fun to work on what you love!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:42 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967141514838016" id="message-623967141514838016">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:  Do mud interact to other liquid, like how water and lava creates cobblestone ?
+A:  Yes mud is a brand new liquid block and works in the ways you&#39;d expect.  You can put it in a bucket, it flows to nearby blocks. If  mud touches lava it dries out and becomes dirt. If mud touches water it is washed away.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:42 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967219994591252" id="message-623967219994591252">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will making snow golems and iron golems work the exact same as bedrock and java?
+A: We follow the Bedrock rules for MCE (which are not always the same as Java).  When the appropriate blocks are in the game we plan to support the things they make.  When we don&#39;t follow the rules we announce it (such as how you cannot currently make obsidian).</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:43 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967391533236249" id="message-623967391533236249">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Q: Any plans for more advanced building options? (e.g. like building a line of blocks at once)
+
+A: Minecraft has always been about building one block at a time. MCE maintains that principle too.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:43 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967405282033683" id="message-623967405282033683">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Is there an option to add friends?
+A: You can build with friends but we&#39;re working social features. Check in at the next Q&amp;A</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:44 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967648941604876" id="message-623967648941604876">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: HOLD UP what do you mean by full minecraft game running 
+A: Context: Adventures.
+Adventures are a small part of the Minecraft world and will function like a full Minecraft experience. That would be the way to fight mobs</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:44 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967665119035464" id="message-623967665119035464">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: When will we have another Q &amp; A?
+A: We plan the Q&amp;A&#39;s as often as possible. We all love talking with you all and answering the questions the community has. You&#39;ll often find many of the dev team members on the channel daily. We will plan the next Q&amp;A and align it when it works best for the team so we can get as many people online as possible!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/7e701546bbe196df6429d295994c722f-38F1D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="kellyKVerde#9007" data-user-id="272524611562897408" style="">kellyKVerde</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:45 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967763643498497" id="message-623967763643498497">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Are there gonna be more mobs
+A: <img class="emoji " alt="👀" title="👀" src="https://twemoji.maxcdn.com/2/72x72/1f440.png"></span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:45 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:45 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623967801140314152" id="message-623967801140314152">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: it will be more optimizations for the phones and stuff?
+A: Yes, performance and optimization is part of our ongoing development plans.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="623967996821372935" id="message-623967996821372935">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there any plan to add version notes to the updates so we have an idea of what to look out for as testers?
+A: Yes!  Joel and I are working on a process for this now <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:46 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968045735477250" id="message-623968045735477250">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Are there any rarity higher than purple rarity ?
+A: Yes!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:46 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968160135118898" id="message-623968160135118898">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: What is the oldest iPhone this will work on
+A: 6s and SE - we require ARKit support</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:47 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="rainbow_sheep" title="rainbow_sheep" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/733363413396357181-7F969.png">
+                                <span class="chatlog__reaction-count">3</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:46 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968212421443605" id="message-623968212421443605">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Is there gonna be more news at minecon live
+A: you&#39;ll have to wait and see <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:47 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:47 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968420576100363" id="message-623968420576100363">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Elytra in AR?
+A: Please do not jump off of things while wearing a cape or wings.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:47 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968466210390037" id="message-623968466210390037">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will you be able to play with friends from other countries?
+A: Currently there is not a way to play with friends remotely, but you can play with any friend if they are standing next to you <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/76552e116f56ee9809c8bb90a96acd98-10122.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Pyroclasm#1763" data-user-id="88843595632635904" style="color: rgb(111,69,198)">Pyroclasm</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:48 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968632736710664" id="message-623968632736710664">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Who is the best dev on the team
+A: Not me <img class="emoji " alt="🙂" title="🙂" src="https://twemoji.maxcdn.com/2/72x72/1f642.png">, I am still learning</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:49 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:48 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968677338808321" id="message-623968677338808321">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: What is the rarity higher then purple?
+A: Golden/Orange/Yellow. It’s the ‘earthling’ role color</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:48 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968736541671434" id="message-623968736541671434">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q Who is the best dev on the team
+A: There is no &quot;I&quot; in team, to create Minecraft Earth it takes a village.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:49 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968851054428169" id="message-623968851054428169">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: so currently my phone is not compatible with the app (moto G5) but i have been accepted into the beta program is my phone ever going to be compatible with Minecraft earth?
+
+A: Our intention is to run on every phone that can run ARKit and ARCore. I don’t believe the Moto G5 is ARCore capable.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:49 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968855349395466" id="message-623968855349395466">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:What if I have no friends?
+A: We&#39;re all friends!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:49 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623968901495128075" id="message-623968901495128075">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:What if I have no friends?
+A: Anyone part of the Minecraft Earth community is our friend.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="623969087281823745" id="message-623969087281823745">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can I have a hug? <img class="emoji " alt="🥺" title="🥺" src="https://twemoji.maxcdn.com/2/72x72/1f97a.png">
+A: <img class="emoji " alt="🤗" title="🤗" src="https://twemoji.maxcdn.com/2/72x72/1f917.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:50 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969162825564161" id="message-623969162825564161">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: I signed up as soon as MC and MCE tweeted about it. Why did I not get and invite, is it RNG and if not what did i do wrong ?
+A: It is RNG.  Over a million signed up and we invited significantly less than that - and only from specific cities/regions.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a5f38c3a25df026fa3803c49d6b21443-66D7D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="dr_erin_swoop#0432" data-user-id="348258568765440000" style="color: rgb(141,92,220)">dr_erin_swoop</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:50 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969196526534656" id="message-623969196526534656">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can I have a hug? <img class="emoji " alt="🥺" title="🥺" src="https://twemoji.maxcdn.com/2/72x72/1f97a.png">
+A: internet hug!!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:51 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969266407964672" id="message-623969266407964672">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can you ask helen how good her iphone 6s works with minecraft earth
+
+A: We test on the iPhone 6S and the game runs really well! We’d love to hear what you think.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:51 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969287488536576" id="message-623969287488536576">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can you ask helen how good her iphone 6s works with minecraft earth
+A: She plays Minecraft Earth often and has no issues</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:51 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969310205018112" id="message-623969310205018112">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: can we get custom potions? like a potion of long reach, to reach farther in the overworld, or a potion of the collector to automatically collect nearby resources?
+A: we are looking at what potions will be in Minecraft Earth to make the most sense. Stay tuned for more info!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:51 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969422574485555" id="message-623969422574485555">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Is there a planned release month and will android/ios get the full game at the same time or wil ios get it earlier like the beta
+A: Our plan is to release features and updates on both platforms simultaneously.  There may be times it isn&#39;t exactly the same due to things out of our control.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:52 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969644620808243" id="message-623969644620808243">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can Mob of Me wear armour and hold tools?
+A: Not right now, you can customize your Mob of Me with different looks. We hope to add things in the future to make the Mob of Me even more special.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:52 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969720810602496" id="message-623969720810602496">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can farmable crops grows if we are not in the buildplates ?
+A: not right now, you have to be ticking. It’s Something we’d like to do in the future. There isn’t as much need for food right now because you don’t eat but you will soon.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/567817c2c11b420572e1c100a4073280-30BB9.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="MasterTree#4411" data-user-id="513870108192538624" style="">MasterTree</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:53 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969907675234314" id="message-623969907675234314">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q:Are adventures  played in AR too ?
+A: Yup!</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:54 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:53 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623969969134108672" id="message-623969969134108672">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be things you can only get in certain countries?
+A: No, all things in the game will be available to everyone everywhere, though some things you may need to work harder to find due to rarity.</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 12:54 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:54 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970050797469716" id="message-623970050797469716">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will we ever be able to get a sheep and cow  varient?
+
+A: there’s a cow variant out now and look forward to more soon!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:55 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970248315633665" id="message-623970248315633665">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Ok so if I&#39;m in Croatia, there is a less percent chance I get invited then those who are for example in the US or the UK
+A: there’s only five cities right now in Beta. None in Croatia. But when it releases it will be there !</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:55 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970273871265803" id="message-623970273871265803">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: When does the Q &amp; A end?
+A: In six minutes.  <img class="emoji " alt="🎵" title="🎵" src="https://twemoji.maxcdn.com/2/72x72/1f3b5.png"> Its the Final Countdown! <img class="emoji " alt="🎵" title="🎵" src="https://twemoji.maxcdn.com/2/72x72/1f3b5.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:55 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970287926378497" id="message-623970287926378497">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: When will MCE support other cities / countries? I would really like to test the game <img class="emoji " alt="👀" title="👀" src="https://twemoji.maxcdn.com/2/72x72/1f440.png">
+A: Following the beta we&#39;ll work to unlock more areas!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:55 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970391232348160" id="message-623970391232348160">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will minecraft earth use the Java or Bedrock engine? Or will it get a custom one?
+
+A: MCE is built atop Bedrock, with a lot of custom extensions to work in AR.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:56 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970549835628572" id="message-623970549835628572">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be daily quests?
+A: Challenges are coming soon! ™</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:56 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970734896840708" id="message-623970734896840708">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there gonna have a &quot;Turn-off Ar mode&quot; ?
+A: no, the game is ground up built for AR. Building and adventuring .</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:57 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970911598411777" id="message-623970911598411777">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Are there plans to add buildings to the map?
+A: Buildings are currently shown as slightly protruded darker green areas.  We don&#39;t currently plan to show them at actual height as it clutters up the map in cities.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a5f38c3a25df026fa3803c49d6b21443-66D7D.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="dr_erin_swoop#0432" data-user-id="348258568765440000" style="color: rgb(141,92,220)">dr_erin_swoop</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:57 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623970954506403843" id="message-623970954506403843">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Turtle variant?
+A: That would be awesome!! <img class="emoji " alt="🐢" title="🐢" src="https://twemoji.maxcdn.com/2/72x72/1f422.png"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:58 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971036949643283" id="message-623971036949643283">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will MCE have a day and night cycle?
+A: Current MCE and the world map is only played in daylight. We are thinking of how the day night cycle would work in MCE and what that would mean for AR gameplay for all the different experiences.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:58 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971054661926943" id="message-623971054661926943">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can i play adventure mode in a small room ?
+
+A: Buildplates in Play mode work fine in small spaces. There is a minimum space needed to place it one the ground/table, but it will work in small rooms.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:58 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971064434917416" id="message-623971064434917416">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: will the game run in 60fps?
+A: depends on your phone hardware and then capabilities of the AR library. With best phones and libraries you have constant 60fps</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:59 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971356702408716" id="message-623971356702408716">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: What does sideloaded mean ?
+A: Please do not sideload, as such files are unofficial and could have viruses or spyware.  Sideloading is the process of downloading a file and putting it on your phone rather than getting it from official sources (such as the Google Play Store).</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/3-FB033.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="torqObsidian#0928" data-user-id="599431884401016885" style="color: rgb(141,92,220)">torqObsidian</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 12:59 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971361215479810" id="message-623971361215479810">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can I kill players and have them drop their items?
+A: sadly no! You could do that in our early prototypes but there was too much griefing.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1b274d4e469b5e4f7cb6f34ea2d1ebe1-C09CF.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="RaiZero#7882" data-user-id="248700969397911562" style="color: rgb(111,69,198)">Jo-El</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 1:00 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971618644820008" id="message-623971618644820008">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Will there be fighting other players in mce?
+A: Nope! Minecraft Earth is a collaborative game experience!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1-B2132.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="black_snapper#2276" data-user-id="568296641866760203" style="color: rgb(141,92,220)">black_snapper</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 1:00 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971750622789652" id="message-623971750622789652">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: African or European swallow? Have a great day! <img class="emoji " alt="👋" title="👋" src="https://twemoji.maxcdn.com/2/72x72/1f44b.png">
+
+A: I don’t know... AAAAAaaaaaah!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 1:00 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971752850227202" id="message-623971752850227202">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: Can there be new types of ores?
+A: Nothing confirmed yet, but maybe <img class="emoji " alt="shruganimated" title="shruganimated" src="https://cdn.discordapp.com/emojis/421995622346784768.gif"></span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/fb0d1181d7e27fc4eb975c1c1433e453-F7AB0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="ledski#1153" data-user-id="270106231081795584" style="color: rgb(141,92,220)">Ledski</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 1:01 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971807610798101" id="message-623971807610798101">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: You broke our hearts when you deconfirmed the ender dolphins. Will there be any water mob variants? Or new water mobs?
+A: There are new Mobs for all types of environments. Keep watching and I am sure you will be very happy.</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128557;" title="&#128557;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f62d-FE9EC.png">
+                                <span class="chatlog__reaction-count">10</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/e25fe356a216ee7f401d28f175b9c4c2-AA978.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="JORAX#8179" data-user-id="334212349475160065" style="color: rgb(111,69,198)">JORAX</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 1:01 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623971849906159656" id="message-623971849906159656">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Q: If you had some final words to say at the end of this Q&amp;A, what would they be?
+A: Thanks for being awesome fans of our game!  We&#39;ve worked hard and really hope that you all have a blast playing it and keep providing great feedback!</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/a_bfa797ab15b21de8bf6de0f3e3e0ef4d-4B40C.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Flexology#0001" data-user-id="219183711558696960" style="color: rgb(111,69,198)">Flexology</span>
+
+
+        <span class="chatlog__timestamp">September 18, 2019 at 1:03 PM (UTC-07:00)</span>
+
+            <div class="chatlog__message " data-message-id="623972313334939657" id="message-623972313334939657">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">A big thank you to everyone for joining us for the QnA today! Keep playing and post your feedback and suggestions, either here or on the feedback website. We love you all</span>
+
+                                <span class="chatlog__edited-timestamp" title="September 18, 2019 at 1:06 PM (UTC-07:00)">(edited)</span>
+                        </div>
+                    </div>
+
+                    <div class="chatlog__attachment">
+                        <div class="" onclick="">
+                            <div class="">
+                                    <a href="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/image0-59A12.png">
+                                        <img class="chatlog__attachment-thumbnail" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/image0-59A12.png" alt="Image attachment" title="Image: image0.png (211.11 KB)">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="chatlog__reactions">
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="heart" title="heart" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/613515448167694386-77808.png">
+                                <span class="chatlog__reaction-count">930</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128526;" title="&#128526;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f60e-C8514.png">
+                                <span class="chatlog__reaction-count">39</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="mob_of_me" title="mob_of_me" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/688934162941476936-81131.png">
+                                <span class="chatlog__reaction-count">32</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="orange_wool" title="orange_wool" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/689562549938683989-F8C4C.png">
+                                <span class="chatlog__reaction-count">24</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="jolly_llama_head" title="jolly_llama_head" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/652237853501161493-14E79.png">
+                                <span class="chatlog__reaction-count">25</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128077;" title="&#128077;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f44d-1485B.png">
+                                <span class="chatlog__reaction-count">26</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#129396;" title="&#129396;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f974-0D832.png">
+                                <span class="chatlog__reaction-count">19</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="vested_rabbit" title="vested_rabbit" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/712425365787902012-1CB91.png">
+                                <span class="chatlog__reaction-count">17</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="grass" title="grass" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/699476462553661511-46465.png">
+                                <span class="chatlog__reaction-count">17</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128528;" title="&#128528;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f610-27182.png">
+                                <span class="chatlog__reaction-count">14</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#128068;" title="&#128068;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f444-AE368.png">
+                                <span class="chatlog__reaction-count">12</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="tropical_slime" title="tropical_slime" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/692500948102152363-592C8.png">
+                                <span class="chatlog__reaction-count">10</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="diamond" title="diamond" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/689549981086122115-F1ABE.png">
+                                <span class="chatlog__reaction-count">16</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#127814;" title="&#127814;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f346-1EDF5.png">
+                                <span class="chatlog__reaction-count">14</span>
+                            </div>
+                            <div class="chatlog__reaction">
+                                <img class="emoji emoji--small" alt="&#129370;" title="&#129370;" src="MINECRAFT%20EARTH%20-%20Q%26A%20Archive%20-%20dev-answers-9-18%20%5B623283474878693376%5D.html_Files/1f95a-3629F.png">
+                                <span class="chatlog__reaction-count">3</span>
+                            </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 146 message(s)</div>
+</div>
+
+</body>
+
+</html>
