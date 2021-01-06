@@ -7,6 +7,19 @@ Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-
 
 ## Index
 
+### Q&A
+
+[#dev-q-and-a-5-27](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-q-and-a-5-27.html)
+[#dev-answers-5-27](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-answers-5-27.html)
+
+### Q&A Archive
+
+[#dev-answers-2-5](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-answers-2-5.html)
+
+[#dev-answers-7-31](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-answers-7-31.html)
+
+[#dev-answers-9-18](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-answers-9-18.html)
+
 ### Build Challenge Archive
 
 [#witch-hut-challenge](https://whitehoodhacker.github.io/minecraft-earth-discord/src/witch-hut-challenge)
