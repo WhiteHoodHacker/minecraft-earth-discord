@@ -17,13 +17,17 @@ Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-
 
 [#game-announcements](https://whitehoodhacker.github.io/minecraft-earth-discord/src/game-announcements.html)
 
-[changelogs](https://whitehoodhacker.github.io/minecraft-earth-discord/src/changelogs.html)
+[#changelogs](https://whitehoodhacker.github.io/minecraft-earth-discord/src/changelogs.html)
 
 ### Q&A
 
 [#dev-q-and-a-5-27](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-q-and-a-5-27.html)
 
 [#dev-answers-5-27](https://whitehoodhacker.github.io/minecraft-earth-discord/src/dev-answers-5-27.html)
+
+### Build Challenge
+
+[#15-minute-speed-build-challenge-season-2](https://whitehoodhacker.github.io/minecraft-earth-discord/src/15-minute-speed-build-challenge-season-2.html)
 
 ### Q&A Archive
 
