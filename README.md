@@ -1,9 +1,8 @@
 # Minecraft Earth Discord Server Archive
-This is a work-in-progress project to archive the best parts of the Minecraft Earth Discord server.
 
-Right now, the archive is very unoptimized as there are repeated assets for each channel and all content in a channel loads at once on a single HTML page. While that will be sufficient for archive purposes, the end goal is to create a viewer that renders content from JSON files in a similar fashion to Discord. As a result, you'll find both HTML and JSON copies of channels.
+This is a work-in-progress project to archive the best parts of the Minecraft Earth Discord server. The developers announced on January 5th, 2020 that Minecraft Earth would be shutting down on June 30th, 2020. It is unclear whether the Discord server will also be deleted, so this archive was created to preserve the many amazing community creations and discussions.
 
-Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-7:00). Otherwise, UNIX timestamps are used.
+There are exports in both HTML and JSON. Media assets have also been exported and are referenced in the HTML exports. Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-7:00). Otherwise, UNIX timestamps are used.
 
 ## Index
 
@@ -39,9 +38,9 @@ Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-
 
 \#dressing-room
 
-\#feedback
+\#feedback <sub>(Removed January 9th, 2020)</sub>
 
-\#bugs
+\#bugs <sub>(Removed January 9th, 2020)</sub>
 
 \#support
 
