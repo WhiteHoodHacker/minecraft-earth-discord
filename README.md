@@ -26,7 +26,7 @@ There are exports in both HTML and JSON. Media assets have also been exported an
 
 ### 日本語
 
-\#ベータ総合
+[#ベータ総合](https://whitehoodhacker.github.io/minecraft-earth-discord/src/ベータ総合.html)
 
 ### Minecraft Earth
 
