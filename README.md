@@ -7,7 +7,7 @@
 
 ## What is this?
 
-This is a work-in-progress project to archive the best parts of the Minecraft Earth Discord server. The developers announced on January 5th, 2020 that Minecraft Earth would be shutting down on June 30th, 2020. It is unclear whether the Discord server will also be deleted, so this archive was created to preserve the many amazing community creations and discussions.
+This is a work-in-progress project to archive the best parts of the Minecraft Earth Discord server. The developers announced on January 5th, 2021 that Minecraft Earth would be shutting down on June 30th, 2021. It is unclear whether the Discord server will also be deleted, so this archive was created to preserve the many amazing community creations and discussions.
 
 There are exports in both HTML and JSON. Media assets have also been exported and are referenced in the HTML exports. Timestamps are in Pacific Time, which switches from PST (UTC-8:00) and PDT (UTC-7:00). Otherwise, UNIX timestamps are used.
 
